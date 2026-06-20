@@ -289,6 +289,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 </header>
 <nav>
 {nav_links}
+<a href="weekoverzicht.html">📰 Weekoverzicht</a>
 </nav>
 <main>
 {content}
