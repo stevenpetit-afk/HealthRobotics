@@ -282,8 +282,17 @@ def send_email_via_resend(summary: str, week_start: str, week_end: str) -> None:
         with urllib.request.urlopen(req, timeout=20) as resp:
             result = resp.read().decode("utf-8")
             print(f"E-mail verstuurd via Resend: {result}")
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode("utf-8")
+        print(f"[waarschuwing] e-mail versturen mislukt: HTTP {e.code}")
+        print(f"Resend foutdetails: {error_body}")
     except Exception as e:
         print(f"[waarschuwing] e-mail versturen mislukt: {e}")
+
+Commit changes
+Actions → Wekelijks weekoverzicht (zondag) → Run workflow
+Kijk weer in de log bij die stap, en plak nu de regel "Resend foutdetails: ..." hier — die geeft het exacte antwoord van Resend over waarom het geweigerd wordt.
+Claude Fable 5 is currently unavailable.
 
 
 # ---------------------------------------------------------------------------
