@@ -289,11 +289,6 @@ def send_email_via_resend(summary: str, week_start: str, week_end: str) -> None:
     except Exception as e:
         print(f"[waarschuwing] e-mail versturen mislukt: {e}")
 
-Commit changes
-Actions → Wekelijks weekoverzicht (zondag) → Run workflow
-Kijk weer in de log bij die stap, en plak nu de regel "Resend foutdetails: ..." hier — die geeft het exacte antwoord van Resend over waarom het geweigerd wordt.
-Claude Fable 5 is currently unavailable.
-
 
 # ---------------------------------------------------------------------------
 # Hoofdproces
