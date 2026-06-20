@@ -31,7 +31,7 @@ CATEGORIES = {
 
 MAX_ARTICLES_PER_CATEGORY = 6
 DATA_DIR = "data"
-SITE_DIR = "site"
+SITE_DIR = "docs"
 SEEN_FILE = os.path.join(DATA_DIR, "seen.json")
 DAYS_TO_KEEP_ON_HOMEPAGE = 14
 
