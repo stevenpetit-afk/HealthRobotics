@@ -274,6 +274,7 @@ def send_email_via_resend(summary: str, week_start: str, week_end: str) -> None:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (compatible; robonews-bot/1.0)",
         },
         method="POST",
     )
