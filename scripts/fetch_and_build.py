@@ -176,135 +176,209 @@ CATEGORY_LABELS = {
     "overig": "Overig",
 }
 
-PAGE_TEMPLATE = """<!DOCTYPE html>
-<html lang="nl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Robotica in de Zorg — Dagelijks Nieuws</title>
-<style>
-  :root {{
+CATEGORY_ICONS = {
+    "chirurgie": "🔬",
+    "revalidatie": "🦾",
+    "diagnostiek": "🩻",
+    "verpleging-ouderenzorg": "🤝",
+    "logistiek-ziekenhuis": "🏥",
+    "overig": "📰",
+}
+
+CATEGORY_DESCRIPTIONS = {
+    "chirurgie": "Robotisch-geassisteerde operaties, minimaal invasieve chirurgie en chirurgische precisie-systemen.",
+    "revalidatie": "Exoskeletten, therapierobots en technologie die patiënten helpt te herstellen en zelfstandig te bewegen.",
+    "diagnostiek": "AI- en robotsystemen die artsen helpen bij beeldvorming, analyse en vroege opsporing van aandoeningen.",
+    "verpleging-ouderenzorg": "Zorgrobots, sociale robots en assistentietechnologie voor verpleging en ouderenzorg.",
+    "logistiek-ziekenhuis": "Autonome robots voor medicijnbezorging, ziekenhuislogistiek en interne transportprocessen.",
+    "overig": "Overige ontwikkelingen op het snijvlak van robotica en gezondheidszorg.",
+}
+
+# Gedeelde CSS voor alle pagina's
+SHARED_CSS = """
+  :root {
     --bg: #0f1419;
     --card: #1a2128;
     --accent: #4fd1c5;
     --text: #e6edf3;
     --muted: #8b96a3;
     --border: #2a333d;
-  }}
-  * {{ box-sizing: border-box; }}
-  body {{
+  }
+  * { box-sizing: border-box; }
+  body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.5;
-  }}
-  header {{
+  }
+  header {
     padding: 2.5rem 1.5rem 1.5rem;
     text-align: center;
     border-bottom: 1px solid var(--border);
-  }}
-  header h1 {{
-    margin: 0 0 0.4rem;
-    font-size: 1.8rem;
-  }}
-  header p {{
-    color: var(--muted);
-    margin: 0;
-    font-size: 0.95rem;
-  }}
-  nav {{
+  }
+  header h1 { margin: 0 0 0.4rem; font-size: 1.8rem; }
+  header p { color: var(--muted); margin: 0; font-size: 0.95rem; }
+  nav {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
     padding: 1.2rem 1rem;
     border-bottom: 1px solid var(--border);
-  }}
-  nav a {{
+  }
+  nav a {
     color: var(--muted);
     text-decoration: none;
     padding: 0.4rem 0.9rem;
     border: 1px solid var(--border);
     border-radius: 999px;
     font-size: 0.85rem;
-  }}
-  nav a:hover {{ color: var(--accent); border-color: var(--accent); }}
-  main {{
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 1.5rem 1.2rem 4rem;
-  }}
-  section.category {{
-    margin-bottom: 2.5rem;
-  }}
-  section.category h2 {{
-    font-size: 1.2rem;
-    color: var(--accent);
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 0.5rem;
-  }}
-  article.item {{
+  }
+  nav a:hover, nav a.active { color: var(--accent); border-color: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; }
+  article.item {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: 1rem 1.2rem;
     margin: 0.9rem 0;
-  }}
-  article.item h3 {{
-    margin: 0 0 0.4rem;
-    font-size: 1.02rem;
-  }}
-  article.item h3 a {{
-    color: var(--text);
-    text-decoration: none;
-  }}
-  article.item h3 a:hover {{ color: var(--accent); }}
-  article.item p {{
-    margin: 0.3rem 0 0.5rem;
-    color: var(--text);
-    font-size: 0.92rem;
-  }}
-  article.item .meta {{
-    font-size: 0.78rem;
+  }
+  article.item h3 { margin: 0 0 0.4rem; font-size: 1.02rem; }
+  article.item h3 a { color: var(--text); text-decoration: none; }
+  article.item h3 a:hover { color: var(--accent); }
+  article.item p { margin: 0.3rem 0 0.5rem; color: var(--text); font-size: 0.92rem; }
+  article.item .meta { font-size: 0.78rem; color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 2rem 1rem; }
+  .empty { color: var(--muted); text-align: center; padding: 3rem 1rem; }
+"""
+
+
+def nav_html(active_cat: str | None, by_category: dict) -> str:
+    """Genereert de navigatiebalk met links naar subpagina's."""
+    links = []
+    links.append(
+        f'<a href="index.html"{"class=\"active\"" if active_cat is None else ""}>🏠 Home</a>'
+    )
+    for cat in CATEGORY_LABELS:
+        if cat not in by_category:
+            continue
+        icon = CATEGORY_ICONS.get(cat, "")
+        label = CATEGORY_LABELS[cat]
+        active = ' class="active"' if cat == active_cat else ""
+        links.append(f'<a href="{cat}.html"{active}>{icon} {label}</a>')
+    links.append('<a href="weekoverzicht.html">📰 Weekoverzicht</a>')
+    return "\n".join(links)
+
+
+def render_article(item: dict) -> str:
+    return f"""<article class="item">
+  <h3><a href="{item['link']}" target="_blank" rel="noopener">{item['title']}</a></h3>
+  <p>{item['samenvatting']}</p>
+  <div class="meta">{item['source']} · {item['date_added']}</div>
+</article>"""
+
+
+def render_homepage(by_category: dict, updated: str, nav: str) -> str:
+    """Hoofdpagina: intro + 3 meest recente artikelen per categorie als preview."""
+    sections = []
+    for cat in CATEGORY_LABELS:
+        if cat not in by_category:
+            continue
+        label = CATEGORY_LABELS[cat]
+        icon = CATEGORY_ICONS.get(cat, "")
+        desc = CATEGORY_DESCRIPTIONS.get(cat, "")
+        preview_items = by_category[cat][:3]
+        items_html = "".join(render_article(a) for a in preview_items)
+        total = len(by_category[cat])
+        meer = f'<p style="text-align:right;margin:0.5rem 0 0;"><a href="{cat}.html" style="color:var(--accent);font-size:0.85rem;text-decoration:none;">Alle {total} artikelen →</a></p>' if total > 3 else ""
+        sections.append(f"""<section style="margin-bottom:2.8rem;">
+  <div style="display:flex;align-items:baseline;gap:0.5rem;border-bottom:1px solid var(--border);padding-bottom:0.5rem;margin-bottom:0.2rem;">
+    <h2 style="font-size:1.2rem;color:var(--accent);margin:0;">{icon} {label}</h2>
+    <a href="{cat}.html" style="font-size:0.8rem;color:var(--muted);text-decoration:none;margin-left:auto;">Alle artikelen →</a>
+  </div>
+  <p style="color:var(--muted);font-size:0.85rem;margin:0.4rem 0 0.8rem;">{desc}</p>
+  {items_html}
+  {meer}
+</section>""")
+
+    if not sections:
+        content = '<p class="empty">Nog geen artikelen verzameld. Kom morgen terug!</p>'
+    else:
+        content = "\n".join(sections)
+
+    return f"""<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robotica in de Zorg — Dagelijks Nieuws</title>
+<style>{SHARED_CSS}
+  .intro {{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
     color: var(--muted);
-  }}
-  footer {{
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.8rem;
-    padding: 2rem 1rem;
-  }}
-  .empty {{
-    color: var(--muted);
-    text-align: center;
-    padding: 3rem 1rem;
+    line-height: 1.6;
   }}
 </style>
 </head>
 <body>
 <header>
   <h1>🤖 Robotica in de Zorg</h1>
-  <p>Dagelijks automatisch verzameld nieuws — laatst bijgewerkt op {updated}</p>
+  <p>Dagelijks automatisch verzameld nieuws — bijgewerkt op {updated}</p>
 </header>
-<nav>
-{nav_links}
-<a href="weekoverzicht.html">📰 Weekoverzicht</a>
-</nav>
+<nav>{nav}</nav>
 <main>
-{content}
+  <div class="intro">
+    Welkom bij <strong style="color:var(--text);">Robotica in de Zorg</strong> — een dagelijks bijgewerkt nieuwsoverzicht
+    over de nieuwste ontwikkelingen op het snijvlak van robotica en gezondheidszorg.
+    Kies een categorie in het menu hierboven of blader hieronder door de meest recente artikelen per thema.
+  </div>
+  {content}
 </main>
-<footer>
-  Automatisch gegenereerd met Google News RSS &amp; Claude · {updated}
-</footer>
+<footer>Automatisch gegenereerd met Google News RSS &amp; Claude · {updated}</footer>
 </body>
-</html>
-"""
+</html>"""
+
+
+def render_category_page(cat: str, items: list[dict], updated: str, nav: str) -> str:
+    """Subpagina voor één categorie met alle artikelen."""
+    label = CATEGORY_LABELS.get(cat, cat)
+    icon = CATEGORY_ICONS.get(cat, "")
+    desc = CATEGORY_DESCRIPTIONS.get(cat, "")
+    items_html = "".join(render_article(a) for a in items)
+
+    return f"""<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{label} — Robotica in de Zorg</title>
+<style>{SHARED_CSS}</style>
+</head>
+<body>
+<header>
+  <h1>{icon} {label}</h1>
+  <p>{desc}</p>
+</header>
+<nav>{nav}</nav>
+<main>
+  <p style="color:var(--muted);font-size:0.85rem;margin:0 0 1.2rem;">{len(items)} artikel(en) van de afgelopen 14 dagen</p>
+  {items_html if items_html else '<p class="empty">Nog geen artikelen in deze categorie.</p>'}
+</main>
+<footer>Automatisch gegenereerd met Google News RSS &amp; Claude · {updated}</footer>
+</body>
+</html>"""
 
 
 def render_site(archive: list[dict]) -> None:
     os.makedirs(SITE_DIR, exist_ok=True)
     today = datetime.date.today()
+    updated = today.strftime("%d-%m-%Y")
     cutoff = (today - datetime.timedelta(days=DAYS_TO_KEEP_ON_HOMEPAGE)).isoformat()
 
     recent = [a for a in archive if a["date_added"] >= cutoff]
@@ -312,45 +386,24 @@ def render_site(archive: list[dict]) -> None:
     by_category: dict[str, list[dict]] = {}
     for a in recent:
         by_category.setdefault(a["categorie"], []).append(a)
-
     for items in by_category.values():
         items.sort(key=lambda x: x["date_added"], reverse=True)
 
-    nav_links = "\n".join(
-        f'<a href="#{cat}">{CATEGORY_LABELS.get(cat, cat)}</a>'
-        for cat in CATEGORY_LABELS
-        if cat in by_category
-    )
+    # Navigatie (zonder actieve pagina voor homepage)
+    nav_home = nav_html(None, by_category)
 
-    if not by_category:
-        content = '<p class="empty">Nog geen artikelen verzameld. Kom morgen terug!</p>'
-    else:
-        sections = []
-        for cat in CATEGORY_LABELS:
-            if cat not in by_category:
-                continue
-            label = CATEGORY_LABELS[cat]
-            items_html = []
-            for item in by_category[cat]:
-                items_html.append(f"""<article class="item">
-  <h3><a href="{item['link']}" target="_blank" rel="noopener">{item['title']}</a></h3>
-  <p>{item['samenvatting']}</p>
-  <div class="meta">{item['source']} · {item['date_added']}</div>
-</article>""")
-            sections.append(f"""<section class="category" id="{cat}">
-  <h2>{label}</h2>
-  {''.join(items_html)}
-</section>""")
-        content = "\n".join(sections)
-
-    html = PAGE_TEMPLATE.format(
-        updated=today.strftime("%d-%m-%Y"),
-        nav_links=nav_links,
-        content=content,
-    )
-
+    # Hoofdpagina
+    homepage_html = render_homepage(by_category, updated, nav_home)
     with open(os.path.join(SITE_DIR, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(homepage_html)
+
+    # Subpagina per categorie
+    for cat in CATEGORY_LABELS:
+        items = by_category.get(cat, [])
+        nav_cat = nav_html(cat, by_category)
+        cat_html = render_category_page(cat, items, updated, nav_cat)
+        with open(os.path.join(SITE_DIR, f"{cat}.html"), "w", encoding="utf-8") as f:
+            f.write(cat_html)
 
 
 # ---------------------------------------------------------------------------
