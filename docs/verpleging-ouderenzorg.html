@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verpleging & Ouderenzorg — Robotica in de Zorg</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #1a2128;
+    --accent: #4fd1c5;
+    --text: #e6edf3;
+    --muted: #8b96a3;
+    --border: #2a333d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    padding: 2.5rem 1.5rem 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 { margin: 0 0 0.4rem; font-size: 1.8rem; }
+  header p { color: var(--muted); margin: 0; font-size: 0.95rem; }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1.2rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.85rem;
+  }
+  nav a:hover, nav a.active { color: var(--accent); border-color: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; }
+  article.item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin: 0.9rem 0;
+  }
+  article.item h3 { margin: 0 0 0.4rem; font-size: 1.02rem; }
+  article.item h3 a { color: var(--text); text-decoration: none; }
+  article.item h3 a:hover { color: var(--accent); }
+  article.item p { margin: 0.3rem 0 0.5rem; color: var(--text); font-size: 0.92rem; }
+  article.item .meta { font-size: 0.78rem; color: var(--muted); }
+  footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 2rem 1rem; }
+  .empty { color: var(--muted); text-align: center; padding: 3rem 1rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🤝 Verpleging & Ouderenzorg</h1>
+  <p>Zorgrobots, sociale robots en assistentietechnologie voor verpleging en ouderenzorg.</p>
+</header>
+<nav><a href="index.html">🏠 Home</a>
+<a href="chirurgie.html">🔬 Chirurgie</a>
+<a href="revalidatie.html">🦾 Revalidatie</a>
+<a href="diagnostiek.html">🩻 Diagnostiek</a>
+<a href="verpleging-ouderenzorg.html" class="active">🤝 Verpleging & Ouderenzorg</a>
+<a href="logistiek-ziekenhuis.html">🏥 Ziekenhuislogistiek</a>
+<a href="overig.html">📰 Overig</a>
+<a href="weekoverzicht.html">📰 Weekoverzicht</a></nav>
+<main>
+  <p style="color:var(--muted);font-size:0.85rem;margin:0 0 1.2rem;">67 artikel(en) van de afgelopen 14 dagen</p>
+  <article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVJoX3Z3YXozaVZqQlU2cF9TVlZvTnVxUVBGREJkVGNMR0pvNGFlT0F3bElUWEFMdTZ2dDBHSUJZZDlvWHAxaUYxY1daT0NFUGFCOVRTWV91R3pDdnZkeUR6QlN4dm1UOXJsbk5HVHgtMVpJNk5LMGtwWXJHWVdXN2lUQm9oZE1IUGRMelJR?oc=5" target="_blank" rel="noopener">WPI working on humanoid nursing robots for medical use - Worcester Business Journal</a></h3>
+  <p>Het Worcester Polytechnic Institute (WPI) werkt aan de ontwikkeling van humanoïde verpleegrobots voor medisch gebruik. Deze robots zijn ontworpen om taken in de verpleging en zorg te ondersteunen. Het project richt zich op de inzet van mensachtige robots in zorgsituaties.</p>
+  <div class="meta">Worcester Business Journal · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zeTA1R2toY0R0aDU4ZmlaOEVFTWNRUXQ2S01ReVJLTHpGbUdTeG94SzhLSURQSllwOXZyS0xjeDVCeThBNDJ2aTE5TDN2YzR3NUpZSGpHS3IwaDE2RUI0?oc=5" target="_blank" rel="noopener">Robots Boost Care Quality and Worker Retention in Nursing Homes - AZoRobotics</a></h3>
+  <p>Robots in verpleeghuizen dragen bij aan een verbetering van de zorgkwaliteit en helpen bij het behoud van medewerkers. De inzet van zorgrobotica in de ouderenzorg lijkt een positief effect te hebben op zowel de bewoners als het personeel. Dit onderzoek benadrukt de potentie van robotica als oplossing voor personeelstekorten en werkdruk in de verpleeghuiszorg.</p>
+  <div class="meta">AZoRobotics · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPM3R6ZG45TlREMUMxZWFVU3V4TGI4dTlFRHdtZU1pR0Q5Rm1TU2tZbnVlcUtFRVA3Wng4RlpNUG1iVGhLbzdSdjlrM3M1OUlyUl82TUhFdUpEZlJlVFBMNjh6REZsRW42NXMxeHp4OHJRZG8xaUU1TGNZeUpJeVhtQVpZVnlrVktRVFhuOTYyLTVnSW03Z00xRQ?oc=5" target="_blank" rel="noopener">Lighten healthcare team's load with robot companions - Singtel</a></h3>
+  <p>Singtel introduceert robotgezelschappen als oplossing om het zorgpersoneel te ontlasten in de gezondheidszorg. Deze robotcompagnons kunnen ondersteunende taken overnemen, waardoor zorgverleners meer tijd hebben voor directe patiëntenzorg. Het initiatief richt zich specifiek op het verlichten van de werkdruk binnen zorgteams.</p>
+  <div class="meta">Singtel · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5vZVppamVIYTZaVktIQmw4R0VJNFltcnNwOGpLa21RTDQtYWpGT21PVm9iMEpfMzFTVHNycnd4bUFjUHFudzVFdXNROHVVSUJvTG9BNFJKM1puaC1jYjRDV2ktZHJkQ3NfdUV5UnNMbw?oc=5" target="_blank" rel="noopener">Applications of Artificial Intelligence in Elderly Care Robotics - Emerj Artificial Intelligence Research</a></h3>
+  <p>Dit artikel van Emerj Artificial Intelligence Research bespreekt de toepassingen van kunstmatige intelligentie in robots voor ouderenzorg. Het richt zich op hoe AI-gestuurde zorgrobotica ingezet kan worden om ouderen te ondersteunen en te begeleiden. Dit is een direct relevant onderwerp binnen de zorgrobotica, specifiek gericht op de ouderenzorg.</p>
+  <div class="meta">Emerj Artificial Intelligence Research · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVnQzWThVbDdwSWRBM2hvVl9Cb0lZemgtNWJ3NjIzREpFQmxFNlJHWERsZnVqR2txVnJFRzBHeEtvYUF4M2x3VmNYTUlJZ2E2cUgwcW02VDJvQzJYSy1BTnZ6dnlFZVUtaFJkSjBicjcwSUdkcU1lNDMzVnB3VENPdm5rdnpIX1M0V0tZREQ3OUtnUDhEWlZKanBQZGk4ZGtLaGkyMUp6bjRQdno4a0x2Y3VrdS1iTzRtMWpmYTlUbGk?oc=5" target="_blank" rel="noopener">Robot nurse assistants are joining Texas hospitals amid healthcare worker shortage - gosanangelo.com</a></h3>
+  <p>In Texas worden robotassistenten ingezet in ziekenhuizen om het tekort aan zorgpersoneel op te vangen. Deze robots ondersteunen verpleegkundigen bij hun taken, waardoor het bestaande personeel zich kan richten op complexere zorgtaken. De inzet van deze technologie is een reactie op de aanhoudende krapte op de arbeidsmarkt in de gezondheidszorg.</p>
+  <div class="meta">gosanangelo.com · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQdE93OVpVWkI1LURHUFJGS2YwM2N1blUyTU80UjN6OTB0akVqUzFMWGhjSzEtODJRX1dzSXBVNW1iSThLYzREMnVNRUtaQUk1cFZBU3dNZ3ZZUEM3dldwRDliRFF0VFdzZHFtbFEtbzk1SzY0eDR6T2lxdEZkdDJqR3g1a1BDdnYtQ0pKbjlzS3FRWFZidUxqU1NBV2R5YVZi?oc=5" target="_blank" rel="noopener">The Robot Nurse is Here: AI Automation & the Future of U.S. Infection Control - HackerNoon</a></h3>
+  <p>Het artikel bespreekt de opkomst van AI-gestuurde robotsystemen in de verpleging, met een focus op infectiebeheersing in Amerikaanse zorginstellingen. Robotische verpleegassistenten worden ingezet om infectierisico's te verminderen en de zorgkwaliteit te verbeteren. Dit raakt direct aan de automatisering van verpleegkundige taken door robotica in de gezondheidszorg.</p>
+  <div class="meta">HackerNoon · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16bkdFNVVKV0JSZEc1dU0xOExUd2UxZUhLVk00cmpIdXladEFpT2ZvazhRWVR3aFR1U2pqR3M4amwtZDlxT2V0d1RYUC1UbVhJMEtzYXlMNURNdw?oc=5" target="_blank" rel="noopener">Robot dogs, hair dos and crumble: What care home life can be like - bbc.com</a></h3>
+  <p>Het artikel belicht het dagelijks leven in een verzorgingshuis, waarbij onder andere roboticahonden worden ingezet als gezelschap voor bewoners. Deze technologie wordt gebruikt naast andere activiteiten zoals kapper en samen eten. Robothonden kunnen een positieve bijdrage leveren aan het welzijn van ouderen in de ouderenzorg.</p>
+  <div class="meta">bbc.com · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaEdrM2lrbDJ1aFBFRmZRMVdQZGwtSExMekFUWEZaRm1lX1JVQzFiQXpDMXV0enBYMUNQRHl5dVV3RTdXQlJOb0dORnFJMVhDanZOUGIwYVVMOE9oUlVGdnBmTGczcFlLUjhUZG0xQU9ac1pNUlAtRFlZUUxBT19MeHJJOXdQS1hJcjRDM1FIQWlNdUNkSENXX1BEVml3UkJCZUNEX0d3Mm5ZLVNpUk9NajE1RHlKRXVXbDBJNldOUUFCRjA2U09zTFVKWXJxalAtaDdWNUl5ZGxNS0FpVU9GdHhha0Q?oc=5" target="_blank" rel="noopener">Meet Moxi, a robot nurse assistant helping health care workers amid a nursing shortage - gosanangelo.com</a></h3>
+  <p>Moxi is een robotassistent die verpleegkundigen ondersteunt in zorginstellingen, met name tijdens het huidige tekort aan verpleegkundigen. De robot neemt logistieke en ondersteunende taken over, zodat zorgmedewerkers meer tijd kunnen besteden aan directe patiëntenzorg. Moxi wordt ingezet als praktische oplossing om de werkdruk in de gezondheidszorg te verlichten.</p>
+  <div class="meta">gosanangelo.com · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNOFhwQzlhR19IdEpQMXpGbllYb2V0bXVuME9KSWV5dVBUUmt6QVBXaWJFb25kenV1aHA0NEFpR3hHMlhNQXBDTmhuZW9fZEpfejdRZktzMEUyR2JVRHBkbDctb2xvTGtnTnoyQ1ZFUWZRZDZuUnZrRjBRZ1hzam4wRGZObnRoQ295X0JCcGEzTVljMGZ3ZTdqMk1xLUZES3FXUC00X0RwQkVuYThqWlE4eVRHb2p1T2s?oc=5" target="_blank" rel="noopener">Human-like robot GARMI to provide healthcare assistance to the elderly - Interesting Engineering</a></h3>
+  <p>GARMI is een mensachtige robot die is ontwikkeld om ouderen te ondersteunen in de gezondheidszorg. De robot is ontworpen om zorgtaken te verlichten en ouderen te assisteren bij dagelijkse activiteiten. GARMI vertegenwoordigt een stap vooruit in de ontwikkeling van zorgrobots specifiek gericht op de ouderenzorg.</p>
+  <div class="meta">Interesting Engineering · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFBJUHhtT3kwNENpVmpLNG0wcXp1N25obDhiTzBZeGktbnd1RWkyUVc2RGRyQUx0UGYyZ2xlcjRBLWxBVTdNVHQ3NzVkOUd6WWxfN3FWcGFmUnZ2UjhkNldnLTJWeTNYTFRnRlNnTGc1Rjc5bzJtcHFfdW1zeDM?oc=5" target="_blank" rel="noopener">Xinhua Headlines: As China tackles aging, elderly-care robots hit fast track - Xinhua</a></h3>
+  <p>China zet sterk in op zorgrobots voor ouderen als reactie op de vergrijzende bevolking. Robots voor ouderenzorg maken een snelle ontwikkeling door en worden steeds meer ingezet om de groeiende vraag naar ouderenzorg op te vangen. Dit artikel belicht hoe China de sector van zorgrobots voor ouderen versneld ontwikkelt en uitrolt.</p>
+  <div class="meta">Xinhua · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5KLVVwUkpvUzAxTjR0UVBRVmRwWjZDRFdldVJQQUE2X2Y2RkhFN0hNWGFSaEJEaGlHbWdSSS1GQWJkRERtR1NiRlUtNFFmVGxjUURYaEg4c0cyQ2JDeUM1UVNaNFdLQm1CSU5yTTQyWHNzNkk?oc=5" target="_blank" rel="noopener">How Medical Robots Will Help Treat Patients in Future Outbreaks - IEEE Spectrum</a></h3>
+  <p>Het artikel van IEEE Spectrum bespreekt hoe medische robots een cruciale rol kunnen spelen bij de behandeling van patiënten tijdens toekomstige uitbraken van infectieziekten. Robots kunnen worden ingezet om zorgpersoneel te beschermen door taken over te nemen die normaal gesproken direct contact met besmette patiënten vereisen. Dit omvat toepassingen zoals het toedienen van medicatie, monitoring van patiënten en het uitvoeren van medische handelingen op afstand.</p>
+  <div class="meta">IEEE Spectrum · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE9xYnY1UWFtaGtDcHJ2Y0NHWVRmN2lWeGpCQlVLUS1XQklkaWV0VmhrWFFpZmdOaEFaVi1CandqOWRqRlVaV0xmWElUdUllNENCNXVuYWJVY3A1Y0hmcjhaNWhnNDBuY0ZidXAtTV83VHpCVFBBdkFEXzlB?oc=5" target="_blank" rel="noopener">World’s first AI nurse? Nurabot joins Taiwan hospitals to battle healthcare crisis - Yahoo</a></h3>
+  <p>Nurabot is een AI-verpleegkundige robot die wordt ingezet in Taiwanese ziekenhuizen om het tekort aan zorgpersoneel aan te pakken. Het systeem wordt gepresenteerd als 's werelds eerste AI-verpleegkundige en combineert kunstmatige intelligentie met robotica om zorgtaken te ondersteunen. De robot is bedoeld om verpleegkundigen te ontlasten en bij te dragen aan de oplossing van de gezondheidszorgcrisis in Taiwan.</p>
+  <div class="meta">Yahoo · 2026-06-26</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EV2tDSlVqaHNoN0psT3lVb0NMbjdOcDRBdks4NEp0QzNKZTR0X2JXdk5Id3hkRUVUXzRSanBBSnpUUjZPazkzY0sxY01jUlVpa2JV?oc=5" target="_blank" rel="noopener">Elderly Care Robots: Can They Support 300 Million Seniors Amid 5.5 - Million Nursing Worker Shortage as 'Electronic Grandchildren' Start in Nursing Homes? - 36Kr</a></h3>
+  <p>In China groeit de inzet van zorgrobots in verpleeghuizen om het tekort van 5,5 miljoen zorgmedewerkers op te vangen voor een populatie van 300 miljoen ouderen. Deze zogenoemde 'elektronische kleinkinderen' bieden gezelschap en ondersteuning aan bewoners van verpleeghuizen. Het artikel onderzoekt of robotica een oplossing kan bieden voor de toenemende druk op de ouderenzorg.</p>
+  <div class="meta">36Kr · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE10Yjg2aXRfcTlPcXB1Ym5uZ1VGblhqaC1ZbVcxT1ExaEJZa3Jka1Q5M3V0QWxEOG9fVXZfbWtpWnpPSnBLSmNCS2hIVWpDaVRsX0NxemluLVIxWnpXeW1SbnJ4TjN4S3g3eGhzSmljZVpmZjl5WEY2Wm93?oc=5" target="_blank" rel="noopener">Robots standing in for care staff - DW.com</a></h3>
+  <p>Het artikel bespreekt de inzet van robots als vervanging of ondersteuning van zorgpersoneel in de ouderenzorg. Dit sluit aan op de groeiende trend waarbij zorginstellingen robots inzetten om het tekort aan zorgmedewerkers op te vangen. De robots nemen bepaalde taken over die traditioneel door verpleging- en verzorgingspersoneel worden uitgevoerd.</p>
+  <div class="meta">DW.com · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE8xbGE2UXlVdTJPam9CeExUdUJqcDhZWTNSZTFpd28yVk91Z2NobGFSanlEVGZlc2pHd19Qei1sZkpwTHAxc05JaUU0QmY5dTRza3otM2xKWW5UU3hRdUFpeTVESHdFYUNDbWdCZUd6UmdyQ3hUQVBzRUtJclRGMnM?oc=5" target="_blank" rel="noopener">Hospital Robots Are Helping Combat a Wave of Nurse Burnout - WIRED</a></h3>
+  <p>Ziekenhuisrobots worden ingezet om de golf van burn-outklachten onder verpleegkundigen tegen te gaan. Door routinetaken en logistieke werkzaamheden over te nemen, kunnen robots de werkdruk voor verpleegkundigen verminderen. Dit stelt zorgpersoneel in staat zich te concentreren op directe patiëntenzorg.</p>
+  <div class="meta">WIRED · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPUi1jUE92aHZXOUczTUVOa3FZcEFnTHV3VXpCajZ1ODB4ZXVGcGY2LVVSQko5Ty1iSGZGLXFfNDRMaFZNY1lKdjRtYjRDSW5XQldCazAyaU1OM2ZtYWo4cktjdXQtQ0JfQjY4UkRkbmhhRTJnWG9jUkllZ1dweHU3eDNubWEyYlBMLWhHZzJoUmNud0FsNFlLRE9ic1REcnRPSG5KWDZR?oc=5" target="_blank" rel="noopener">Changi General Hospital's 'robot trio' complements nursing care - Healthcare IT News</a></h3>
+  <p>Het Changi General Hospital in Singapore maakt gebruik van een 'robot trio' dat de verpleegkundige zorg ondersteunt. Deze robots zijn ingezet om verpleegkundigen te assisteren bij taken op de zorgafdeling, waardoor het zorgpersoneel zich kan richten op meer patiëntgerichte taken. Het initiatief laat zien hoe robotica praktisch kan worden geïntegreerd in de dagelijkse verpleegkundige zorgverlening.</p>
+  <div class="meta">Healthcare IT News · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxONDRmaW1qdlNucEt1b0J0dUJ0TUw0ZjJOd1VJUW1pV0djcEU1WVhGM2d6SzRQSjQ1SmJTTVlFSGVWNDlTNF9LN3VHbFpWc1FyVlloVWtTd2JHek9TcnJ0ZU13RDNuOFJTQnlGamRSaEJwU2oxSTRiTm5aZmFwdnpjZnhIZFh1MzdLM3hCcw?oc=5" target="_blank" rel="noopener">Meet Grace, the ultra-lifelike nurse robot - CNN</a></h3>
+  <p>Grace is een hyperrealistische verpleegkundige robot ontwikkeld voor de gezondheidszorg, met een uiterlijk dat sterk op een mens lijkt. De robot is ontworpen om zorgpersoneel te ondersteunen, met name in de ouderenzorg en bij patiënteninteractie. Grace kan gesprekken voeren en basiszorgtaken uitvoeren, wat haar inzetbaar maakt als aanvulling op menselijk zorgpersoneel.</p>
+  <div class="meta">CNN · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tLXR1SVQ3LTRPLXVMc0Fudk9meWRUTk5rckxVbFF2NHVaLXAwU2ttU2wzWmhTZUFNckxnMWNYNXUtOG1wRWs1cXJ2bnlhd19uck9jNmRyMDJyWWx0ek90Z2Viam8?oc=5" target="_blank" rel="noopener">Elderly-care robots help seniors enjoy their golden years - People's Daily Online</a></h3>
+  <p>Zorgrobots worden ingezet om ouderen te ondersteunen en te helpen genieten van hun oude dag. Deze robots spelen een rol in de ouderenzorg door senioren bij te staan in hun dagelijkse leven. Het artikel bespreekt de toepassing van zorgrobotica specifiek gericht op de behoeften van de oudere bevolking.</p>
+  <div class="meta">People's Daily Online · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DejRDVnRLR29Fb05SQnZyRkFZLWQ0OVNWV09uNWt6UjI2SWJRWUR1MDE3QlV3M2FFOEhZMld5ZEdVczFuR3NxQzJtRTViY0RBcHBWclZoWThRZDlkZDI4?oc=5" target="_blank" rel="noopener">A Networked Intelligent Elderly Care Model Based on Nursing Robots to Achieve Healthy Aging - Science Partner Journals</a></h3>
+  <p>Dit artikel bespreekt een netwerkgebaseerd intelligent zorgmodel voor ouderen dat gebruikmaakt van verpleegrobots om gezond ouder worden te bevorderen. Het model combineert robotica met slimme netwerktechnologie om de zorg voor ouderen te verbeteren. Het onderzoek richt zich op hoe verpleegrobots kunnen bijdragen aan een efficiëntere en effectievere ouderenzorg.</p>
+  <div class="meta">Science Partner Journals · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNbF9HbjAxQ3hwb1Z1c1JJZWhlNUZFeF95Mk1VUlY2bzM1LXB6WGVCZGJnWGVGaE5xYmhHLUxFSVVtT1k0OTVxdl9hM2Y1WkxTaXNzUzYwaUNDWHkwZ2dzdTVsZ1gyQVR5c3VoRzlwMkNSUXpLUFlSbXJkTlUzLU5sQlA1VW1sQ1ZwMTRtc0hGQXU0VS03Y2lMc1hvZ1BBWmpiUzVmRTNlMk5GNkNqVy15N0FCMlNaU05CVjAzUjEtTExwVWgx?oc=5" target="_blank" rel="noopener">AI robots may hold key to nursing Japan's ageing population - Reuters</a></h3>
+  <p>AI-robots worden in Japan ingezet als mogelijke oplossing voor de toenemende zorgvraag van de vergrijzende bevolking. De robots kunnen taken overnemen in de verpleging en ouderenzorg, waar een groeiend tekort aan zorgpersoneel bestaat. Japan loopt voorop in de ontwikkeling en toepassing van zorgrobotica vanwege de extreme demografische druk.</p>
+  <div class="meta">Reuters · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQbUxGRzVPY2p0TlduUmJWYmtpNlpvU0RyZVR4Q2tpN1AzQm1nTTVISG9WQmJRa25tblJGV3F2UENrSmdERGQxOTFGMkg2YWphMmpTakpoekJNS2lwXy1sRGFPOEpHdkFRM1ZzSHkzZXR5U2pGVXRTSW1hS1hpQXJIT1MwOFZSQ2VoajdTd3ladGh6WmoxOEtv?oc=5" target="_blank" rel="noopener">Uncertainties about accepting care robots - Frontiers</a></h3>
+  <p>Dit artikel onderzoekt de onzekerheden rondom de acceptatie van zorgrobots door gebruikers en zorgverleners. Het richt zich op de factoren die mensen terughoudend maken bij het omarmen van robotica in de zorg. Dergelijk onderzoek is relevant voor de implementatie van zorgrobots in de ouderenzorg en verpleging.</p>
+  <div class="meta">Frontiers · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EQmhUTkNlQlBtNEFuMHZLejhrOU5hNWZQcjY0eWoxaHRfa1UtNl84Q2N4SGNIQlNQUHdNOTVkYW5ybVBzOEhSNEtrZU1sbEJsNHc?oc=5" target="_blank" rel="noopener">This Humanoid AI Robot Is Being Tested in Hospitals—Plus 7 More Transforming Healthcare - Nurse.org</a></h3>
+  <p>Een humanoïde AI-robot wordt momenteel getest in ziekenhuizen als onderdeel van een bredere trend waarbij robots de gezondheidszorg transformeren. Het artikel van Nurse.org bespreekt deze humanoïde robot samen met zeven andere robots die een rol spelen in de zorgsector. De ontwikkelingen zijn relevant voor verpleegkundigen en zorgprofessionals die te maken krijgen met deze technologische veranderingen in hun werkomgeving.</p>
+  <div class="meta">Nurse.org · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ3JvS3NMMVR4eERFdUZ5UHROSmdiTF9sUlRwTjZsckJBeXlPczdHNEpGX19qc2haLXl6ajZzRVdZUnVJQVN2UWQwUGNXeW05aXpPaXZnQkFqNndUU0Z2QmtrRWZoc2JzNlByN25IVlZPTEswNnR0b2ZtUFU3R2ppWXhVWlVOc0xDY29pY0pKUDNjUnkzRFE?oc=5" target="_blank" rel="noopener">Advancing healthcare through mobile collaboration: a survey of intelligent nursing robots research - Frontiers</a></h3>
+  <p>Dit artikel, gepubliceerd in Frontiers, presenteert een uitgebreid overzicht van onderzoek naar intelligente verpleegrobots die mobiele samenwerking inzetten om de gezondheidszorg te verbeteren. De survey behandelt de nieuwste ontwikkelingen op het gebied van zorgrobotica, waarbij de nadruk ligt op hoe deze robots kunnen bijdragen aan verpleegkundige taken en patiëntenzorg. Het artikel biedt een wetenschappelijke basis voor verdere innovatie in de toepassing van robotica binnen de verpleging en ouderenzorg.</p>
+  <div class="meta">Frontiers · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE8xdXBDWVg2WXVaem84YmZyU2Z5R0xQQi1qSDFhckQzOWI2LVA5SjJPOTNDcUE1R1dWTUdXWGNfN3ZYY1RDQ3ZKWDd0VUZjQXhnRWlrRk5meWxoUDFpYktKWVFDQWVadDBrLWhHSGxQQTNDUUhhM3lqQjBfVQ?oc=5" target="_blank" rel="noopener">The Robot That Could Change the Senior Care Industry - Time Magazine</a></h3>
+  <p>Time Magazine bespreekt een robot die mogelijk een grote impact kan hebben op de ouderenzorgsector. Het artikel richt zich op hoe deze zorgrobot kan bijdragen aan de ondersteuning van ouderen en de uitdagingen in de verpleging en ouderenzorg kan helpen aanpakken. De robot wordt gepresenteerd als een potentiële oplossing voor het groeiende tekort aan zorgpersoneel in de seniorenzorg.</p>
+  <div class="meta">Time Magazine · 2026-06-25</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxQS3V6TUY4Z0ZqRXlGS3BTcER1c0pYUkI1cy1vdTdzbkEzdENWYXVZSXh2Z0RSajJab25lbDFlbHRwbnZrNDVaU2QtUGVZbFpjbll2R0FYcTJPb29SYlgybW5QOGl1bE9TTXVkdkVYcUJRcDBZMlI2V3ZEajRRd0N6M3BEZ3h2bnNRQU1rM3lwcjFRNmFjUUxYUXN0MmdmTWg1VXZ0RVMxWTN6MF9uaUhITGlLekQtQnJsbWZEMUZCZS1weXNWMWtobVpBbGoxWjFLWDRzMEhHdU9ubFBSVzFXNW54d0k?oc=5" target="_blank" rel="noopener">Check this out: Robot nurses begin working at Odessa hospital in Texas - KCENTV.com</a></h3>
+  <p>In een ziekenhuis in Odessa, Texas, zijn robotverpleegkundigen in dienst genomen om werkzaamheden te ondersteunen. Deze robots worden ingezet om het verplegend personeel te ontlasten en de zorgverlening te verbeteren. Het initiatief laat zien hoe robotica steeds meer zijn intrede doet in de dagelijkse ziekenhuiszorg.</p>
+  <div class="meta">KCENTV.com · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOdXZveTBfcHN0ZGdQZjBTVWRVVmdFdkxfZnppaHJBT1dpVGZVUWtHTThnQ0ltUEJvcWFmUThIWFhhRWtEWG9PLTI0RklxTThYLUtuWldEUnpPbzBjUWNYcUVGOFFFamhvRzJneDlrY3pMNGxyYkhQWnU4MHFJMXd3X3JINE9mOUNkRk5LOG5TdkpHUWVEVUtucHk5eWc0bTJLQmZNVy13?oc=5" target="_blank" rel="noopener">Robotics in China: innovations in elderly care and healthcare - Zamin.uz</a></h3>
+  <p>Het artikel bespreekt innovaties op het gebied van robotica in China, met een specifieke focus op toepassingen in de ouderenzorg en gezondheidszorg. China investeert in roboticatechnologie om te voldoen aan de groeiende zorgbehoeften van een vergrijzende bevolking. De ontwikkelingen omvatten zorgrobotica die ingezet worden ter ondersteuning van zorgverlening aan ouderen.</p>
+  <div class="meta">Zamin.uz · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNS25zVi1kQnNpVmRJcGJnYkdLWnVleTNMcndkM2d4dExSYmJRbnRfTExiWng5d3pla0wtYUxRUEF3XzRNeVlLbVFLNnJXQUI2YjRtNm1VUXZ2MUU1MjBTSC00RjBBSDY0WUQ1NTVrNF9NeEtrY2UzYWZMNjlmZWtGRGJta2g5TWtWWmMtZWc0ZERrQWR4MThR?oc=5" target="_blank" rel="noopener">HR1 Robot: An Assistant for Healthcare Applications - Frontiers</a></h3>
+  <p>De HR1 robot is ontwikkeld als assistent voor toepassingen in de gezondheidszorg. Het artikel, gepubliceerd in Frontiers, bespreekt de mogelijkheden en functies van deze robot voor gebruik in zorgsettings. De HR1 kan ondersteuning bieden bij zorgwerkzaamheden en is gericht op het assisteren van zorgpersoneel en patiënten.</p>
+  <div class="meta">Frontiers · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVFaRzFCM2YxYXNxLU1zYndnZzBVbkpCVHNEMDM0bm1SQ2lBRFlQQ3I3eXRyX2hURHg3RTMyYUY4MnFqVWNBMW52X0xOSTZScHNCU3VoNnAwLTJSNzhzbkg2T0Q4aXI4ZzJnN3QwRnZicDVXZDlUQ0NYeUl5OHpjYUxkOTJPZzhLZGhoeXRyNEt0UdIBlwFBVV95cUxNOGpmcG9jNFZUNUpKbHlNQW1LbWZ6MXdoa2pjcllJT3N2NFNBT0RObjlzSFUzZkQ4ZUFTVTlIYlB3MGltRDRDWHo3UERrLU1sWVotTmpHYllONzZsNVdTcm1jTjJNeDdZd1hjZXFpb1JMRWFkaE1Jd0JlNzY4aXpjQmdTQ0NrdEVpN010blhNT18zZEFwZEo0?oc=5" target="_blank" rel="noopener">Moxi the robot joins Elmhurst Hospital staff to help nurses, nurse assistants - ABC7 Chicago</a></h3>
+  <p>Robot Moxi is toegetreden tot het personeel van Elmhurst Hospital om verpleegkundigen en verpleegassistenten te ondersteunen. De robot helpt bij het verlichten van de werkdruk van zorgpersoneel door routinetaken over te nemen. Dit stelt verpleegkundigen in staat zich meer te richten op directe patiëntenzorg.</p>
+  <div class="meta">ABC7 Chicago · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE1ENEVDZ3JjUWNlakRZMlM1RDM3eWlFVzZZRlRURWVOOHVnb3RmVVdiVVpkQmZSTnVEb0xhOExnbTJIanJmN3lCQzc4dlN5OERVTnZCT2hHTXpCMi04VW9YeUtGYzVzZVIzZXRCU2dYWnV0VUR4TENfdklTTDhGaHdGeUtiQkc3UWd1bWQ3RW95VHg4UTlCU3JuWE9hV2tBWEwzNW9Idm92bmUySTY1YlZmbmEzN3NET2xZ?oc=5" target="_blank" rel="noopener">Older Adults, Carebots, and Deceit: What Should We Do? - Markkula Center for Applied Ethics - Santa Clara University</a></h3>
+  <p>Dit artikel van het Markkula Center for Applied Ethics van de Santa Clara University onderzoekt de ethische vraagstukken rondom het gebruik van zorgrobots (carebots) bij ouderen. Centraal staat de kwestie van misleiding: in hoeverre is het toelaatbaar om ouderen te laten geloven dat een robot meer is dan het feitelijk is, bijvoorbeeld als gezelschapsrobot of emotionele ondersteuning. Het artikel bespreekt de morele dilemma's die ontstaan bij de inzet van dergelijke technologie in de ouderenzorg.</p>
+  <div class="meta">Santa Clara University · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE10Yjg2aXRfcTlPcXB1Ym5uZ1VGblhqaC1ZbVcxT1ExaEJZa3Jka1Q5M3V0QWxEOG9fVXZfbWtpWnpPSnBLSmNCS2hIVWpDaVRsX0NxemluLVIxWnpXeW1SbnJ4TjN4S3g3eGhzSmljZVpmZjl5WEY2Wm93?oc=5" target="_blank" rel="noopener">Robots standing in for care staff - dw.com</a></h3>
+  <p>Het artikel bespreekt de inzet van robots als vervanging of ondersteuning van zorgpersoneel in de zorg. Dit is een reactie op het toenemende personeelstekort in de zorgsector, waarbij robots taken van verzorgenden kunnen overnemen. De ontwikkeling speelt zich met name af in de ouderenzorg en verpleging.</p>
+  <div class="meta">dw.com · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQSUJkT3hpVnFVM3ZwR2oxTWxTNUU5eTE3Q0ljSksyZzJlMW5nR0s5bW8zTkpWRkVpNUZWSzFiV2xDWF80dDZHdEFXTEgxS2lJM3lfSE9FLTAxZ2Fpekh4djNKOU1uZVFLVnNsQU5ySjlncDBwMTZ6OENLbWVsdVdDRWszUTJDOThfMlh0MWtxMHo1dw?oc=5" target="_blank" rel="noopener">Robear: the bear-shaped nursing robot who'll look after you when you get old - The Guardian</a></h3>
+  <p>Robear is een Japanse zorgrobot in de vorm van een beer, ontworpen om ouderen te ondersteunen in de verpleging. De robot is in staat om patiënten op te tillen en te verplaatsen, bijvoorbeeld van een bed naar een rolstoel. Robear is ontwikkeld als een oplossing voor de toenemende vergrijzing en het tekort aan zorgpersoneel.</p>
+  <div class="meta">The Guardian · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE11VjBzT1RpNkFRdWd3RmJTbnpJal8ybDl6VF9HYTVWUXZuSndDaVd5Q1VHVlNXUXMxUkRTSTA0RU13V3FTNXE5OVdqOThkQ0FNRjFPMjZrN0hPNFlRbjRiZGtCSlpGRDFEcVdJLUFB0gFzQVVfeXFMT29sNkVwTVlaZ0ltU0tla3QxdVIzQWZCcGFvM05KZG5ONEFqaC1VUkVQNFRuMTA5RWRXYnBNdXQ4cmVtSWVHaG55aVdxblNNakZKQXpjZ0JidnJNSmxLSlRyeGc0UkNYUS1UQzF4SnM5T0pndw?oc=5" target="_blank" rel="noopener">Healthcare Assistant Robots - Trend Hunter</a></h3>
+  <p>Trend Hunter rapporteert over de opkomst van zorgrobotica-assistenten in de gezondheidszorg. Deze robots zijn ontworpen om zorgpersoneel te ondersteunen bij taken in de verpleging en ouderenzorg. De trend weerspiegelt een groeiende inzet van robotica om de kwaliteit en efficiëntie van zorgverlening te verbeteren.</p>
+  <div class="meta">Trend Hunter · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5SYTdYUW1EMU00cG4xajZsRFY0eFY1WWtqVXNlUndoZ1VOcXduTkJmUndTOWJJTlBBUkczaHRKV2pIXzgzZVk3bnZnclByeXl2c2ZNNTdleTBYNUd3MF9rTjFQbG1tYmhyYVpmdEx6aw?oc=5" target="_blank" rel="noopener">Meet Garmi, a robot nurse and companion for Germany’s elderly population - Popular Science</a></h3>
+  <p>Garmi is een robot ontwikkeld in Duitsland die fungeert als verpleegkundige assistent en gezelschapsrobot voor ouderen. De robot is ontworpen om te helpen bij de groeiende zorgbehoefte van de vergrijzende Duitse bevolking. Garmi kan zowel praktische zorgtaken ondersteunen als gezelschap bieden aan ouderen.</p>
+  <div class="meta">Popular Science · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE01dWRhaXBKdVptUWJqMFc1TXFiSjQ3YzhueW9nNTdzYVE5M2FDNmxsMk5uanQ4eHUweGJmV0lScGFoU3E4ZENlM1ZTMFVnWHZTWjNEVjhBQS04TV9IdjJn0gFkQVVfeXFMUGUza3BQU0ljbGJNZFB4Vmc1Ym11UTlNTG9VSGVtdGEzeVRqODl0YkR3ZW5id3ZsajBCaDJOa01FcERfcEV1UFc4d0pEYU9obmIzOTNZOGdlSmhZbTRNcmlTcy0xZg?oc=5" target="_blank" rel="noopener">Robotic Nursing Assistants - Trend Hunter</a></h3>
+  <p>Trend Hunter bespreekt de opkomst van robotische verpleegkundige assistenten in de zorgsector. Deze robots zijn ontworpen om verpleegkundigen te ondersteunen bij hun taken, wat kan bijdragen aan de verlichting van de werkdruk in de ouderenzorg. De trend wijst op een groeiende interesse in robotica als oplossing voor personeelstekorten in de verpleging.</p>
+  <div class="meta">Trend Hunter · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdmJPelFYTmh4bmhLLVZrNkpjYWJyZnZicGM1ZjItOTFEaEh2OWwwbGlESi1DOGVwNWg5N1dqbGhOZ2ZSMW9nTXNSbHFfbUxkWFlJQlBpd202OVlZTEJkSGNTejVyLUhDNkM5bXJMN1pOZDJnMHhfajZ4T3c1elZxWnFWVnI0QjVE?oc=5" target="_blank" rel="noopener">Meet Spencer, Minnesota's first robot health care worker - CBS News</a></h3>
+  <p>Spencer is de eerste robot zorgmedewerker in Minnesota en werkt in een zorgsetting. De robot is ontworpen om taken in de gezondheidszorg te ondersteunen en patiënten te helpen. CBS News belicht hoe Spencer een nieuwe stap vertegenwoordigt in de inzet van robotica binnen de zorg.</p>
+  <div class="meta">CBS News · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ET1FXQ3Vnb04xSWxVakFOWGNXZDRrdnpwWXFWdkt6Z0ppTE9lY0FUeElnSi0xQ2diRklYMkxzTGEwazVoY2RoRlpYSF9iMEhEeGpSYUl1bG0taTVGWnlR?oc=5" target="_blank" rel="noopener">Providing physical relief for nurses by collaborative robotics - Nature</a></h3>
+  <p>Dit artikel in Nature onderzoekt hoe collaboratieve robots kunnen worden ingezet om verpleegkundigen fysiek te ontlasten in hun dagelijkse werkzaamheden. Collaboratieve robots (cobots) werken samen met zorgpersoneel en kunnen zware of repetitieve taken overnemen, waardoor het risico op fysieke klachten bij verpleegkundigen wordt verminderd. Dit draagt bij aan een duurzamere inzetbaarheid van zorgprofessionals in een sector die kampt met personeelstekorten.</p>
+  <div class="meta">Nature · 2026-06-24</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOHRxZWtEUnZybXU5c0l3TmlSQjBSelNWS09Hb0lUQzRDWEdWQkNRdTl4WjhpZGFkVFZCNW4wLWMyc0hxQU50VFdubzBTWXlnci15UVlBdEs0NDVNY3JRbU1ETEVSdzZvVkh1UXc5Q0dobmlFOEQwY215bFoyTTdmNVRpYXVlbzZCSzU0LWVTWlpLNkk2MkJFMTh0QVV5ZVJoUi1pMU1qVmhpZw?oc=5" target="_blank" rel="noopener">Meet Moxi, the newest nurse assistant of Trinity Michigan medical team - Bridge Michigan</a></h3>
+  <p>Moxi is een zorgrobot die als verpleegassistent wordt ingezet bij het Trinity Michigan medisch team. De robot ondersteunt verpleegkundigen bij hun taken, waardoor zij meer tijd kunnen besteden aan directe patiëntenzorg. Dit is een voorbeeld van hoe robotica wordt ingezet om de werkdruk in de gezondheidszorg te verlichten.</p>
+  <div class="meta">Bridge Michigan · 2026-06-23</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDNKRjFXXzlzMTZYTGpRMV9PLXNSTlJVMllqUzkyM3d4TkNDbDZScVJUWlVjY2tsaFFWcnZCaDFFZ29zMkZxc3Rka1dGRkdFV2xBNzdXUGFtc2J1blduMnozRU5XejB5Q2ZLbXdWN044aV9tS09WdUFTOGRYNVZFb3pn?oc=5" target="_blank" rel="noopener">Is Robotic Assistance the Future of Nursing? - Docwire News</a></h3>
+  <p>Het artikel onderzoekt de rol van robotische assistentie in de verpleging en stelt de vraag of robots de toekomst van de verpleegkunde vormen. Het gaat in op hoe robotica verpleegkundigen kan ondersteunen bij hun dagelijkse taken in de zorg. Dit sluit aan bij de bredere discussie over de inzet van zorgrobotica om het verpleegkundige tekort en de werkdruk aan te pakken.</p>
+  <div class="meta">Docwire News · 2026-06-23</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ydUJRQjNGMUtYcWEwTjNON213aG01a3JOSEJNdVRPYkMxaEtBWDhnX3B2dEhBLUM2Y3ZJRlRXYnBoYlFmd1VTOU1QY3E1cDY4dWRuaUsxc2pBVnFoUm9PMXJB?oc=5" target="_blank" rel="noopener">How robots are revolutionizing elderly care in China with cutting-edge solutions - Global Times</a></h3>
+  <p>In China worden robots ingezet om de ouderenzorg te revolutioneren met geavanceerde technologische oplossingen. De robots bieden ondersteuning bij dagelijkse zorgtaken voor ouderen, wat inspeelt op de groeiende vergrijzing in het land. Dit initiatief weerspiegelt een bredere trend waarbij robotica wordt gebruikt om tekorten in de zorgcapaciteit op te vangen.</p>
+  <div class="meta">Global Times · 2026-06-23</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPYWNpeW5lWUJSRjhKQl94ZllxV0IwME96R285LVd1R0h5MkNfd3BJSFZSb2VTZWNsbXdER2swNEZMTUlQMUZOYklKcmFGNXZjaDdNRHdmTUZPVXhteDJReVJPSXptWXF3YjhoZ0tSUml6WEhVX2NBQXhPQllFVHEwQzRfNWZTMmdpV0E?oc=5" target="_blank" rel="noopener">Minnesota Nursing Homes Introduces Robot Caregivers - Voicebot.ai</a></h3>
+  <p>Verpleeghuizen in Minnesota introduceren robotische zorgverleners om de bewoners te ondersteunen. Deze robots worden ingezet in de ouderenzorg om taken van verzorgend personeel over te nemen of te ondersteunen. De inzet van zorgrobots in verpleeghuizen speelt in op de groeiende vraag naar innovatieve oplossingen in de ouderenzorg.</p>
+  <div class="meta">Voicebot.ai · 2026-06-23</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE0zbzN1Q085bGNuQzZybU1zcEhiQjcxb0IyMFFrSnV5WUhHYUN0Y0k1eEpRM1pidk5fcE5yRm9CVWY2dkdKbXZBY3g3VFNrR1NDbHFoZlJKbXNfWGdzTnNLZkJJSWtlOWpVTXBldmU3eTVZNlZ3WFFz?oc=5" target="_blank" rel="noopener">Robot assistant to improve elderly care in nursing homes - Medical Device Network</a></h3>
+  <p>Een robotassistent wordt ingezet om de zorg voor ouderen in verpleeghuizen te verbeteren. Het artikel bespreekt hoe deze zorgrobot kan bijdragen aan de kwaliteit van leven van bewoners en de werkdruk van zorgpersoneel kan verlichten. Dit sluit aan bij de groeiende trend van robotica-toepassingen in de ouderenzorg.</p>
+  <div class="meta">Medical Device Network · 2026-06-23</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB3TFBEd1BmZV9HUld3eGVCUGxja081LVVBVEF5bG5FWks4TjNiUTRjYXlwRUFSbVh0cDJLMlV3aUo2azByWmhpeHJkaVFNeVFGQXBsY24xNnhzV1pXRDdOTm5sUl9hdmZEZmcybkdGYVjSAXBBVV95cUxNd3FVOHZmeGlvcDFHVU1VV2UyUy1sQ0QtUXA2T2NSR2oyMURFSzlQS2hKbzFmYmdXbnBXandOTVpWRDVNWHlyd2ZPdDJEQXNnM0hzUDlsemNYVVNNSlc3RG5xN2pBdUx0anNsUkRzdWQz?oc=5" target="_blank" rel="noopener">Tacoma health system once touted robot nursing aide. Whatever happened to Moxi? - thenewstribune.com</a></h3>
+  <p>Een zorginstelling in Tacoma introduceerde ooit de zorgassistentrobot Moxi als veelbelovende ondersteuning voor verpleegkundigen. Het artikel onderzoekt wat er is gebeurd met deze robot en of de verwachtingen zijn uitgekomen. Moxi is een logistieke ziekenhuisrobot die verpleegkundigen ontlast door routinetaken zoals het ophalen van materialen over te nemen.</p>
+  <div class="meta">thenewstribune.com · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZm9OWW5VQUJuLUFyUWVkMnU2OFlVdW1lNGVrbjY2dlVMVWZHTEpGS0NwNXVXdWxRdnNwTUtrak02V21pTU01ZnYwQWY0UHhqX2U3T3IxNFBHSmtPNXNncU1zT0hha0ZtVlBEaTFxLWo0ak1jSk5QMF9jSkJQM1pFMXBmTTI0MXpwYW92T0dzdDkxSEFzRnB2OHZobDdZQVFTMnV6YVRRLTFEbXRlNXB0elIzYzV6R2ZCV213SElyeEZ5eTVGaWFlZA?oc=5" target="_blank" rel="noopener">Using robots in nursing homes linked to higher employee retention, better patient care | News | News & Events - Keough School of Global Affairs</a></h3>
+  <p>Onderzoek toont aan dat het gebruik van robots in verpleeghuizen verband houdt met een hogere medewerkersbehoud en betere patiëntenzorg. De studie, gepubliceerd via de Keough School of Global Affairs, suggereert dat robotica in de ouderenzorg een positief effect heeft op zowel het personeel als de bewoners. Dit biedt inzichten in hoe zorgtechnologie kan bijdragen aan de kwaliteit van zorg en arbeidsomstandigheden in verpleeghuizen.</p>
+  <div class="meta">Keough School of Global Affairs · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NdXpTQl9YOUZzY3pwWEo4VHdOWktfLXFna3pfb3I4dF9jaDZnNlR3bUpYQTRiM1J2OHVQNXoxVmtvajZpWmNJY3ZKLWtIMHh3WWE0UUtOejB2QjRxZ0NMT0YzbHA?oc=5" target="_blank" rel="noopener">Chinese robotics firms target 'silver economy' with elderly-care robots - People's Daily Online</a></h3>
+  <p>Chinese roboticabedrijven richten zich op de zogenaamde 'silver economy' door robots te ontwikkelen die ouderen kunnen ondersteunen in de zorg. Deze zorgrobots spelen in op de vergrijzing in China en de groeiende vraag naar ouderenzorg. De sector ziet hierin een belangrijke marktmogelijkheid voor technologische oplossingen in de ouderenzorg.</p>
+  <div class="meta">People's Daily Online · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1cwSDJMcER3N1Q2a0EyUEZSUVdMeV92T2poWmZWUUdUNjlrQ1RuN0lYZFVPWllYZVlvejhmTE5wWFRDM0habEtOTW1RWXZ0QWpHMTNOYnZPRUNBNEdRQk1yNE85QmFXS2FOdFZhWktfbWN6NXhHeE1EWVB6VnZKQmt2MXhpazh0SlVlUXkwNA?oc=5" target="_blank" rel="noopener">6 AI nurse robots that are changing healthcare - TechTarget</a></h3>
+  <p>Het artikel bespreekt zes AI-verpleegkundige robots die de gezondheidszorg transformeren. Deze robots ondersteunen verpleegkundigen bij zorgtaken en patiëntmonitoring. Ze vertegenwoordigen een groeiende trend van robotica-integratie in de verpleging en ouderenzorg.</p>
+  <div class="meta">TechTarget · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UdTMtR3NFdXR2YWdqY0t4ZV9kZkpnZVhFRmFyaHBjVG5vVjF1cDRuYV9aazAwaGZBbWh6NDdUUXZ5T2hXREJJcWd1T0k4OEsydS1WbHFFVjVYUUVtYjN3?oc=5" target="_blank" rel="noopener">Are robots the solution to the crisis in older-person care? - Nature</a></h3>
+  <p>Het artikel in Nature onderzoekt of robots een oplossing kunnen bieden voor de groeiende crisis in de ouderenzorg. Het bespreekt de mogelijkheden van zorgrobotica om tekorten aan zorgpersoneel op te vangen en de kwaliteit van zorg voor ouderen te verbeteren. Daarbij worden zowel de kansen als de uitdagingen van robotica in de ouderenzorg belicht.</p>
+  <div class="meta">Nature · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPR2lmdGlnalh3S3BjdzQzOTFGekYzUF9jbDh1NUt1LVBDUDhJTnc2aUVKZFZtTlczNlMwSzJFbHdGcUJScXpReXBsSUJWekQ4Uk91Q1ZJMWlWcThsRzJZeWNTelQ4dC1GOUlLMURjU2xPVTZheTRoT0FqTVllWEVLWjlLYVAzNl9RaTBWeTluTdIBlAFBVV95cUxQQ19mN2Fmc0t0bHdGWFB1TUZZQjNxdHBHVlliRkJXZHVnTzlTZS03aU9qcTdMdXVyLWZKUjFaMk1MV0JfZGFUNWtqdTZ5eWhESk5YMHU2UndDNWV1ejZHa2wwN2cwTzJrc2pEMWpqRXI4OWE1WmdlanMtUkl0TDRzX0JtWU5UdWJxX1ZqUVd1emtTNU1h?oc=5" target="_blank" rel="noopener">Inside Japan’s long experiment in automating elder care - MIT Technology Review</a></h3>
+  <p>Japan experimenteert al langere tijd met het automatiseren van ouderenzorg, waarbij robots worden ingezet om de groeiende vergrijzingsproblematiek aan te pakken. Het artikel van MIT Technology Review belicht hoe Japan als pionier op dit gebied robots inzet ter ondersteuning van verzorgenden en ouderen. Dit omvat zorgrobots die helpen bij dagelijkse taken en het verlichten van de werkdruk in de ouderenzorg.</p>
+  <div class="meta">MIT Technology Review · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQX3BQZVVZWVpaY3ZieWJYMl8ydnJEb1AtTGNxWFBaS0w4M2RnelE3dmhUOE5kdW0ySHp0LWVCTTdmNG1JQWwzNGNBRG5FLVhvcENlNUFCbzkxQjgyTmVOb3ZYRVhqWXNhZC13Zk9hUGNDdi1Tb05NRDVFel9HODRVeEhyeVBObkpCeHVUT0JWemZzV3laWWRJ?oc=5" target="_blank" rel="noopener">A Survey of Robotic Systems for Nursing Care - Frontiers</a></h3>
+  <p>Dit artikel presenteert een uitgebreid overzicht van robotsystemen die worden ingezet in de verpleegkundige zorg. Het onderzoek, gepubliceerd in het wetenschappelijke tijdschrift Frontiers, inventariseert de verschillende typen robots die ondersteuning bieden bij zorgtaken voor patiënten en ouderen. De survey biedt inzicht in de huidige stand van zaken en mogelijke toepassingen van robotica binnen de verpleging en ouderenzorg.</p>
+  <div class="meta">Frontiers · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EV2tDSlVqaHNoN0psT3lVb0NMbjdOcDRBdks4NEp0QzNKZTR0X2JXdk5Id3hkRUVUXzRSanBBSnpUUjZPazkzY0sxY01jUlVpa2JV?oc=5" target="_blank" rel="noopener">Elderly Care Robots: Can They Support 300 Million Seniors Amid 5.5 - Million Nursing Worker Shortage as 'Electronic Grandchildren' Start in Nursing Homes? - 36 Kr</a></h3>
+  <p>Het artikel bespreekt de inzet van zorgrobots, ook wel 'elektronische kleinkinderen' genoemd, in verpleeghuizen om de groeiende groep van 300 miljoen senioren te ondersteunen. Dit in het licht van een tekort van 5,5 miljoen verpleegkundigen in de ouderenzorg. De robots worden ingezet als mogelijke oplossing voor het personeelstekort in de ouderenzorg.</p>
+  <div class="meta">36 Kr · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVl9CZ3JGUFM2QTN3S2NpdG9NY2dSLUdDc2UwYU9TLUJVSkszOTM5Ti1uX2FUM1gzX0NINU5EQVNFOGdsQ2prZVc5UGdsQlAzSVpGM2lOOXFfRVdpcTcyX0g4c1poYjhJTEpnbFhVWjBuRHlyMVhwY1lMSk85d09UemdPd2g5a2FkWXdVT21iNktSeTBQczFqbU5MaVUxazBfbXEyeGJseW9FQi1YbkRmSHVUbnBvNUhqS1kzUE1pNk55UQ?oc=5" target="_blank" rel="noopener">Health Care Robots: Staffing Strategy of the Future - Children's Hospital Association</a></h3>
+  <p>De Children's Hospital Association bespreekt hoe zorgrobots een strategie voor de toekomst kunnen zijn om personeelstekorten in de gezondheidszorg aan te pakken. Robots worden gezien als een oplossing om het zorpersoneel te ondersteunen en de werkdruk te verlichten. Het artikel richt zich op de inzet van robotica als aanvulling op bestaand zorgpersoneel in ziekenhuizen.</p>
+  <div class="meta">Children's Hospital Association · 2026-06-22</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TYndVaWRIYVVOYTNpM0todkdESklmRnZKVU1acjUxTjFxdTJ2a1lvU01Za2F2VlJfck1ENXpneDNCNDA5OW9jejVQZlg0dHRXVHVuc2hVRGZDLURKem5aTW9VdnpoS280?oc=5" target="_blank" rel="noopener">Humanoid Robots in Healthcare [2026] - RoboZaps</a></h3>
+  <p>Dit artikel van RoboZaps bespreekt de inzet van humanoïde robots in de gezondheidszorg in 2026. Humanoïde robots worden steeds vaker ingezet in zorgsettings, waaronder verpleging en ouderenzorg, om personeel te ondersteunen en patiënten te helpen. De ontwikkeling van deze mensachtige robots biedt nieuwe mogelijkheden voor de zorgsector.</p>
+  <div class="meta">RoboZaps · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1wV2FOZVM1N0hnUEwyYzNtMnNTVW1XRHRJMk56cXVEQWZRSnppaW5ZOGhBM1FUclFmY0gycGlON3dLNkZveVhsRG5iYkJUOGtxd1FQT25QTnRoNXhUUGM1TF9KakNIUTNxbTFUaVpiRkg?oc=5" target="_blank" rel="noopener">AI robot dolls charm their way into nursing the elderly - Rest of World</a></h3>
+  <p>AI-robotpoppen worden ingezet in de ouderenzorg om elderly te begeleiden en te ondersteunen. Deze robots maken gebruik van kunstmatige intelligentie om interactie aan te gaan met ouderen en kunnen een positieve invloed hebben op hun welzijn. Het artikel beschrijft hoe deze zorgrobot-poppen hun weg vinden in verpleeghuizen en thuiszorgsituaties.</p>
+  <div class="meta">Rest of World · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3lVMER4amxOQWh2c1k4MElPRkRlclpfSHpvd3A0T3VHT2R5RjFWT3ZPdFRZc2xjclNlVzRSdUpRNUsyVjBTeEM5Z2oxUFlmcnVYeDIwLTJrT1cyLWtnMXd5TEJ0UFQ2QjhvLS1lLVBaQ3RucWFNRTM0Z180akdJZUh3elNCOVp3Z20wUnN3dm5kbGE4c2xVZ2VLYjNXaExfVUNjaG12X3dkUVBERGtobEN4bXRFRXfSAbwBQVVfeXFMUHFZVVRtNDFwSWZIZURVelNSN0pNQkdMZXYyc3NORVJnbFMxRXRZQ2d1dzZLbng0QXRBY3NTT3NUM0dlTkI5RW92UkM5YnVyR1hBam1yNFZBRWR4d1c5a3diNUl6dFB5RUFVWEotSmFwZ2Y1Q1EtaVdEWTdsUkNkT2JzQ2VLcnBheHV5WkpVSHc2M3FHbTdQc2ctc0tISFdURGJ4M3pmZTFhLTFZMXZNSGZ5TVVEcE9PWFA4bkk?oc=5" target="_blank" rel="noopener">Artificial Empathy? At A German Nursing Home, A Social Robot Is Learning To Care - Worldcrunch</a></h3>
+  <p>In een Duits verpleeghuis wordt een sociale robot ingezet die leert omgaan met ouderen en zogenaamde 'kunstmatige empathie' ontwikkelt. De robot is bedoeld om een ondersteunende rol te spelen in de zorg voor bewoners van het verpleeghuis. Het artikel belicht hoe deze zorgrobot sociale interactie en emotionele betrokkenheid probeert na te bootsen.</p>
+  <div class="meta">Worldcrunch · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tUUJVVWpieTBMcHU5Wmtqa0JNdzhvLTVyc1ZiNHhhcDVNcFVTMlBJMjg1TS1ZOENucVlkZlVkT3pqZ0ZkQXZLcWJzYlBLTkRaVHc0TzFWS09NRnJSX1FF?oc=5" target="_blank" rel="noopener">A randomized pilot study evaluating socially assistive robot effects on patient engagement and care quality - Nature</a></h3>
+  <p>Een gerandomiseerde pilotstudie onderzocht de effecten van sociaal assistieve robots op patiëntbetrokkenheid en zorgkwaliteit. De studie evalueerde hoe deze robots kunnen bijdragen aan de zorg voor patiënten, met name op het gebied van interactie en ondersteuning. De resultaten bieden inzicht in de mogelijke toepassingen van zorgrobots in de verpleging en ouderenzorg.</p>
+  <div class="meta">Nature · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQeERhWGRDSDU3MUY4c0J1YzZBeHIyNE4wYzdKZXRMMW9tc21odDdZdEJXVTJvY2dVNzZuQkxGaXFaY3owaG0wV2ZqQWVLa25aejNJb1VveThxVUhsX3ZONndUMW5KY2M2MGpPa0xGOFJVUUJmejJmWlkxRm9RZ0xuZXAtMzNRcWpYQ1JKX3psdlExS3hJSFdDOUdpRDRwZUU?oc=5" target="_blank" rel="noopener">Service robots: How these daily life assistants help human? | Smart Living | Technology - 當代中國</a></h3>
+  <p>Service robots worden ingezet als dagelijkse assistenten om mensen te helpen in hun dagelijks leven. Deze robots kunnen taken overnemen die anders door zorgverleners of mantelzorgers uitgevoerd zouden worden. Ze spelen een rol in het ondersteunen van mensen, waaronder ouderen, bij alledaagse activiteiten.</p>
+  <div class="meta">當代中國 · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE16bkdFNVVKV0JSZEc1dU0xOExUd2UxZUhLVk00cmpIdXladEFpT2ZvazhRWVR3aFR1U2pqR3M4amwtZDlxT2V0d1RYUC1UbVhJMEtzYXlMNURNdw?oc=5" target="_blank" rel="noopener">Robot dogs, hair dos and crumble: What care home life can be like - BBC</a></h3>
+  <p>Een BBC-reportage belicht het dagelijks leven in een verzorgingstehuis, waarbij robotica een rol speelt in de vorm van robothonden die worden ingezet als gezelschap voor bewoners. De reportage toont hoe technologische innovaties zoals robothuisdieren worden gecombineerd met traditionele activiteiten zoals kapsessies en maaltijden om de kwaliteit van leven voor ouderen te verbeteren. Robothonden worden in de ouderenzorg steeds vaker gebruikt als middel tegen eenzaamheid en ter stimulering van sociale interactie.</p>
+  <div class="meta">BBC · 2026-06-21</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TYndVaWRIYVVOYTNpM0todkdESklmRnZKVU1acjUxTjFxdTJ2a1lvU01Za2F2VlJfck1ENXpneDNCNDA5OW9jejVQZlg0dHRXVHVuc2hVRGZDLURKem5aTW9VdnpoS280?oc=5" target="_blank" rel="noopener">Humanoid Robots in Healthcare [2026] - Robozaps</a></h3>
+  <p>Dit artikel van Robozaps bespreekt de inzet van humanoïde robots in de gezondheidszorg in 2026. Humanoïde robots worden steeds vaker ingezet ter ondersteuning van verpleging en ouderenzorg, waarbij ze taken kunnen overnemen zoals patiëntbegeleiding en ondersteuning van zorgpersoneel. De ontwikkeling van deze robots speelt in op de groeiende behoefte aan automatisering binnen de zorgsector.</p>
+  <div class="meta">Robozaps · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHLWpWaUFHMkhUcVZZbmdWaUZxRVFXblE0NjNHZVBnUkF1czhEeS1na3BCWXJrTVZEdWp5MzBvT2FrSlNwWW1CQlVBa25FMl9lZlhLd0MzWEJQQUhrV3BV?oc=5" target="_blank" rel="noopener">Development of smart patient care robot with enhanced autonomous navigation through path optimization in hospital wards - Nature</a></h3>
+  <p>Onderzoekers hebben een slimme patiëntenzorgrobot ontwikkeld die autonoom kan navigeren in ziekenhuisafdelingen door middel van padoptimalisatie. De robot is ontworpen om efficiënter en veiliger door complexe ziekenhuisomgevingen te bewegen. Dit draagt bij aan betere zorgverlening en ondersteuning van verpleegkundig personeel op de afdeling.</p>
+  <div class="meta">Nature · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFB3TFBEd1BmZV9HUld3eGVCUGxja081LVVBVEF5bG5FWks4TjNiUTRjYXlwRUFSbVh0cDJLMlV3aUo2azByWmhpeHJkaVFNeVFGQXBsY24xNnhzV1pXRDdOTm5sUl9hdmZEZmcybkdGYVjSAXBBVV95cUxNd3FVOHZmeGlvcDFHVU1VV2UyUy1sQ0QtUXA2T2NSR2oyMURFSzlQS2hKbzFmYmdXbnBXandOTVpWRDVNWHlyd2ZPdDJEQXNnM0hzUDlsemNYVVNNSlc3RG5xN2pBdUx0anNsUkRzdWQz?oc=5" target="_blank" rel="noopener">Tacoma health system once touted robot nursing aide. Whatever happened to Moxi? - Tacoma News Tribune</a></h3>
+  <p>Een gezondheidssysteem in Tacoma had eerder een robotassistent voor verpleegkundigen, genaamd Moxi, in gebruik genomen. Het artikel onderzoekt wat er met deze zorgrobот is gebeurd na de aanvankelijke introductie. Moxi is een logistieke zorgrobот die verpleegkundigen ondersteunt bij routinetaken in ziekenhuizen.</p>
+  <div class="meta">Tacoma News Tribune · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5xQ1FVdUVoVWZFT0RMcHFHUjFBbHQxNlNWVUdHXzZFd0JDQUt0VXU0YUc5OHFnVjVOTGtmeV9WTG1RbWNsM08wVEVfSmFhdEJYY0t6VTlad2NWdFREZkZ0TVA2NV81eDNqQVFZaTdzUl9uNGs?oc=5" target="_blank" rel="noopener">Robotic Nurse Assistant Market Size, Share, Growth, Analysis, 2034 - Straits Research</a></h3>
+  <p>Het rapport van Straits Research analyseert de markt voor robotische verpleegkundige assistenten, inclusief de omvang, het marktaandeel en de groeiverwachtingen tot 2034. Deze robots worden ingezet ter ondersteuning van verpleegkundigen en zorgverleners bij taken in de ouderenzorg en gezondheidszorg. Het rapport biedt inzicht in de markttrends en ontwikkelingen binnen dit segment van de zorgrobotica.</p>
+  <div class="meta">Straits Research · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDhNOHBSQXVxemNBbnJkYlBiLVdxak15dGZyYk0zalpQNE5sMzA0SDNOSXpQc0Z6QjV0Z2JERlQ3OUM1RmNZM2t4aTl2a2tSSmFBTFRDbkhQVFB2V0ZvS0RDUm5FVlJ4bjVZY2p2MjJiUjU2QWhiX0hURXYyX0lBNFJsRHN5bl9Fb1Q5ZlgycnFVdnIyWWxnRmRFLU83UXJSRzROeXlLWVQzU2RSc0ZxbmNfeml5bFdGU3A5bmhwdWJJY0dPd2IxUlJzSQ?oc=5" target="_blank" rel="noopener">Research Spotlight: UNH Nursing Professor Awarded NIH R21 Grant to Explore AI-Assisted Robots in Dementia Care - University of New Hampshire</a></h3>
+  <p>Een professor verpleegkunde aan de University of New Hampshire heeft een NIH R21-subsidie ontvangen om AI-ondersteunde robots in de dementiezorg te onderzoeken. Het onderzoek richt zich op de toepassing van robotica als hulpmiddel bij de verzorging van mensen met dementie. Dit initiatief combineert kunstmatige intelligentie met fysieke zorgrobotica in een ouderenzorgcontext.</p>
+  <div class="meta">University of New Hampshire · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pNXZ3ZFo0bnZlLUhrZDVXQmx1Uk0xNTlRMjZEVWJma2VwV2NqbGdlRzhJUjJ3Wkttd2thVFRIbVJCU2pIRVBoNDI5NjRxeFItQXNOYXQ5M2hSUQ?oc=5" target="_blank" rel="noopener">These robots can clean, exercise - and care for you in old age. Would you trust them to? - BBC</a></h3>
+  <p>Het artikel van de BBC bespreekt robots die taken kunnen uitvoeren zoals schoonmaken, bewegen en zorgtaken verlenen aan ouderen. Het onderzoekt of mensen bereid zijn om zorgrobots te vertrouwen bij de ondersteuning van ouderen in hun dagelijkse leven. Dit sluit aan bij de groeiende inzet van robotica in de ouderenzorg als oplossing voor de toenemende zorgvraag.</p>
+  <div class="meta">BBC · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOVnhoU3liSFR0UlFTdVhmdFFWN3J4RG1VMXlQcndiSW5mUmVsTldudHI2R2JqbWNnRTlpSGktcW5sOWhLMXFwM1J2aGVhdGRJSDM4ZzNQUTJBYWxEYWZyVTYzMFFUb1h2V1lGMTdIOFY3NzRaN0pmRmc4Yk50YzhJcmpaa2JISGFQUHZyR00tSTVPUQ?oc=5" target="_blank" rel="noopener">Could AI nursing robots help health care staffing shortages? - CNN</a></h3>
+  <p>CNN onderzoekt of AI-verpleegrobots een oplossing kunnen bieden voor de aanhoudende personeelstekorten in de gezondheidszorg. Het artikel bespreekt de mogelijkheden van robotica gecombineerd met kunstmatige intelligentie om zorgtaken over te nemen of te ondersteunen in verpleegkundige omgevingen. Dit speelt in op de groeiende vraag naar innovatieve oplossingen voor de uitdagingen in de ouderenzorg en verpleging.</p>
+  <div class="meta">CNN · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWtFbFZGU3BhOEh2WDJXSGUxdGFBejlZdEkxSWdlWnZqUGdISDRzTnpxeFlialRubXlnVzBEelBZbF9ZOEZvd1NIQzJIN2dYYVllWDQ4aWgxTEphaUhWajg5Uzloakw0MVcxUUZyUXlUNWZTeXNUdlM3TTBwUFNkeDUyclM3RUlka1dYeXN5R0ZqTXpqNjJj?oc=5" target="_blank" rel="noopener">Robots Could Replace Nursing Homes: Elon Musk - ColombiaOne.com</a></h3>
+  <p>Elon Musk heeft uitspraken gedaan over de mogelijkheid dat robots in de toekomst verpleeghuizen kunnen vervangen. Hij suggereert dat zorgrobotica ouderen thuis of elders de benodigde zorg kan bieden, waardoor traditionele verpleeghuizen overbodig zouden kunnen worden. Dit past binnen de bredere discussie over de inzet van robots in de ouderenzorg.</p>
+  <div class="meta">ColombiaOne.com · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtaDFXVE5XQVFZcG9OX2ZWcEtDRHl4bVVudlFSZFJPOE5pWS1KSHpYTDY1RXFIYU9oMU9FRUJQQ0lDeF9GQjNCb3dMekc4X1EtSDVnSGNlYmhJZw?oc=5" target="_blank" rel="noopener">Robotics, AI innovations put elderly care on fast track - chinadailyhk</a></h3>
+  <p>Robotica en AI-innovaties worden ingezet om de ouderenzorg te versnellen en te verbeteren. Het artikel bespreekt hoe technologische ontwikkelingen op het gebied van robots en kunstmatige intelligentie worden toegepast in de zorg voor ouderen. Deze innovaties zijn gericht op het ondersteunen van zorgpersoneel en het verbeteren van de kwaliteit van leven van ouderen.</p>
+  <div class="meta">chinadailyhk · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1KRVdYNEVwc05ERW5iQWtWMC1JMjVHSG9GNzctWWRCQmYzUGt1c2t4ZURnZmNabllsRzFib0NTeV9fQVpRcTZDN1hWNXhHUlNhVURKVncyWmxXRmJadjlMY2VRanpIWXlNeDd5bml0Nkt5UXNueVY2ZWswX2hldw?oc=5" target="_blank" rel="noopener">Expansion of elderly care robots mooted - China Daily</a></h3>
+  <p>China overweegt de uitbreiding van zorgrobots voor ouderen, zo blijkt uit een bericht van China Daily. Het artikel bespreekt plannen om robotica op grotere schaal in te zetten bij de ouderenzorg. Dit past binnen de bredere Chinese strategie om technologie te gebruiken om de groeiende vergrijzingsproblematiek aan te pakken.</p>
+  <div class="meta">China Daily · 2026-06-20</div>
+</article><article class="item">
+  <h3><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FY2xvQ2hTVmV5bHEzM19rTFNVckRlaWM5OThFTlREbzF4enJBWTh2R212ZnYtS3BUQUtFNngwNzNNamNaVV8zSy10b3gwTzUtbHZKdVhYWktBNUp5LTNsMEdUNng?oc=5" target="_blank" rel="noopener">Eldercare robots tackle challenges of aging population - People's Daily Online</a></h3>
+  <p>Zorgrobots worden ingezet om de uitdagingen van een vergrijzende bevolking aan te pakken. Deze robots ondersteunen de ouderenzorg door taken over te nemen die de druk op zorgverleners verlichten. Het artikel bespreekt hoe technologische innovaties in de vorm van eldercare-robots een oplossing bieden voor de groeiende zorgvraag onder ouderen.</p>
+  <div class="meta">People's Daily Online · 2026-06-20</div>
+</article>
+</main>
+<footer>Automatisch gegenereerd met Google News RSS &amp; Claude · 26-06-2026</footer>
+</body>
+</html>
