@@ -5213,5 +5213,75 @@
     "summary": "ABB and PAL Robotics have jointly showcased a mobile manipulator, a robot capable of both navigating autonomously and grasping or moving objects. This type of robot has potential applications in hospital logistics, such as transporting materials, medications, or equipment within healthcare facilities. The collaboration combines the robotics expertise of both companies.",
     "categorie": "logistiek-ziekenhuis",
     "date_added": "2026-07-05"
+  },
+  {
+    "id": "ded2ac8f58bc8ae9",
+    "title": "Questions Arise About Robotic Surgery’s Cost, Effectiveness - KFF Health News",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUWJibmhMa1BNQ0RzanRHaDh3eWkzTUtpNngydmpMcDJvVGdkcF9rd04xVUVNZ0NCVFhic1RkeEpwcXktU09hbmpDRHBpallyNXd4M2d1dEVPSzlwRGdBZVE0WlB5RkJTQVNyWldITTFXTWEyUEZIM19qX3hjUi1vUGZB?oc=5",
+    "source": "KFF Health News",
+    "samenvatting": "Een nieuw artikel van KFF Health News stelt vraagtekens bij de kosten en effectiviteit van robotchirurgie. Er wordt onderzocht of de hoge kosten van robotisch geassisteerde operaties gerechtvaardigd zijn ten opzichte van de klinische voordelen voor patiënten. Deze discussie is relevant voor zorgverleners en beleidsmakers die beslissingen nemen over de inzet van chirurgische robots.",
+    "summary": "A new article from KFF Health News raises questions about the cost and effectiveness of robotic surgery. It examines whether the high costs of robot-assisted operations are justified compared to the clinical benefits for patients. This discussion is relevant for healthcare providers and policymakers making decisions about the deployment of surgical robots.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "1d6b291347b4911c",
+    "title": "Exclusive look at groundbreaking remote robotic surgery: Patient was in Africa; doctor was in Florida - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMld6aElrUXoxVHczQUJwR3pNRVVheW5vNndReEVfSnNzZjJNOFFBNE1vclpXMGp5XzdSRWJLREZfcWNFdmlIbzRRZmEtQTliZTk0SHZvX2R2LXRTSFhacWtzMmF6MW5IRmx2M3c4LWIzcGZLc0ZrSFN3VGZkN1VPOHVfcmlxMWdscEFzWDlyZkZPZFc1c0ZJWncxMjFtcTR6UmVFaWdhandLQVpyYUxHVEFJc0hSZw?oc=5",
+    "source": "ABC News - Breaking News, Latest News and Videos",
+    "samenvatting": "Een baanbrekende transatlantische robotoperatie heeft plaatsgevonden waarbij de patiënt zich in Afrika bevond terwijl de chirurg op afstand opereerde vanuit Florida. Deze procedure toont de mogelijkheden van telerobotica in de chirurgie, waarbij grote geografische afstanden kunnen worden overbrugd. Het is een belangrijke stap in de ontwikkeling van remote chirurgische zorg voor patiënten in afgelegen gebieden.",
+    "summary": "A groundbreaking transatlantic robotic surgery took place where the patient was located in Africa while the surgeon operated remotely from Florida. This procedure demonstrates the potential of telesurgery and robotic systems to bridge significant geographical distances in healthcare. It represents a major step forward in delivering remote surgical care to patients in underserved or remote regions.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "cd7f625921424896",
+    "title": "Norwich patient hails 'incredible' robotic cancer surgery - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtM01xY0swLTVrRTNUWlFueXNVODJnTHpxWUhGSWZOOFpFVGtvbnB5VEVfVjlfYzFtd3hxdkdNZ1NkWkdUZEhEU1NJcjRJbEVjbmVZY3NoV0JuUQ?oc=5",
+    "source": "BBC",
+    "samenvatting": "Een patiënt uit Norwich heeft de robotische kankersurgery die hij onderging omschreven als 'ongelooflijk'. De ingreep werd uitgevoerd met behulp van een chirurgische robot, wat steeds vaker wordt toegepast bij kankerbehandelingen in het Verenigd Koninkrijk. Dergelijke robotsystemen bieden chirurgen meer precisie en kunnen leiden tot sneller herstel voor de patiënt.",
+    "summary": "A patient from Norwich has described the robotic cancer surgery he underwent as 'incredible'. The procedure was performed using a surgical robot, a technology that is increasingly being used in cancer treatments across the United Kingdom. Such robotic systems offer surgeons greater precision and can lead to faster recovery times for patients.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "1f0c0ac10141694f",
+    "title": "Northwestern Medicine Kishwaukee Hospital Marks Milestone 2,000 Robotic-Assisted Surgeries - Northwestern Medicine Newsroom",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0I1NFo0U2ZuTzNDMTVXYU9pTFhXdU0zQXV1N19oampvTl9rZU5vSjJxSU9XWnlJd3NXQVNZMTFza2ZMaTAyaXNlLURwRTBqMGJNNjFLLU95NGZfNDFRaE0tOVBMbl9LWTZNWF9zUi1SckF6X1ZxaWdXV3RUR0JLRFozQlBuTkJiOXdMbUhfaThwX0VWX1d5WDVhZGF4QnA5a3o4MWI1Sm9JOG9tMmVJ?oc=5",
+    "source": "Northwestern Medicine Newsroom",
+    "samenvatting": "Northwestern Medicine Kishwaukee Hospital heeft een mijlpaal bereikt met 2.000 robotgeassisteerde operaties. Dit markeert een significante groei in het gebruik van chirurgische robotica binnen het ziekenhuis. De mijlpaal onderstreept de toenemende rol van robottechnologie bij moderne chirurgische ingrepen.",
+    "summary": "Northwestern Medicine Kishwaukee Hospital has reached a milestone of 2,000 robot-assisted surgeries. This marks significant growth in the use of surgical robotics within the hospital. The milestone highlights the increasing role of robotic technology in modern surgical procedures.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "caf96510d0c98545",
+    "title": "HCA North Florida Hospital unveils newest member of robotic surgical fleet - Mainstreet Daily News Gainesville",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ3MzclZKTE8yalBXTHZkbXdIVDJDYlRVQ3Z1bjZIQUJzYnhxYjRPWFZzdVRTc3BtT2t0NlNkZ2Ita09Tc3ZqR0pvdlpfOVdCMU9qWXpNZ1RTcFd6QTRQRFlBQnk5MGZJLTZlYmlPRWhXQUtXQ0ZjWjRwemJlTXRNbHlnUUc5VGNtbDRwQmtVQXFJdlVNTDR3?oc=5",
+    "source": "Mainstreet Daily News Gainesville",
+    "samenvatting": "HCA North Florida Hospital heeft een nieuw robotisch chirurgisch systeem gepresenteerd als toevoeging aan hun bestaande vloot van chirurgische robots. Het ziekenhuis breidt hiermee zijn mogelijkheden op het gebied van robotgeassisteerde chirurgie verder uit. Dit type technologie wordt ingezet om chirurgische ingrepen nauwkeuriger en minder invasief te maken.",
+    "summary": "HCA North Florida Hospital has unveiled a new robotic surgical system as the latest addition to its existing fleet of surgical robots. The hospital is expanding its capabilities in robot-assisted surgery with this new acquisition. This type of technology is used to make surgical procedures more precise and less invasive.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "327de3864fb2372e",
+    "title": "Surgeons in Bristol perform 10,000 operations using robotic arms - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45dVNZeTdRb2tPLUlpUXVUWEw1UjU3Q2tidWpObVFuaVdVS1BRX0ozN3hXamFFQ2VjcWsxZnBTVjR0VnRxXzRrVVIzeUc4dEpTYk9NSTRwb3pFdw?oc=5",
+    "source": "BBC",
+    "samenvatting": "Chirurgen in Bristol hebben een mijlpaal bereikt door 10.000 operaties uit te voeren met behulp van robotarmen. Dit benadrukt de groeiende rol van robotchirurgie in moderne ziekenhuizen. De prestatie toont aan dat robotgeassisteerde chirurgie steeds meer een standaardonderdeel wordt van de medische praktijk.",
+    "summary": "Surgeons in Bristol have reached a milestone by performing 10,000 operations using robotic arms. This highlights the growing role of robotic surgery in modern hospitals. The achievement demonstrates that robot-assisted surgery is increasingly becoming a standard part of medical practice.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-05"
+  },
+  {
+    "id": "9913d3ee848bf0d3",
+    "title": "Meet the Humanoid Robot For Schools, Hospitals, & Warehouses - Tomorrow's World Today",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOS03Sl8zVVBsTzd4TDJNTXUzZnd0Z0hVa1ZUZlh6aVdVUEdfRW1vdm1va0djYzZfVFFTbnV0Njh2Q0I2UHVKV0FsVG5CcTIzTVpOcW9CdS1LWnZLZ2RUTVZFSUlJdFBVbGpPR2ZBOEhNTUx1MFpxcXRPT1dyX3AybzYyOGN0RzY3OVFYajFOMDI3UHdsRUhNWTBRN1lXRkVJNDVQQg?oc=5",
+    "source": "Tomorrow's World Today",
+    "samenvatting": "Een nieuwe humanoïde robot is ontwikkeld voor gebruik in scholen, ziekenhuizen en magazijnen. Deze veelzijdige robot is ontworpen om diverse taken uit te voeren in verschillende omgevingen, waaronder de ziekenhuislogistiek. De inzet in ziekenhuizen kan bijdragen aan efficiëntere werkprocessen en ondersteuning van het personeel.",
+    "summary": "A new humanoid robot has been developed for use in schools, hospitals, and warehouses. This versatile robot is designed to perform various tasks across different environments, including hospital logistics. Its deployment in hospitals could contribute to more efficient work processes and staff support.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-05"
   }
 ]
