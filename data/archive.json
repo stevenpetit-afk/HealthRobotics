@@ -6273,5 +6273,15 @@
     "summary": "GARMI is a care robot developed by the Technical University of Munich (TUM) that is becoming increasingly intelligent and capable of being used in elderly care. The robot is designed to assist older people with daily tasks and remote healthcare services. TUM continues to advance GARMI's capabilities to improve care delivery.",
     "categorie": "verpleging-ouderenzorg",
     "date_added": "2026-07-12"
+  },
+  {
+    "id": "ee21debccaf39597",
+    "title": "Humanoid Robots Just Performed Live Surgery For The First Time Ever - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0N3SWJTZ1BqbzlibXVsR2RIOHAwa1F5bmJISkhqR2NzcTIzT2t2S2FmSkxJQjJTdm9JWVIwaWM3d05ieGpFYUxBbzdQMWlQVnFjNnBkbk12M2hhMlA4OFlUZ0I4UWVfMXk0bXIydGM4V1YwT1Zzb2FxNksxYjZYMlFkOVZZUjFjSmtpRWlKd3lDeThlRWFrVjFQaXFHZjBXVVl6MmVaUmFtV0o5QWthVXhxeExHNG8tUlp0ZTN3?oc=5",
+    "source": "Forbes",
+    "samenvatting": "Voor het eerst in de geschiedenis hebben humanoïde robots een live chirurgische ingreep uitgevoerd op een menselijke patiënt. Deze mijlpaal markeert een belangrijke doorbraak in de toepassing van robotica binnen de chirurgie. Het gebruik van humanoïde robots in de operatiekamer opent nieuwe mogelijkheden voor de toekomst van chirurgische procedures.",
+    "summary": "For the first time in history, humanoid robots have performed live surgery on a human patient. This milestone marks a significant breakthrough in the application of robotics within the field of surgery. The use of humanoid robots in the operating room opens new possibilities for the future of surgical procedures.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-12"
   }
 ]
