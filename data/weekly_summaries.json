@@ -148,5 +148,43 @@
       }
     ],
     "article_count": 197
+  },
+  {
+    "week_start": "2026-07-13",
+    "week_end": "2026-07-19",
+    "summary": "Het was een uitzonderlijk drukke week in de wereld van robotica in de gezondheidszorg, met mijlpalen op vrijwel elk front — van baanbrekende chirurgische primeurs tot de verdere opkomst van zorgrobots en slimme ziekenhuislogistiek.\n\nDe meest besproken ontwikkeling van de week was ongetwijfeld de allereerste live chirurgische ingreep uitgevoerd door humanoïde robots. Meerdere bronnen, waaronder Forbes en ABC News, berichtten over deze historische primeur: mensachtige robots voerden zelfstandig operaties uit, eerst op varkens en vervolgens op menselijke patiënten. De technologische doorbraak roept echter ook vragen op: het Pentagon identificeerde de gebruikte hardware als Chinese militaire technologie, wat geopolitieke en veiligheidszorgen met zich meebrengt voor westerse ziekenhuizen. Eveneens opmerkelijk was de BBC-reportage over de eerste robotische hartoperatie op een menselijke patiënt, waarbij de patiënt zelf aangaf eindelijk zijn leven weer op te kunnen pakken. Tegelijkertijd wordt aan Boston University gewerkt aan een goedkope zachte robot die ingrepen kan uitvoeren in een kloppend hart — een veelbelovende stap richting minder invasieve hartchirurgie.\n\nDaarnaast laten talrijke ziekenhuizen wereldwijd zien dat robotchirurgie steeds breder wordt uitgerold. Van de eerste robotische niertransplantatie in Pittsburgh tot de introductie van robotprogramma's in West Virginia, Oklahoma, Indonesië en Schotland: de technologie bereikt steeds meer regio's en specialismen. Marktanalist MMR Statistics benadrukt daarbij dat de sector volwassen wordt: de uitdaging ligt nu niet meer in de technologie zelf, maar in de disciplinaire en organisatorische implementatie door ziekenhuizen.\n\nOp het gebied van zorgrobots en verpleging zien we eveneens belangrijke ontwikkelingen. De TUM-zorgrobot GARMI voor de ouderenzorg wordt steeds capabeler, aan het WPI worden humanoïde verpleegrobots ontwikkeld geïnspireerd op de COVID-pandemie, en in Taiwan is naar verluidt 's werelds eerste AI-verpleegkundige in dienst getreden bij een ziekenhuis. Onderzoekers van de UBC onderzoeken bovendien hoe sociale AI-robots mensen met dementie en hun mantelzorgers kunnen ondersteunen.\n\nTen slotte groeit ook de ziekenhuislogistiek via robotica gestaag door. De markt voor logistieke ziekenhuisrobots kent een verwachte jaarlijkse groei van ruim tien procent, terwijl bedrijven als Diligent Robotics en het duo Rovex en Sphaira autonoom patiëntenvervoer en materiaalbeheer verder ontwikkelen. Al met al laat deze week zien dat robotica in de zorg niet langer toekomstmuziek is, maar een breed ingebedde realiteit die snel volwassen wordt.",
+    "top5": [
+      {
+        "title": "Humanoid Robots Perform First Live Surgery: Pentagon Flags the Hardware as Chinese Military Tech - Tech Times",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWVdQU1JsSEFCSk5SbXlqT2xnTTNjRENHenkyemxETHhKRGhNWU1LX1NKWVJQYWNzSTA3dDVxQk8zbWhTUkpScTJRRmlmUlVTRndvdkp5cllTMVQ1bnMxRmFfYU9sOTlKMC1Eb0M0TU44UDJvR1Z5WE9QbjRyMEJNTlllamc1bmVCeF90UUlfanJFWG8yaTBMT0M4cDAtb0JqVTlicXhFb016R3p1TGtpMEUtaGZjVTZtUVJTWUplT1E4T3RwQlcyYUJhVF9xV1hfYVVJUm91RzJMYlk?oc=5",
+        "source": "Tech Times",
+        "reden": "Eerste live robotchirurgie door humanoïden én geopolitieke veiligheidszorgen over Chinese hardware."
+      },
+      {
+        "title": "'I can move on with life'- first robot heart op patient - BBC",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IZl96SXYwX01tY3hVM2lTc2V0bklwYUlrZ25zYlNZWlFFSXZmRFBxRjdvRUJfTkZRLUdJd3BaalhXSGgzTDhUMTVDc2l1dmVZdzJGZlptWTBuUQ?oc=5",
+        "source": "BBC",
+        "reden": "Eerste robotische hartoperatie op mens met patiëntperspectief; grote maatschappelijke impact."
+      },
+      {
+        "title": "How a Low-Cost Soft Robot Is Learning to Perform Surgery Inside a Beating Heart - Boston University",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR250SGZFQ3RIcFNfUXdWQVBIN3pBdk9QMm1CS21XdHhrc2h2ZXR6VDY2WjNzS3BFMVBJOURodXdtaENONUwzeE96Z1gxYnJZajVLcHdmYmwyNlVsajNQQ1VYRTZ0R3hRTkcwNE45NmpuWlV4T0NIc1hkS3QwZU1JM1dWMHNNc21HSlNhRWFBd1JDMDQ1N3NleGNfdGZiZ0tsNDZxanpZNA?oc=5",
+        "source": "Boston University",
+        "reden": "Innovatieve goedkope zachte robot voor chirurgie in kloppend hart; baanbrekend onderzoek."
+      },
+      {
+        "title": "Robotic Surgery Market Is No Longer a Technology Story. It Is a Discipline Test for Hospitals: MMR Statistics - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTEFRTDFieXlVeThTNHoyZzdDR2RYRjAyWlBySHlTa1FuUDYyMkRnN3JQOE0yNnhGaEpfUThmSHRVSUxQQmRXT2JvUUV0TzFLSk4tTThFaS1WMUYzVFBwRDZKd3lZc2FlYm1hUmtUT19xOHMtRTNqWE9uMHhqdklCZEtsZTU?oc=5",
+        "source": "Yahoo Finance",
+        "reden": "Belangrijke strategische verschuiving: robotchirurgie vraagt nu om organisatorische beheersing, niet innovatie."
+      },
+      {
+        "title": "World's first AI nurse joins hospital staff in Taiwan - Female First",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdHpUclkwSGFPaGY3ZlAwVnhfSVJ1OXR1bU5FczFzQUwyd3B6bUUzYUZLb0xpVXh5TjZxSGxIOXlJV2txZEJmM0pLcTc5d291OVg2M0hyWG0xMXVsY1h4RmZCbTBtaHBRUGJRWU1OdkZyd05PZWxQMHhkZEF0MkZlcTVUNU9yd3NvS3BITHZuOTNWazc4RTF0RTZKQVdEZw?oc=5",
+        "source": "Female First",
+        "reden": "Werelds eerste AI-verpleegkundige in dienst; mijlpaal voor AI-integratie in de zorg."
+      }
+    ],
+    "article_count": 77
   }
 ]
