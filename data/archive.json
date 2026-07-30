@@ -7923,5 +7923,305 @@
     "summary": "Robots are increasingly being offered through subscription models rather than one-time purchases, allowing hospitals, farms, and event venues to access robotics without large upfront investments. This model makes it financially more attractive for healthcare institutions to deploy logistics robots for tasks such as transporting medications, linen, or meals. The shift toward 'robots as a service' is seen as a key trend that could accelerate the adoption of robotics in healthcare.",
     "categorie": "logistiek-ziekenhuis",
     "date_added": "2026-07-29"
+  },
+  {
+    "id": "86c75fac1ddb907e",
+    "title": "After 2 surgeries, AdventHealth patient sees the difference robotic care can make - adventhealth.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGwxenhFam41VmRsNC0ycDJ6aDU4T3hrS2dMUHh6RDV4dXRKS1V1b0JIQTk2M196c3F5Tlc3bDNHLTh4MXZrenROOWljdW5rSTBpRnVHMm00M3JTVmxKTl9PS2pjSnNZQzJjR3F1N2lNOEl1V1pRN292cWpmNUY5OEZlTG92RHNwNmJJcE1pSGxTcVRHYzA0Zm9tYm51VjRZT05yaHdvSTVyUU05Q25j?oc=5",
+    "source": "adventhealth.com",
+    "samenvatting": "Een patiënt van AdventHealth deelt zijn ervaringen na twee operaties, waarbij hij het verschil merkte tussen traditionele chirurgie en robotgestuurde chirurgie. Het artikel belicht hoe robotchirurgie bij AdventHealth bijdraagt aan betere uitkomsten voor patiënten. Dit getuigenis illustreert de groeiende rol van robotica in de moderne chirurgische zorg.",
+    "summary": "An AdventHealth patient shares his experience after undergoing two surgeries, highlighting the difference that robotic surgical care made in his recovery and outcomes. The article showcases how robotic surgery at AdventHealth contributes to improved patient results. This personal testimony illustrates the growing role of robotics in modern surgical care.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "f20591b9937e763e",
+    "title": "LCMC Health debuts robotic lung cancer surgery - New Orleans CityBusiness",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMnNtRlhxWFRBbUM5WmtVZ0VRcXpyQmxtem90REVpZE5WdUU0ekJBMmRvQUZhNm1KOTJjQnd0dEtUVnJ1SUY5cnJMY2JTQnhWV21lMWRFd0tKRFVTY2xwQjFobGVYZ1hESzUxeXFRWWJ2VFhWSDlNUkFRZFZQUzluQzhrTHNhMWZFNm5RMUtvLXRSeVRjTGc?oc=5",
+    "source": "New Orleans CityBusiness",
+    "samenvatting": "LCMC Health heeft robotische chirurgie voor longkanker geïntroduceerd in New Orleans. Deze technologie maakt minimaal invasieve ingrepen mogelijk bij de behandeling van longkanker. De introductie van robotchirurgie vertegenwoordigt een belangrijke stap voorwaarts in de oncologische zorgverlening van het ziekenhuis.",
+    "summary": "LCMC Health has introduced robotic surgery for lung cancer treatment in New Orleans. This technology enables minimally invasive procedures in the treatment of lung cancer patients. The debut of robotic surgery represents a significant advancement in the hospital's oncological care capabilities.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "fbd9ea85ad1b7af4",
+    "title": "Patient Hospitalized in India Undergoes Robotic Telesurgery from Colombia - ColombiaOne.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV2cwd1Nuc1J0emgwOVhqanF5UUFDYzN6dXM3ZUJCZFpfaFU5LXFqaTdJOTFJc3RBUzc5Y2VhMTZBaDB5dDV6R1lrVnFBM0NaNkFIYzRHUGpoSEZlSDVlSDlyRXZSMXVVTEtvbzZPdWlkQnJEV0J6allFUGY3LXFJMmtrUnY1OWhx?oc=5",
+    "source": "ColombiaOne.com",
+    "samenvatting": "Een patiënt in India heeft een robotische telegeneeskundige operatie ondergaan die op afstand werd uitgevoerd door chirurgen vanuit Colombia. Deze operatie illustreert de mogelijkheden van telechirurgie over grote afstanden, waarbij robotsystemen worden gebruikt om chirurgische ingrepen internationaal te faciliteren. Het is een mijlpaal in de toepassing van robotica in de gezondheidszorg over continenten heen.",
+    "summary": "A patient hospitalized in India underwent a robotic telesurgery procedure performed remotely by surgeons located in Colombia. This case highlights the capabilities of long-distance telesurgery, using robotic systems to facilitate surgical interventions across international borders. It represents a significant milestone in the application of robotics in healthcare across continents.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "e1d635100321a7cf",
+    "title": "Fellows Participate in First Teleoperated Humanoid Robot Surgery - The American College of Surgeons | ACS",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOM1lSWHNJNnpxVS1KeWtvOGl6WGlUdFNUend1NHFLSC11R25mR2R1bHFFdEFlRkZOazlXdDFIcS1ZV054TUhFV1dPMHlVNVViVXM5LWVZNWlvLS1hUi1ObW1CTU9WeUkwQU9YR0x4SzRZQzFISVZseFpObEJmdkxkZENPMERudEVNRVkxNnhDdl92SnZtYlFROWRKSEt2TzF3YXl1Y3RsM1dhRm9mY1JBTnh4cWJQTDZJRXk4TE1TU2JyZjNoWEdWX09DMDNhTnVhSDROcXJyTUNxcGVraVYzbzRRN1hEalIwUFRKMVRxVTFFempaaC1aVHRsaHFLd1luV3k5OVE5WUI?oc=5",
+    "source": "The American College of Surgeons | ACS",
+    "samenvatting": "Fellows van het American College of Surgeons hebben deelgenomen aan de eerste teleoperated humanoid robot-operatie. Bij deze mijlpaal werd een humanoïde robot op afstand bestuurd door chirurgen om een chirurgische ingreep uit te voeren. Dit markeert een belangrijke stap in de ontwikkeling van robotchirurgie op afstand.",
+    "summary": "Fellows of the American College of Surgeons participated in the first teleoperated humanoid robot surgery. In this milestone, a humanoid robot was remotely controlled by surgeons to perform a surgical procedure. This marks a significant step forward in the development of remote robotic surgery.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "9ce223e5c01b26b4",
+    "title": "Chinese surgical robot deepens global medical ties - China Daily",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CQ0w5dmZjdi1BdmRwRTIyWDBlbzJobDBWbHk0SzVNV2Jwa0R4WVAzWVVLWk1XV1VjYUI1Y1J3NFh2bTk3SmhObzM3MTJGaWpPUkFjVWxtWndOMVA1U29DcWdDVWFEM2tESnJGTEZPMGxHeWZ5N2xMT1liSVZ2dw?oc=5",
+    "source": "China Daily",
+    "samenvatting": "Een Chinees chirurgisch robotsysteem versterkt de internationale medische samenwerking door zijn aanwezigheid op de wereldmarkt te vergroten. Het systeem wordt ingezet bij minimaal invasieve chirurgische ingrepen en draagt bij aan de uitbreiding van de mondiale gezondheidszorgtechnologie. China positioneert zich hiermee als een belangrijke speler in de internationale markt voor chirurgische robots.",
+    "summary": "A Chinese surgical robot system is strengthening international medical cooperation by expanding its presence on the global market. The system is used in minimally invasive surgical procedures and contributes to the advancement of global healthcare technology. China is positioning itself as a significant player in the international surgical robotics market.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "b781cbdb28ddca3d",
+    "title": "Humanoid Robots Just Performed Live Surgery For The First Time Ever - forbes.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0N3SWJTZ1BqbzlibXVsR2RIOHAwa1F5bmJISkhqR2NzcTIzT2t2S2FmSkxJQjJTdm9JWVIwaWM3d05ieGpFYUxBbzdQMWlQVnFjNnBkbk12M2hhMlA4OFlUZ0I4UWVfMXk0bXIydGM4V1YwT1Zzb2FxNksxYjZYMlFkOVZZUjFjSmtpRWlKd3lDeThlRWFrVjFQaXFHZjBXVVl6MmVaUmFtV0o5QWthVXhxeExHNG8tUlp0ZTN3?oc=5",
+    "source": "forbes.com",
+    "samenvatting": "Voor het eerst in de geschiedenis hebben humanoïde robots een live chirurgische ingreep uitgevoerd. Dit markeert een belangrijke mijlpaal in de ontwikkeling van robotica in de gezondheidszorg, waarbij robots steeds meer complexe medische taken kunnen uitvoeren. De prestatie opent nieuwe mogelijkheden voor de toekomst van geautomatiseerde chirurgie.",
+    "summary": "For the first time in history, humanoid robots have performed live surgery on a patient. This marks a significant milestone in the development of robotics in healthcare, demonstrating that robots can execute complex medical procedures. The achievement opens new possibilities for the future of automated surgical interventions.",
+    "categorie": "chirurgie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "f935a525fe607e4c",
+    "title": "New exoskeleton teaches stroke patients to walk with therapist guidance - thebrighterside.news",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZVozRk1uVkJRNW0wMDNoQS1ETkI1YnVPZUY3aTBva2c5ckU1QzZhQXNsRVd6UVF4TWs4cGpsdWp3dDdXV1k0a0FuNFhrN0ZvTzVWbW1GQloyMVJiMmw5TlNNLTlLM25SRUJ6R0ZNM1VmbVpxRDNpSnR1ZWhLRzVwZ1ZHSEpyYWFLcXZKdFJfRVJEVTdHRnBNbkc4OWVSc0ZBd0JxeGdEQkRuWmdxZ0FB?oc=5",
+    "source": "thebrighterside.news",
+    "samenvatting": "Een nieuw exoskelet helpt patiënten die een beroerte hebben gehad om opnieuw te leren lopen, onder begeleiding van een fysiotherapeut. Het systeem combineert robotica met menselijke therapie om het revalidatieproces te ondersteunen en te versnellen. Dit biedt nieuwe mogelijkheden voor looptraining bij mensen met motorische beperkingen na een beroerte.",
+    "summary": "A new exoskeleton is designed to help stroke patients relearn how to walk, guided by a physical therapist. The system combines robotics with human therapy to support and accelerate the rehabilitation process. This offers new possibilities for gait training in people with motor impairments following a stroke.",
+    "categorie": "revalidatie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "70c7855e14054812",
+    "title": "Bionic Physical Therapy with the Robotic Exoskeleton Suit - avera.org",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHlseEJfYmJmU2NhOWEzWmo0WnBpV3pZMjVWd0NUeFE2aFpPdHctLWNSNFlYWlRHM2pueHFPTUViQUdpSmNoU1VPRldURHhVNlZpdTN3cEV6aWNNS2lBaTdUcDNhMDNWV0NVY3E5eVZjNzZGNVA1azktcWRyeXViMDBYQTNwNnJYQ0RqQlZRTGFaMGZFN2tGNF8xdjZHLW81SmFSTWw4bklscHBWYXA0SEE3NlpVZw?oc=5",
+    "source": "avera.org",
+    "samenvatting": "Avera Health biedt bionische fysiotherapie aan met behulp van een robotisch exoskelet pak. Dit systeem ondersteunt patiënten bij het herstel van bewegingsvermogen door robotgestuurde bewegingshulp te bieden tijdens revalidatie. Dergelijke exoskeletten worden ingezet bij patiënten met neurologische aandoeningen of motorische beperkingen.",
+    "summary": "Avera Health offers bionic physical therapy using a robotic exoskeleton suit. This system supports patients in recovering mobility by providing robot-assisted movement during rehabilitation sessions. Such exoskeletons are used for patients with neurological conditions or motor impairments.",
+    "categorie": "revalidatie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "4ddf952698d67c17",
+    "title": "Revolutionizing Rehab: Exoskeletons For Neuromuscular Therapy - forbes.com",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdXFEUHV1SFRQbTRIY2ptc2gzLU5GSnVfelh1aUNPQk41RVN3VWlialdEY1BTQXpwck5WNXFKWGtmQ1pSR1JWWjNWVkxsczNRbl9zNndhakNtODBxN3ZoOUpma2E1elNyZ2RsQ2FrRnMzTkI4b0IzRmh3QkdkSWEtUzVfV0VHNVZ3NVMzRGZkeEdidG9lVU94WnRWd3lBcGM1akNmUUJFOC05UVYybzdpU25MTGxOS0NMQVBKN2tqa2RQTXlfV2M5ZGNmQl9vMUpSNTQxTHZ1azN4SnEtTm9ELUtMc3dWVV9pQW9J?oc=5",
+    "source": "forbes.com",
+    "samenvatting": "Exoskeletten worden steeds vaker ingezet als hulpmiddel bij neuromotorische revalidatie, waarbij ze patiënten met bewegingsstoornissen ondersteunen bij het herstel van motorische functies. Deze robotische draagbare apparaten maken intensieve, herhaalde bewegingsoefeningen mogelijk die traditionele fysiotherapie kunnen aanvullen of verbeteren. De technologie biedt nieuwe mogelijkheden voor patiënten met aandoeningen zoals een beroerte, ruggenmergletsel of multiple sclerose.",
+    "summary": "Exoskeletons are increasingly being used as tools in neuromuscular rehabilitation, supporting patients with movement disorders in recovering motor functions. These robotic wearable devices enable intensive, repetitive movement exercises that can complement or enhance traditional physiotherapy. The technology offers new possibilities for patients with conditions such as stroke, spinal cord injury, or multiple sclerosis.",
+    "categorie": "revalidatie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "9c1208c494835274",
+    "title": "Engineers introduce rehab robot HARMONY - phys.org",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tcEI4VW9EeHRwallTM0xVN19Mczk5dUNaRzUxdDlIZzJ5VW9xTjZTUDJRb2JqcE9MY1NxVXY3OF92a2oydkVfTldHWW1CVDVDeFpFTTQ1M051VFRkemIyQTM2WnQ?oc=5",
+    "source": "phys.org",
+    "samenvatting": "Ingenieurs hebben de revalidatierobot HARMONY geïntroduceerd, een geavanceerd systeem ontworpen om patiënten te helpen bij het herstel van mobiliteit en motorische functies. De robot is bedoeld om therapeuten te ondersteunen bij revalidatiebehandelingen door gecontroleerde en herhaalde bewegingen mogelijk te maken. HARMONY biedt mogelijkheden voor gepersonaliseerde therapie en kan de voortgang van patiënten nauwkeurig monitoren.",
+    "summary": "Engineers have introduced HARMONY, an advanced rehabilitation robot designed to assist patients in recovering mobility and motor functions. The robot is intended to support therapists during rehabilitation treatments by enabling controlled and repetitive movements. HARMONY offers possibilities for personalized therapy and can accurately monitor patient progress.",
+    "categorie": "revalidatie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "3245072acfec4682",
+    "title": "Robot-assisted gait training for stroke patients: current state of the art and perspectives of robotics - dovepress.com",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOXzh3UFloYTBzdDhaTDBESUh3MHRlcnpscV9RbFYtU2pGay1DdXRONG85bEREN3hGNVptY1JfWmQtQ0JGTTdmTjg2NWZ6RVBDMjg1VjFfOWpWS1U0TExYTlRDaTl3TGVqNVA4Z3RMRzM0c2NrOG1XV2VfR2pzNWl1U0xBbS1OSGxTZzVveDNGS0pHYTgyYThUM3VDZVRUVnV6VU1aSE5CNmxCcU5wR1cyNTVuemp5VEJROGNycWMwUXZtTnE5dFQydHMzWQ?oc=5",
+    "source": "dovepress.com",
+    "samenvatting": "Dit artikel bespreekt de huidige stand van zaken op het gebied van robot-ondersteunde looptraining voor patiënten na een beroerte. Het geeft een overzicht van de beschikbare revalidatierobots en hun effectiviteit bij het herstel van loopvaardigheid. Daarnaast worden toekomstige perspectieven en ontwikkelingen binnen de robotica voor revalidatie besproken.",
+    "summary": "This article reviews the current state of the art in robot-assisted gait training for stroke patients. It provides an overview of available rehabilitation robots and their effectiveness in restoring walking ability. Future perspectives and developments in robotics for rehabilitation are also discussed.",
+    "categorie": "revalidatie",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "94b607bb59a44236",
+    "title": "DLSU’s robotic medical aid gets Singapore patent - newsinfo.inquirer.net",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLUVhUEZweFFkOVZ4UllUSlBxSndUcVVTREx4ekx0VDZ1bkQyVUpoYmtkRV8yYWxxQy1XVlA2ODZ0Nm9OOUhJd1R3OVBaX3VlUTh2NGs4Z2J5UFZfSGlTSkptdS05SmdMVmFQLVJWMTJUZXllN1NhTUxrMlNFd0dyMGpmUjFldk40MGRaQ2hn0gGTAUFVX3lxTE04dEcxZ2xJWW9uYWxtT05YemVPR1NoTXJpYm1CTmoxTmo4WDBKTkdneTVXbWdSQ1VXLUJUSGthOE5Yd3V0dUdmODBYT0xpSS1tVnhsY2lGMVFPQmM1U2dJTE1mTktTOHNrTEF5RHZLQ04yT0RtUW4zcnpldF9qYXJnclRMV01JX2RrdGNsdDNRT3BrYw?oc=5",
+    "source": "newsinfo.inquirer.net",
+    "samenvatting": "De De La Salle University (DLSU) heeft een Singaporees patent ontvangen voor een robotisch medisch hulpmiddel. Dit toont aan dat de universiteit innovatieve roboticatechnologie ontwikkelt voor medische toepassingen. Het patent bevestigt de internationale erkenning van deze Filipijnse robotica-innovatie in de gezondheidszorg.",
+    "summary": "De La Salle University (DLSU) has been awarded a Singapore patent for a robotic medical aid device. This demonstrates the university's development of innovative robotics technology for medical applications. The patent reflects international recognition of this Filipino healthcare robotics innovation.",
+    "categorie": "overig",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "6e6641686c59b5ef",
+    "title": "NVIDIA and GE HealthCare Collaborate to Advance the Development of Autonomous Diagnostic Imaging With Physical AI - nvidianews.nvidia.com",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbi03T3BaMmJTM3JNbEMtX3pBTGZyRlpaSXlVQ19QWm1yOC1tOEJtR01JOXdlLWRnUjB4YWxmQ3pLVzN4bmdoeGhZWkVFcklvbWRfeUczczl3WVNvVFNCMzlST3N5YzFmWVZmcjlCdlc2NUh1TWJ2cjZlSUh4ZlRBMS1SUFpTeVoyX3FlRHVuWGdudl94N2lmSkNZYmZRNUZNNkxVUjZKSkNFbU52WEFCZjJtLUl4cnBwMjF5Wnlwek9CTGRIQ1BjNktwY01USmtXeEYyWUpMa0RwNWlaZF95TmtB?oc=5",
+    "source": "nvidianews.nvidia.com",
+    "samenvatting": "NVIDIA en GE HealthCare werken samen om autonome diagnostische beeldvorming te ontwikkelen met behulp van Physical AI. Deze samenwerking richt zich op het inzetten van AI-technologie om medische beeldvormingsprocessen te automatiseren en te verbeteren. Het doel is om diagnostische workflows efficiënter en nauwkeuriger te maken door middel van geavanceerde AI-systemen.",
+    "summary": "NVIDIA and GE HealthCare are collaborating to advance the development of autonomous diagnostic imaging using Physical AI technology. The partnership aims to automate and enhance medical imaging processes through advanced AI systems. The goal is to make diagnostic workflows more efficient and accurate by leveraging cutting-edge AI capabilities.",
+    "categorie": "diagnostiek",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "a856e9dcd26b21fb",
+    "title": "How AI, robotics and automation will shape future diagnostics - weforum.org",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZTRmanhlZ0tGYXZETmpfbURKMW50N3A3X3RhcFlvZkN2MHJDZGI5TzVpcFNEdEVWbnVzUUJHbTR6dkkxT0xCaFVScW5TV1NQMXNDWnpJVXRJYnBwRUtBVmhEaW8yN3lwY1ZUM01MQUdZX2tkaVViT1p4VkhqZkFLNGlZbm1iNC1pNVhjN0MtaGFHY3Q1LWxEeEktelptUU42MEtiemVJbTk3QjVRRVBNWS1QaGJ3NU4z?oc=5",
+    "source": "weforum.org",
+    "samenvatting": "AI, robotica en automatisering zullen een grote rol spelen in de toekomst van diagnostiek in de gezondheidszorg. Deze technologieën kunnen diagnoses sneller en nauwkeuriger maken, waardoor zorgprofessionals beter ondersteund worden. Het World Economic Forum bespreekt hoe deze ontwikkelingen de medische diagnostiek fundamenteel zullen veranderen.",
+    "summary": "AI, robotics, and automation are set to play a significant role in the future of healthcare diagnostics. These technologies can make diagnoses faster and more accurate, better supporting healthcare professionals in their work. The World Economic Forum discusses how these developments will fundamentally transform medical diagnostics.",
+    "categorie": "diagnostiek",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "ee94401bd2aca842",
+    "title": "6 ways that robotics are transforming healthcare - weforum.org",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWkxuMG9hcFVmU3FjMU5pbkVXMFFwaU5obkdfQnd2VzREckQ3QWM4WVBtaTBHemJNaFRMbjl6NUwwWGVudDc3eFdMZzg2Q2xDZGJ1cjNCSm1WUkhOR3B0aWJEbW5lNjhXeGdhYW13RVQyMHkzUGNpYmdwNWRMd29iTg?oc=5",
+    "source": "weforum.org",
+    "samenvatting": "Een artikel van het World Economic Forum beschrijft zes manieren waarop robotica de gezondheidszorg transformeert. Dit omvat toepassingen zoals chirurgische robots, revalidatierobots, logistieke ondersteuning in ziekenhuizen en diagnostische systemen. De ontwikkelingen laten zien hoe robotica steeds breder wordt ingezet binnen de medische sector.",
+    "summary": "An article from the World Economic Forum outlines six ways in which robotics are transforming healthcare. Applications discussed include surgical robots, rehabilitation robots, hospital logistics, and diagnostic systems. The piece highlights the growing breadth of robotic technology across various areas of the medical sector.",
+    "categorie": "overig",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "68c7dcee864cd74d",
+    "title": "AI-powered robotics system will increase access to diagnostic imaging, improving patient care - uwaterloo.ca",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaS1WbGlLcXV1RGJCQVZnSW9oOVNWV3JmUG1NWUc2OVhTdU5GN3hWd0dLQ2FwLTJ4a3k3OGdUUnlDcFo0Rkhhb2dfcFVtejl4MTRTaDR5TGd1QU5XcjlxRXNXRjdwdkg1YVdlUlRTeXlVSVlWNktZeDBURGhuNC1rZmZwQ2lFU0FoU1dJVjhGaS03a3JY?oc=5",
+    "source": "uwaterloo.ca",
+    "samenvatting": "Onderzoekers aan de Universiteit van Waterloo ontwikkelen een AI-aangedreven roboticasysteem dat de toegang tot diagnostische beeldvorming moet verbeteren. Het systeem combineert kunstmatige intelligentie met robotica om patiëntenzorg te optimaliseren en diagnostische mogelijkheden breder beschikbaar te maken. Dit initiatief is bedoeld om de gezondheidszorg toegankelijker te maken, met name voor patiënten die momenteel beperkte toegang hebben tot diagnostische diensten.",
+    "summary": "Researchers at the University of Waterloo are developing an AI-powered robotics system designed to increase access to diagnostic imaging. The system integrates artificial intelligence with robotics to optimize patient care and make diagnostic capabilities more widely available. This initiative aims to make healthcare more accessible, particularly for patients who currently have limited access to diagnostic services.",
+    "categorie": "diagnostiek",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "1913e4131726d548",
+    "title": "The Ultimate Guide to AI and Robotics in Healthcare: From Diagnosis to Autonomous Intervention - azorobotics.com",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5wVndWNHk1X0VFZ0c1YUZuMzF1dzlKTFp2blBfTDBsbHRFOW16RHZOUkx3bGtJeWE0bThKNmFiNV94Z2R2Rm9BQktYVEwyMm8xV2JSX0dyakUzTU0wcVVrRnhYWFo?oc=5",
+    "source": "azorobotics.com",
+    "samenvatting": "Dit artikel biedt een uitgebreide gids over de toepassing van AI en robotica in de gezondheidszorg, van diagnose tot autonome interventie. Het behandelt verschillende domeinen zoals chirurgische robots, revalidatierobots, zorgrobot en diagnostische AI-systemen. De gids geeft een overzicht van de huidige stand van zaken en toekomstige ontwikkelingen in deze snel groeiende sector.",
+    "summary": "This article provides a comprehensive guide on the application of AI and robotics in healthcare, ranging from diagnosis to autonomous intervention. It covers various domains such as surgical robots, rehabilitation robots, care robots, and diagnostic AI systems. The guide offers an overview of the current state of affairs and future developments in this rapidly growing sector.",
+    "categorie": "overig",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "b9173e56b1b34458",
+    "title": "Robotics in Healthcare: An Introduction - azorobotics.com",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xVHdlZGwwM25mcklLWFFKZjhFTUF0UDJHLXVvbGlrNnFlUjFGc05MNVVMUkU3STl4X3k3WmJRZlYxVlExNUlQZEZsZ09mb1NMUEdZXzRVU3hjY1VPZjZia3BBWk0?oc=5",
+    "source": "azorobotics.com",
+    "samenvatting": "Dit artikel geeft een introductie over de rol van robotica in de gezondheidszorg. Het behandelt verschillende toepassingen, zoals chirurgische robots, revalidatierobots en zorgrobotica. Robotica biedt mogelijkheden om de precisie, efficiëntie en kwaliteit van zorg te verbeteren.",
+    "summary": "This article provides an introduction to the role of robotics in healthcare. It covers various applications, including surgical robots, rehabilitation robots, and care robotics. Robotics offers opportunities to improve precision, efficiency, and the overall quality of care.",
+    "categorie": "overig",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "6be3ca9cb4eea3fc",
+    "title": "Health Care Robots: Staffing Strategy of the Future - childrenshospitals.org",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVl9CZ3JGUFM2QTN3S2NpdG9NY2dSLUdDc2UwYU9TLUJVSkszOTM5Ti1uX2FUM1gzX0NINU5EQVNFOGdsQ2prZVc5UGdsQlAzSVpGM2lOOXFfRVdpcTcyX0g4c1poYjhJTEpnbFhVWjBuRHlyMVhwY1lMSk85d09UemdPd2g5a2FkWXdVT21iNktSeTBQczFqbU5MaVUxazBfbXEyeGJseW9FQi1YbkRmSHVUbnBvNUhqS1kzUE1pNk55UQ?oc=5",
+    "source": "childrenshospitals.org",
+    "samenvatting": "Ziekenhuizen voor kinderen onderzoeken steeds vaker de inzet van robots als onderdeel van hun personeelsstrategie. Robots kunnen zorgtaken ondersteunen en helpen personeelstekorten in de gezondheidszorg op te vangen. Dit artikel van childrenshospitals.org bespreekt hoe robotica een rol kan spelen in de toekomst van zorgpersoneel.",
+    "summary": "Children's hospitals are increasingly exploring the use of robots as part of their staffing strategy. Robots can support care tasks and help address healthcare staffing shortages. This article from childrenshospitals.org discusses how robotics may play a role in the future of healthcare staffing.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "ef189156a70d1b1c",
+    "title": "Meet Garmi, a robot nurse and companion for Germany’s elderly population - popsci.com",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SYTdYUW1EMU00cG4xajZsRFY0eFY1WWtqVXNlUndoZ1VOcXduTkJmUndTOWJJTlBBUkczaHRKV2pIXzgzZVk3bnZnclByeXl2c2ZNNTdleTBYNUd3MF9rTjFQbG1tYmhyYVpmdEx6aw?oc=5",
+    "source": "popsci.com",
+    "samenvatting": "Garmi is een robot ontwikkeld in Duitsland die zowel als verpleegkundige assistent als gezelschapsrobot voor ouderen kan fungeren. De robot is ontworpen om te helpen bij de groeiende vraag naar ouderenzorg in Duitsland, gezien de vergrijzing van de bevolking. Garmi kan medische taken uitvoeren en tegelijkertijd sociale interactie bieden aan ouderen.",
+    "summary": "Garmi is a robot developed in Germany that can function both as a nursing assistant and as a companion for elderly people. The robot is designed to help address the growing demand for elderly care in Germany due to an aging population. Garmi is capable of performing medical tasks while also providing social interaction for seniors.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "d4ee9cdb2d2a79ef",
+    "title": "Applications of Artificial Intelligence in Elderly Care Robotics - emerj.com",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vZVppamVIYTZaVktIQmw4R0VJNFltcnNwOGpLa21RTDQtYWpGT21PVm9iMEpfMzFTVHNycnd4bUFjUHFudzVFdXNROHVVSUJvTG9BNFJKM1puaC1jYjRDV2ktZHJkQ3NfdUV5UnNMbw?oc=5",
+    "source": "emerj.com",
+    "samenvatting": "Dit artikel bespreekt de toepassingen van kunstmatige intelligentie in zorgrobots voor ouderen. AI-gestuurde robots kunnen ouderen ondersteunen bij dagelijkse taken, monitoren van gezondheid en het bieden van gezelschap. Deze technologieën spelen een steeds grotere rol in de ouderenzorg om de kwaliteit van leven te verbeteren.",
+    "summary": "This article discusses the applications of artificial intelligence in elderly care robotics. AI-powered robots can assist elderly individuals with daily tasks, health monitoring, and providing companionship. These technologies are playing an increasingly important role in elderly care to improve quality of life.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "cfb9906cb3ba8bdc",
+    "title": "Robots Boost Care Quality and Worker Retention in Nursing Homes - azorobotics.com",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zeTA1R2toY0R0aDU4ZmlaOEVFTWNRUXQ2S01ReVJLTHpGbUdTeG94SzhLSURQSllwOXZyS0xjeDVCeThBNDJ2aTE5TDN2YzR3NUpZSGpHS3IwaDE2RUI0?oc=5",
+    "source": "azorobotics.com",
+    "samenvatting": "Robots in verpleeghuizen dragen bij aan een betere kwaliteit van zorg en helpen bij het behouden van medewerkers. De inzet van zorgrobotica verlicht de werkdruk van zorgverleners, waardoor zij zich kunnen richten op meer persoonlijke taken. Dit toont aan dat robotica een positieve rol kan spelen in de ouderenzorg.",
+    "summary": "Robots in nursing homes contribute to improved care quality and help retain healthcare workers. The use of care robotics reduces the workload of caregivers, allowing them to focus on more personal tasks. This demonstrates that robotics can play a positive role in elderly care.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "bcf7a25dd14e458f",
+    "title": "Robotic nursing assistant can take patients’ vital signs, freeing up nurses for other tasks - straitstimes.com",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOd2xLOUFMc3l5cXZQQjVROXZmakM4Rk85d3pZaDlyVmQzNDkxTDRQSEJodWh2WTBrQTRnQXJMX3ZsTkRiNWdKWmlNUlB0d0lUczNnTmhuQXFEMmxsOE5NZ2JxS0t1Zi1iUHVPdnlvZk8xTEZqNHlPc2tydEZyRUcwOExjU1NfOWdOa19fbGtCTVZUWVRvU3FrWnozZDdxeWlpRjVCN2FyaENic2gzQUJQUDFyQzU5VVNobC1OZlFDVVIyWG16Mk96UlYyTzRwLU1k?oc=5",
+    "source": "straitstimes.com",
+    "samenvatting": "Een robotische verpleegassistent is in staat om vitale functies van patiënten te meten, zoals bloeddruk, hartslag en temperatuur. Dit stelt verpleegkundigen in staat om zich te concentreren op andere zorgtaken die meer menselijke aandacht vereisen. De robot draagt bij aan efficiëntere zorgverlening in ziekenhuizen en zorginstellingen.",
+    "summary": "A robotic nursing assistant is capable of measuring patients' vital signs, such as blood pressure, heart rate, and temperature. This allows nurses to focus on other care tasks that require more human attention. The robot contributes to more efficient care delivery in hospitals and healthcare facilities.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "cc70053abe8dcb72",
+    "title": "AI robots may hold key to nursing Japan’s ageing population - straitstimes.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXFyLVpPTjhzaDJsdnc1VmpmSllVVExQclZGdnZBb3VaSVd1dU9rdjJ3ajZwQlQtbzRlZ3RkTl9mOWRnN0R4T05lNnFROVRXYWQwbHF4VVJUSDRDZHdSdVFocUxTVVFhc2NyWDB1Mm1wZElyemt1cGtyX0xpOERNQW1SZjBvWnJpVzJZdVlrQmJHaS16c0VfbU1zZDZybjRFUnV0Vg?oc=5",
+    "source": "straitstimes.com",
+    "samenvatting": "AI-robots worden in Japan ingezet als mogelijke oplossing voor de vergrijzingsproblematiek en het tekort aan verpleegkundigen. Deze robots kunnen ouderen ondersteunen bij dagelijkse taken en zorg verlenen in verpleeghuizen en thuiszorgsituaties. Japan loopt wereldwijd voorop in de ontwikkeling en toepassing van zorgrobotica voor de ouderenzorg.",
+    "summary": "AI-powered robots are being explored in Japan as a potential solution to the challenges posed by an ageing population and nursing shortages. These robots can assist elderly individuals with daily tasks and provide care in nursing homes and home care settings. Japan is a global leader in the development and deployment of care robots for elderly care.",
+    "categorie": "verpleging-ouderenzorg",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "2a090c708ad5b2ea",
+    "title": "Hospital Logistics Robot Market Size, Share | Report [2035] - Market Research Future",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcEMxaEJHVEJvZWpObk8zY2JCR2hIS3Nva21NcmFhWm5kSjNvZDJMLUJhOFdPcE51bEFkMHN3anBhZHNUZWVzVkhkUHJWYjJGa1k1LUdLMUNQQ1ZFLVRNcUlmRkRTSzBtZkVNZGtLaVhnUXh2YnNzbU1jOU9WdlRtME5GZllfN0J5c3c?oc=5",
+    "source": "Market Research Future",
+    "samenvatting": "Een marktonderzoeksrapport voorspelt de ontwikkeling van de markt voor logistieke robots in ziekenhuizen tot 2035. Deze robots worden ingezet voor taken zoals het transporteren van medicijnen, voedsel en medische benodigdheden binnen ziekenhuizen. De markt toont significante groei naarmate zorginstellingen steeds vaker automatisering inzetten om de efficiëntie te verbeteren.",
+    "summary": "A market research report forecasts the development of the hospital logistics robot market through 2035. These robots are deployed for tasks such as transporting medications, food, and medical supplies within hospitals. The market shows significant growth as healthcare institutions increasingly adopt automation to improve operational efficiency.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "77726d88efbc00d1",
+    "title": "ABB demonstrates concept of mobile laboratory robot for Hospital of the Future - new.abb.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcVNWUTBOMGI4M0Vidl83VTdxOVF0VlBIMVh4MnZoZExnOF9iZkI4QS1DRlJtdnVCSUEzU01qb2tVTDJTd1Yzd2xGSzlIQVRrX2hDc3ZIaXJCT1ZJSGdUQnNadTdYTzdxQWh1WHBZRmdQZXc2TnpBa3JFU3dZQWZydjlsbnE3amlHaHpfd3VzS003eE8wVUs1aEZiM1A1N2hYX1pVZC0wcmx5aW9peVN6eVgwc3NhMWc?oc=5",
+    "source": "new.abb.com",
+    "samenvatting": "ABB heeft een conceptversie gepresenteerd van een mobiele laboratoriumrobot, ontwikkeld voor het ziekenhuis van de toekomst. De robot is ontworpen om laboratoriumtaken autonoom uit te voeren en bij te dragen aan efficiëntere ziekenhuislogistiek. Dit concept illustreert hoe robotica ingezet kan worden om zorgprocessen te automatiseren en personeel te ondersteunen.",
+    "summary": "ABB has unveiled a concept of a mobile laboratory robot designed for the Hospital of the Future. The robot is intended to autonomously perform laboratory tasks and contribute to more efficient hospital logistics. This concept demonstrates how robotics can be used to automate healthcare processes and support medical staff.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "76ff44d476c4da7f",
+    "title": "Autonomous Mobile Robot (AMR) Market Outlook 2026-2035 - businessresearchinsights.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVGRHM2RCUi14VWNtRHZ6N3VyQ3lIdlF1aXF6QThoNFpjUUZfMnlCdl9fOTc5dTg5T0k3SU5vWnkxeDZXY1dtemRKUkpPNmNZNlF5T1B6U0E0dlp0NGxSSi1CTEhScU9qdXlCM0ZtUlpJRVFoZjFKcU5scUd5ZDh2c3ZsNGhPTVo4dllGaGp3S2F3bXlFcWpudVhGQUlHdw?oc=5",
+    "source": "businessresearchinsights.com",
+    "samenvatting": "Het rapport over de Autonomous Mobile Robot (AMR)-markt geeft een vooruitblik op de periode 2026-2035 en belicht de groeiende inzet van mobiele robots in diverse sectoren, waaronder ziekenhuislogistiek. AMR's worden steeds vaker gebruikt in zorginstellingen voor het transporteren van medicijnen, materialen en andere goederen binnen ziekenhuizen. De marktanalyse biedt inzicht in trends, groeifactoren en toekomstige ontwikkelingen op dit gebied.",
+    "summary": "The report on the Autonomous Mobile Robot (AMR) market provides an outlook for the period 2026-2035, highlighting the growing deployment of mobile robots in various sectors, including hospital logistics. AMRs are increasingly being used in healthcare facilities to transport medications, materials, and other goods within hospitals. The market analysis offers insights into trends, growth drivers, and future developments in this field.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "53481e8caa0a7499",
+    "title": "ABB unveils solutions to accelerate intelligent manufacturing and healthcare at China International Industry Fair - new.abb.com",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcnJJbG9JN2t5c21SNU5lUk11a1pnUXFtWDR4MDB2YnY5N0xzZk1ESkhxZ3Qxb0xmdGQ1U3ZJWkV6ekVqMEpWU0UwdXRwY3FSMzJkbTMwY0t0d3BzR2RVY25LclhLRTQ1SEtSdWJmRzBSOERLOFowbzItUnBtRmEwNTFlUno3R0lUa2lGcnI0NTNHR05QOExvTS1TbnBqZVZIRFQ3NG1jQWV4MXg2Rll3b1d6a1ZHSE1YSzVJRFUyNE9VQnVULXdjOTZSY1Y2ZVgyVVNjdXdlRmNCZDluai1Cd2huRVRyQQ?oc=5",
+    "source": "new.abb.com",
+    "samenvatting": "ABB heeft nieuwe oplossingen gepresenteerd op de China International Industry Fair, gericht op het versnellen van intelligente productie en gezondheidszorg. Het bedrijf toonde robotica- en automatiseringstechnologieën die kunnen worden ingezet in ziekenhuislogistiek en zorgtoepassingen. ABB richt zich hiermee op de groeiende vraag naar slimme automatisering in de gezondheidssector in China.",
+    "summary": "ABB showcased new solutions at the China International Industry Fair aimed at accelerating intelligent manufacturing and healthcare applications. The company presented robotics and automation technologies applicable to hospital logistics and healthcare environments. ABB is targeting the growing demand for smart automation in China's healthcare sector.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "c404b700c8dd6ab5",
+    "title": "JD Logistics deploys autonomous delivery robot in Wuhan - cittimagazine.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZElIYTdMRFlBS1dQd2ZHWFkxdkZSRmcyNkVVRU9fYzlTQlMwVjJBeHpSSlFWRElQVjNnVTF6alRlNmMyMlV0Tmo5VzV0dXhDSUhoaHRldzF3QmhTX2d4TFJvdm5iblMzR0ZzRUc4czI2blF0ay12UU9FRC1pbUY1OWIwOTJrZ2pPUEJPOVF6SnY4cndXa1BBbUhFellqcTZp?oc=5",
+    "source": "cittimagazine.co.uk",
+    "samenvatting": "JD Logistics heeft een autonome bezorgrobot ingezet in Wuhan, China. De robot is ontworpen om goederen zelfstandig te bezorgen, wat mogelijk ook toepassingen heeft in ziekenhuislogistiek voor het transport van medicijnen en materialen. Dit past binnen de bredere trend van autonome robots die ingezet worden voor efficiënte leveringen in stedelijke omgevingen.",
+    "summary": "JD Logistics has deployed an autonomous delivery robot in Wuhan, China. The robot is designed to independently deliver goods, which has potential applications in hospital logistics for transporting medicines and medical supplies. This fits within the broader trend of autonomous robots being used for efficient deliveries in urban environments.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
+  },
+  {
+    "id": "e9410b5baf145246",
+    "title": "Hospitals, frontliners need ‘Lisa’ these days - newsinfo.inquirer.net",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTGdXbFpFS2FtbFFWa3VPcDZCempQNlk3a2JBR211Vzh0ZS1qVzVtcTFmQzJranV2TlBpR21SbGRVRUNUQUJYZWV3MTR1UV9BUHdUekVsNTVvVlUzMnQxWXRlalczUTI1QTVib3llTzJGRTYtSWx0SGFRcXppZHVYODhpcVNVVnN60gGOAUFVX3lxTE94VExSd0t6bEFfUnpFRTJ1aWVvLVNubkxBdE1VUGZQTXJmTjdSemZTVzduU2txOUhPX0Z2NzhXczM2YUdSWWJJaUlka3g2NHNhN1hTb1ZfZlp3dkJMektHbVRSUmh1YlVDbjFHdXVlZ2FyRFBJSXM5MnJPeHVaSjFaOU9zcWowbnR3SHduaEE?oc=5",
+    "source": "newsinfo.inquirer.net",
+    "samenvatting": "Lisa is een robot die ingezet wordt in ziekenhuizen om zorgpersoneel te ondersteunen tijdens de COVID-19-pandemie. De robot kan taken overnemen zoals het bezorgen van medicijnen, voedsel en andere benodigdheden, waardoor frontlijnwerkers minder worden blootgesteld aan infectierisico's. Dit soort logistieke robots helpt ziekenhuizen efficiënter te werken en personeel te beschermen.",
+    "summary": "Lisa is a robot being deployed in hospitals to support healthcare workers during the COVID-19 pandemic. The robot can take over tasks such as delivering medicines, food, and other supplies, reducing the exposure of frontline workers to infection risks. Such logistics robots help hospitals operate more efficiently while protecting staff.",
+    "categorie": "logistiek-ziekenhuis",
+    "date_added": "2026-07-30"
   }
 ]
