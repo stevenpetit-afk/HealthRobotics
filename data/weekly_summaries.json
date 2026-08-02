@@ -224,5 +224,43 @@
       }
     ],
     "article_count": 71
+  },
+  {
+    "week_start": "2026-07-27",
+    "week_end": "2026-08-02",
+    "summary": "Het was een bijzonder drukke week in de wereld van robotica in de gezondheidszorg, met doorbraken op het gebied van chirurgie, revalidatie, ziekenhuislogistiek en zorgondersteuning die de sector verder transformeren.\n\nDe grootste nieuwswaarde in de chirurgie was ongetwijfeld de FDA-goedkeuring voor Johnson & Johnson's Ottava-systeem, waarmee voor het eerst in twee decennia een serieuze concurrent van het da Vinci-systeem van Intuitive Surgical een vergelijkbare clearance heeft verkregen. Dit doorbreekt een langdurig monopolie en kan leiden tot meer concurrentie, innovatie en mogelijk lagere kosten in de markt voor chirurgische robots. Tegelijkertijd ontving Medtronic FDA-goedkeuring voor zijn Hugo-systeem voor urologische ingrepen, wat de concurrentiedruk op de gevestigde marktleider verder vergroot. Opvallend was ook de eerste succesvolle inzet van humanoïde robots bij een live chirurgische ingreep, een historische mijlpaal die nieuwe perspectieven opent voor volledig geautomatiseerde chirurgie. Eveneens opmerkelijk was een transnationale telechirurgie waarbij een patiënt in India op afstand werd geopereerd door chirurgen vanuit Colombia, wat de grenzen van robotica in de gezondheidszorg letterlijk verlegt. Verder werden wereldwijd tal van ziekenhuizen — van Noord-Ierland tot India en de Verenigde Staten — uitgebreid met nieuwe robotchirurgische systemen, wat de brede en versnellende adoptie van deze technologie bevestigt.\n\nOp het gebied van revalidatie was er eveneens veel beweging. Wandercraft's Atalante X-exoskelet ontving goedkeuring in Ecuador, waarmee de Latijns-Amerikaanse markt wordt opengesteld. Russische onderzoekers presenteerden een adaptief algoritme dat schokkerige bewegingen van revalidatierobots elimineert en gewrichten beter beschermt, een concrete verbetering van de veiligheid van bestaande systemen. Meerdere publicaties bevestigden de toenemende wetenschappelijke onderbouwing voor robotondersteunde revalidatie bij beroertepatiënten.\n\nIn de ziekenhuislogistiek tekent zich een duidelijke marktgroei af: rapporten voorspellen dat de markt voor logistieke robots in ziekenhuizen de zevenduizend miljoen dollar gaat overschrijden. Praktisch zichtbaar werd dit in pilots zoals BayCare's experiment met patiënttransportrobots en de introductie van NHS-drones en robothonden voor monstertransport. Swisslog Healthcare en Diligent Robotics kondigden een samenwerking aan om ziekenhuislogistiek verder te automatiseren.\n\nIn de verpleging en ouderenzorg groeide de aandacht voor zorgrobotica als antwoord op vergrijzing en personeelstekorten, met nieuwe ontwikkelingen rondom robots zoals Grace en Garmi, en een NIH-subsidie voor onderzoek naar AI-robots in de dementiezorg.",
+    "top5": [
+      {
+        "title": "J&J Ottava FDA Clearance Breaks da Vinci’s Two-Decade Soft-Tissue Monopoly - Tech Times",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUnhSaDk0MlRKRVBMb2hKWGlILXhkN2RJWEtQSmFaQnhmSDNGbElTWHRrUGI2Z0tJMkVJUkJ0TUxKbWRwUWotUmFVc2pTSER0TlpCRHJtYTNuMWRUTUxLTDlGZVh2bFJuZ0RMMERsZGJFLUpaVm9LVXNNUWRNU283a1c3d2M2OUpYX01rQjJhajBHOVhZTGhtSUxRV0E2NHV5Ynh2TTJ5dFo5NTE5YXptM2lBOXFTaDU4ZE96ZjVZbUtHSFVmc2c?oc=5",
+        "source": "Tech Times",
+        "reden": "Eerste serieuze FDA-concurrent voor da Vinci in twintig jaar; marktdoorbrekend."
+      },
+      {
+        "title": "Humanoid Robots Just Performed Live Surgery For The First Time Ever - forbes.com",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0N3SWJTZ1BqbzlibXVsR2RIOHAwa1F5bmJISkhqR2NzcTIzT2t2S2FmSkxJQjJTdm9JWVIwaWM3d05ieGpFYUxBbzdQMWlQVnFjNnBkbk12M2hhMlA4OFlUZ0I4UWVfMXk0bXIydGM4V1YwT1Zzb2FxNksxYjZYMlFkOVZZUjFjSmtpRWlKd3lDeThlRWFrVjFQaXFHZjBXVVl6MmVaUmFtV0o5QWthVXhxeExHNG8tUlp0ZTN3?oc=5",
+        "source": "forbes.com",
+        "reden": "Historische primeur: humanoïde robots voeren voor het eerst live chirurgie uit."
+      },
+      {
+        "title": "Medtronic announces FDA clearance of Hugo™ robotic-assisted surgery system for urologic surgical procedures - news.medtronic.com",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWWszd0RvYjhGT2RuNDhKNU1LNGpXOW0yNTY1YjhPN3NacXl0VE1WaUJBMVR0YXBvYk4wU0NPYlg4RXhPV0xjaUlMbkNWQkhxRHpaOVBreVFYMnV0YVEwRXZuenMyQzFxZjBBQmNRZ3ROTm9ZeldZUC1fTE5XRkJCQmFrODZUOXkzc183WmI3NGVNeXZNaWpMYTYwbnl4c2VkaTQ0clJSWmhSYW91b3NDbkQ2WV9uRWhSaG11RFpvUEM2TjVEQVNyR2hhbERpRWc0eTROaFJNUXBCQ1JFRl9Ycg?oc=5",
+        "source": "news.medtronic.com",
+        "reden": "FDA-goedkeuring Hugo vergroot concurrentie op markt voor chirurgische robots."
+      },
+      {
+        "title": "Patient Hospitalized in India Undergoes Robotic Telesurgery from Colombia - ColombiaOne.com",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV2cwd1Nuc1J0emgwOVhqanF5UUFDYzN6dXM3ZUJCZFpfaFU5LXFqaTdJOTFJc3RBUzc5Y2VhMTZBaDB5dDV6R1lrVnFBM0NaNkFIYzRHUGpoSEZlSDVlSDlyRXZSMXVVTEtvbzZPdWlkQnJEV0J6allFUGY3LXFJMmtrUnY1OWhx?oc=5",
+        "source": "ColombiaOne.com",
+        "reden": "Intercontinentale telechirurgie India-Colombia toont revolutionair potentieel van robotica."
+      },
+      {
+        "title": "Russian Researchers Fix Rehab Robot Jerks: Adaptive Algorithm Protects Joints - Tech Times",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUdIX2h3Z0VUMktDQVFfVnRZZUh5YU1tMWxuRFNzYnp5NS0zSkdMcm5VMHhzOERPQWtKY29ZSmhTbDJWQ1VqZXpiaFFKV0M3OWV0NjdZb0FqdUNGTnprVktNY19sSEtlTFJDNUotdTlzNkN1LUVfWXJUUzJwQWRfUVl5bjVLbkJrcEQ3eHlhcXRsTUNwVXVYSXdGLXdYOUhxMUVaOTU5QW11bHV2bmt6NFFPUkJsRFNDYjVBRkhrM0xPaXlTczNNSEYwQQ?oc=5",
+        "source": "Tech Times",
+        "reden": "Adaptief algoritme maakt revalidatierobots veiliger door gewrichtsbescherming in real-time."
+      }
+    ],
+    "article_count": 119
   }
 ]
