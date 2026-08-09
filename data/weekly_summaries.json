@@ -262,5 +262,43 @@
       }
     ],
     "article_count": 119
+  },
+  {
+    "week_start": "2026-08-03",
+    "week_end": "2026-08-09",
+    "summary": "Het was een drukke week voor robotica in de gezondheidszorg, met opvallende ontwikkelingen op vrijwel alle fronten: van chirurgische mijlpalen en nieuwe regelgeving tot doorbraken in revalidatie en de opmars van zorgrobotica in verpleeghuizen.\n\nIn de chirurgie domineerden mijlpalen en uitbreidingen het nieuws. Medtronic ontving FDA-goedkeuring voor het Hugo™-systeem voor urologische ingrepen, wat de concurrentie met marktleider Intuitive Surgical verder aanscherpt. Johnson & Johnson presenteerde zijn Ottava-robot als serieuze uitdager in de operatiekamer. MedStar Georgetown realiseerde in één week drie primeurs op het gebied van single-port robotchirurgie, een techniek waarbij slechts één kleine incisie nodig is. Daarnaast openden meerdere ziekenhuizen in de Verenigde Staten nieuwe robotchirurgie-instituten, terwijl India, Vietnam en Zuid-Korea eveneens significante mijlpalen behaalden. In het Verenigd Koninkrijk worden toekomstige chirurgen al actief opgeleid met robotassistentie, mede gestimuleerd door overheidsbeleid. Ook opmerkelijk: het Nizam's Institute of Medical Sciences in India voerde meer dan 1.000 robotoperaties uit, waarvan ruim 90 procent gratis voor patiënten, wat de toegankelijkheidsvraag rondom deze dure technologie scherp stelt.\n\nBinnen revalidatie viel de breedte van innovaties op. Meerdere onderzoeksgroepen presenteerden exoskeletten die beroertepatiënten helpen opnieuw te lopen, waarbij een nieuw systeem van Wandercraft goedkeuring ontving in Ecuador als onderdeel van een Latijns-Amerikaanse expansie. Een draagbare knierobot helpt kinderen met spinale musculaire atrofie spierkracht op te bouwen, en het Koreaanse bedrijf Medisby ontving institutionele steun om zijn Roboarm te commercialiseren. Russische onderzoekers ontwikkelden een adaptief algoritme dat schokkerige robotbewegingen vermindert, wat de veiligheid van revalidatietherapie vergroot.\n\nIn de verpleging en ouderenzorg bleef de discussie over de rol van robots genuanceerd. Zorgverleners staan open voor robotondersteuning bij routinetaken, maar houden vast aan menselijk contact bij persoonlijke zorg. Japan geldt als koploper in de praktische toepassing van zorgrobotica voor ouderen, terwijl Chinese bedrijven de zogenoemde zilvereconomie betreden. Tegelijkertijd concludeert onderzoek dat robots in de zorgsector vooralsnog aanzienlijk duurder zijn dan menselijke arbeidskrachten, wat grootschalige vervanging remt.\n\nIn de ziekenhuislogistiek is de overname van Diligent Robotics door Serve Robotics het grootste nieuws: het bedrijf wil zijn autonomieplatform uitbreiden naar ziekenhuizen. De markt voor logistiekrobots groeit sterk en het abonnementsmodel wint terrein als laagdrempelige instap voor zorginstellingen.",
+    "top5": [
+      {
+        "title": "Medtronic announces FDA clearance of Hugo™ robotic-assisted surgery system for urologic surgical procedures - news.medtronic.com",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWWszd0RvYjhGT2RuNDhKNU1LNGpXOW0yNTY1YjhPN3NacXl0VE1WaUJBMVR0YXBvYk4wU0NPYlg4RXhPV0xjaUlMbkNWQkhxRHpaOVBreVFYMnV0YVEwRXZuenMyQzFxZjBBQmNRZ3ROTm9ZeldZUC1fTE5XRkJCQmFrODZUOXkzc183WmI3NGVNeXZNaWpMYTYwbnl4c2VkaTQ0clJSWmhSYW91b3NDbkQ2WV9uRWhSaG11RFpvUEM2TjVEQVNyR2hhbERpRWc0eTROaFJNUXBCQ1JFRl9Ycg?oc=5",
+        "source": "news.medtronic.com",
+        "reden": "FDA-goedkeuring Hugo™ versterkt concurrentie op markt voor robotchirurgie significant"
+      },
+      {
+        "title": "What J&J’s Ottava robot brings to the surgical table - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaVB5S2gxdHZiYW9YWmdLTnlkS1hZM2FmeVJSUWVvQ1YxUnY5U3cwMF8wRFZJcHZ6Yzh5RjhHTWVfZnZvblFkemJ4QUlSZmg0OXVWeEJQVEZxYWIzWlBnUjFtd21JVlpZU180NUd1YmFfQ09PTS1ORUxWMlR2V3I5ZUktVXNYc0xXTmpfRzZHZEhQelNjY3c?oc=5",
+        "source": "MedTech Dive",
+        "reden": "J&J's Ottava betreedt markt en daagt marktleider Intuitive Surgical direct uit"
+      },
+      {
+        "title": "Serve Robotics to acquire Diligent Robotics and expand autonomy platform into hospitals - roboticsandautomationnews.com",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU2FqeGtGQ2ZoSklyVUttdThWY1RGUTMzekVUcm1iYzBwckVMemtPMlhPajhYX2V4TVNYRXhNVWNqd3l2ckZfcElQME5hMVAzWDJZNk5FdFZoV1QwblNOTzM0SmlJejRKdkZqWmJycEdyWlRyaVN4QjNBeEg3RVd6WlBxaFdtVWVLWmVGdkprOWJKMDVXbDZUcTBiUE1Wdl9nbDJOdlV0WVNDZE1jcjJ0NkpiLWUybEl3dmpxTlNBRGN1QkhpaFcxZ3ZKcHJWdldMSTdseVdxYjJWQQ?oc=5",
+        "source": "roboticsandautomationnews.com",
+        "reden": "Overname Diligent Robotics vergroot autonomieplatform Serve Robotics richting ziekenhuizen"
+      },
+      {
+        "title": "Nizam’s Institute of Medical Sciences clocks 1,000 robotic surgeries; over 90% free - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd2d0VzQ2dXpnNGlhQjR2dTZnamZvai1EV29Xdm5jUzkyRDhfM1pRYkFVOFFKS2JTc0puckRFTjBmaHQ2bGEzbm9UVld3Zmt4WVF6eGpmM1UwVGgyRnIwdUhzeXI5U3BTeEpsMnJYcUdTaDY5SW9mNTg3MlQySE1MeEdjcGNBZU4zSXBtV3NzaEpLTmZadHJJcG51TlU3U0xHZm5xTVdrUmY1ejBQUW5MekRQTGxrdkRiQkxjYzBkTXRvUXpmOWlRWlBOQ202WGhNWnZ2Q09TRGLSAeYBQVVfeXFMTzRZXzlNZjlZaElYRXpSQlBYbjIyLVNaaktGM1hrWXlKMzV0b045THM4UWx0ZXFhUjA3cFRfU21mX0l5dzFzblpGN1VRckJhSmtUbFg3TWNtenRadjFURXJmSEdsWnBWMWstcHV6VWd5X2k5OVBHQ2w5cW1nLUlKcTJ4c1hOcFFSSGJWVmo5UWd5WGtUekdlc0RWUjJNS3ZpdHhoaVZ1OTE4Z3ptbzVNQjBxOWt0VlhiakRsWlBXdEd6cXo1YU1CeGRXZmtqTWV6eUNhdmdhc2szQm1Icm44aTlOWmkwMlE?oc=5",
+        "source": "The New Indian Express",
+        "reden": "1.000 robotoperaties waarvan 90% gratis toont potentie voor brede toegankelijkheid"
+      },
+      {
+        "title": "Integrating robotic precision with therapist expertise: First-of-its-kind exoskeleton therapy could redefine how stroke survivors relearn to walk - eurekalert.org",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TQ3hUb1pjV1Z3ck90aEdQMkRNYVlpUno0ZEU2XzBscGt0TTRRUG9WLXdvbUJIaXM0bWYyX0QyYk9wZlV4eml0QVk5WkZ0dmhZbUhoU20tS2dKODBr?oc=5",
+        "source": "eurekalert.org",
+        "reden": "Eerste exoskelettherapie combineert robotprecisie met therapeutexpertise voor loopherstel"
+      }
+    ],
+    "article_count": 137
   }
 ]
