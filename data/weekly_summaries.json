@@ -352,5 +352,43 @@
       }
     ],
     "article_count": 243
+  },
+  {
+    "week_start": "2026-09-07",
+    "week_end": "2026-09-13",
+    "summary": "Het was een drukke week voor robotica in de gezondheidszorg, met opvallende mijlpalen op het gebied van chirurgie, revalidatie, zorgondersteuning en ziekenhuislogistiek wereldwijd.\n\nIn de chirurgie vielen meerdere historische prestaties op. China voerde 's werelds eerste AI-gestuurde hartoperatie bij een aangeboren hartafwijking uit, waarbij een ultrasoundrobot realtime beeldvorming bood tijdens de ingreep. In de Filipijnen schreven chirurgen geschiedenis door een robotische telechirurgie uit te voeren over een afstand van meer dan 1.300 kilometer, wat de mogelijkheden van telerobotica voor toegang tot zorg in afgelegen gebieden onderstreept. Tegelijkertijd investeerde Medtronic opnieuw 700 miljoen dollar in chirurgische robots, en ontving het Anovo-systeem van Momentis Surgical FDA-goedkeuring als eerste robotplatform dat drie chirurgische benaderingen ondersteunt. De da Vinci-robot van Intuitive Surgical bleef domineren, met een meta-analyse die de veiligheid en effectiviteit van het systeem bevestigt op basis van meer dan 14 miljoen uitgevoerde procedures.\n\nOp het gebied van revalidatie was er opvallend veel wetenschappelijk nieuws. Meerdere studies bevestigden de effectiviteit van robotgeassisteerde therapie na een beroerte, waaronder een umbrella review in het American Heart Association Journal en een studie in het NEJM over langdurige bovenste ledemaatrevalidatie. Een nieuw exoskelet dat samenwerkt met fysiotherapeuten om CVA-patiënten opnieuw te leren lopen trok bijzondere aandacht, omdat het de kracht van menselijke expertise combineert met robotische precisie.\n\nIn de verpleging en ouderenzorg stond de vergrijzingsproblematiek centraal. Zowel in China als in westerse landen groeit de inzet van zorgrobots om personeelstekorten op te vangen. Norbert Health haalde 14 miljoen dollar op voor autonome verpleegrobots, terwijl robots zoals Moxi, Garmi en Grace steeds vaker worden ingezet in ziekenhuizen en verpleeghuizen. Tegelijkertijd wees onderzoek uit dat robots in zorgrollen nog aanzienlijk duurder zijn dan menselijke arbeidskrachten, wat vragen oproept over de economische haalbaarheid op korte termijn.\n\nDe ziekenhuislogistiek was de meest nieuws rijke categorie deze week. Van bezorgrobot Rolli in een Weens ziekenhuis tot samenwerkingen tussen Swisslog Healthcare en Diligent Robotics, en van Toyotas Potaro tot een ziekenhuis dat de levertijd van chemotherapie terugbracht van 40 naar 14 minuten: automatisering van interne processen wint snel terrein als middel om personeel te ontlasten en de zorgkwaliteit te verbeteren.",
+    "top5": [
+      {
+        "title": "China carries out world’s first congenital heart surgery guided by AI-powered ultrasound robot - Global Times",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZUDJsMWNRN25SakQ1V2swXzRGZVdKRWtJNXhfVndxNWRkcmo1Ny04R0drT0U3MkhDbjhOcFJ2Wk1LdVlCT1VVcGdkSFAtVl83ekE4cXplWXZwSUFmV24wTW9R?oc=5",
+        "source": "Global Times",
+        "reden": "Wereldprimeur: AI-gestuurde robot ondersteunt hartoperatie bij aangeboren afwijking."
+      },
+      {
+        "title": "PHL surgeons make history with 1,380-km remote robotic surgery - Philstar.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUERNd3NKSjR5OGIxN3llRkltWmNQeEJoUC1CYnlQQmpqbGFQcm90TmN2aGdOZXdFR216eFMzc3dWSnh2Slo0aHNPZXMwVzladlBmXzVBLWkwOFN4ZUZIem9FdUZta2pWWkFVdlh2Wmx5NzViazNwU2lKZFRKV0xPTE00S1pwenlHeEFGZFFKcnN5T1pSemp3X3d0TjZjaDlEb2d1NTdvVnhaNGfSAbIBQVVfeXFMUE15WXdaSFdaOUMwZHpCTTBBdS1qRS0yOVp0NjhJMDFBbFNFb1lYbzJMcjNpaW1MUWduVmdELVJkMFBpUFVhZjNSM0RqZGtfajF2YUtIY29yeWQ4bVF6MFpyWVUzRGNHa2NWbkY5WUZWRXBCY05ZNnBMZU1rSmdEaW9ReTVTRHl3ck9SOHR6QzVlRC1QTE9BYThUYWxUSGx5alVtdUNHNEJFUkowTXRZNVliUQ?oc=5",
+        "source": "Philstar.com",
+        "reden": "Historische telechirurgie over 1.380 km vergroot toegang tot gespecialiseerde zorg."
+      },
+      {
+        "title": "FDA Clears Momentis Surgical's Anovo® System for Multiport Surgery, Making It the First Robotic Platform to Support Three Surgical Approaches - PR Newswire",
+        "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOYjFmMmhNUE1QRDBUOWthSU9BOFNIUG9wOGNZWUtHejFCRzdtOEJveEM2RklEcDZ3SjE3a01VMC00b2M4eVI1Vi1UdFlZUFRTX21nUzFNTFVzVHdyS0tQSGpaNHM0QzJhcUhIR1RmeUszQ0lGMXB0MUY0djE5Z2tYaWpOZnBLOFIxdmQ1blFvWTZiYjRUendTQ2pnOFNON2FKWTRSRFN4aEZhalZYSXJHSnFydnFLeVpmbTh6LXJqdWg1T25teUp4WlJlVWFjb0xLOTZodmhZWER3Y2JObFZYOEM1b3o0eVZvSG1TYTI5OXIxVUVER0M4Zkl2bVZxakNxY05xakxWcDVlV25fWU1TVGNaY01TOFpoOTNXSnZTYw?oc=5",
+        "source": "PR Newswire",
+        "reden": "FDA-goedkeuring eerste robotplatform met drie chirurgische benaderingen is marktverstorend."
+      },
+      {
+        "title": "Medtronic bets another $700M on surgical robots - startribune.com",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2VYaG1MeE50Z18tN0ZScm5NWksteU5ld2VxWDNlMEVEWTN2THJOQmp4U1gzMEUwMWpjc3ZsNzV5YVVQSUJfLTR3cWxDeVFVLW1nNzVIMFZrZENFSC1pQzF1d2NSMnh2YVM1T3U2Yk5jdUZ2ZDlZVFZIVEVBTDFJWWgwczBhRjg2SHRQSzU2d3NOcUVTZ3IwWm1DdmRCUkk?oc=5",
+        "source": "startribune.com",
+        "reden": "Medtronics investering van 700 miljoen dollar signaleert enorme marktgroei robotchirurgie."
+      },
+      {
+        "title": "Integrating robotic precision with therapist expertise: First-of-its-kind exoskeleton therapy could redefine how stroke survivors relearn to walk - eurekalert.org",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TQ3hUb1pjV1Z3ck90aEdQMkRNYVlpUno0ZEU2XzBscGt0TTRRUG9WLXdvbUJIaXM0bWYyX0QyYk9wZlV4eml0QVk5WkZ0dmhZbUhoU20tS2dKODBr?oc=5",
+        "source": "eurekalert.org",
+        "reden": "Nieuw exoskelet combineert therapie-expertise met robotprecisie voor betere beroerterevalidatie."
+      }
+    ],
+    "article_count": 175
   }
 ]
