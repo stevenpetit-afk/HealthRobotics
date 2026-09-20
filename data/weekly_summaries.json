@@ -390,5 +390,43 @@
       }
     ],
     "article_count": 175
+  },
+  {
+    "week_start": "2026-09-14",
+    "week_end": "2026-09-20",
+    "summary": "Deze week stond opnieuw bol van de ontwikkelingen in de medische robotica, met opmerkelijke nieuwtjes op het gebied van chirurgie, revalidatie en zorgondersteuning die samen een duidelijk beeld schetsen van een sector in stroomversnelling.\n\nOp chirurgisch vlak viel vooral de opkomst van humanoïde robots op. Voor het eerst in de geschiedenis voerden humanoïde robots twee chirurgische ingrepen uit op varkens, en Samsung testte een operatiekamer waarin één chirurg samenwerkte met twee humanoïde robots. Dit zijn vroege experimenten, maar ze geven een indruk van hoe de operatiekamer van de toekomst eruit zou kunnen zien. Dichter bij de huidige praktijk staat de lancering van de eerste robotassistent voor open chirurgie door Hellstern Medical, een segment dat tot nu toe grotendeels buiten het robotica-domein viel. Daarnaast werd wereldwijd de introductie gemeld van nieuwe da Vinci 5-systemen in ziekenhuizen in onder meer West Virginia, India en Canada, terwijl UTSW en Tulane University single-port robotchirurgie voor longkanker introduceerden — een minimaal invasieve techniek met slechts één incisie die herstel aanzienlijk kan versnellen. Het ziekenhuis in Mongolië bereikte een belangrijke mijlpaal door robotchirurgie op te nemen in het nationale ziektekostenverzekeringsstelsel, wat de toegankelijkheid voor een bredere bevolkingsgroep vergroot.\n\nIn de revalidatie domineerde het exoskelet het nieuws. Meerdere studies — gepubliceerd in Nature, Science en Frontiers — belichtten de effectiviteit van exoskeletten bij loopherstel na een beroerte, ook in thuisomgevingen. Bijzonder was een nieuw systeem waarbij het exoskelet de bewegingen van therapeut en patiënt aan elkaar koppelt, wat gepersonaliseerde begeleiding op een nieuw niveau tilt. Daarnaast ontvingen onderzoekers van de Universiteit van Alberta financiering voor revalidatierobotica gericht op ruggenmergletsel, en won de H-Man armrevalidatierobot van NTU Singapore een nationale zorginnovatieprijs.\n\nIn de verpleging en ouderenzorg haalde Norbert Health 14 miljoen dollar op voor autonome robotverpleegkundigen, en introduceerde Taiwan Nurabot, een AI-verpleegkundige die routinetaken overneemt van zorgpersoneel. Japan blijft vooroplopen met zorgrobotica als antwoord op de vergrijzing en het personeelstekort. Op logistiek gebied viel de Zena RX op — een nieuwe robot van ST Engineering Aethon voor beveiligde medicijnbezorging — en breidde de Londense NHS zijn drone- en grondrobot-netwerk verder uit.",
+    "top5": [
+      {
+        "title": "Humanoid robots make history, perform 2 surgeries in pigs for 1st time - ABC News - Breaking News, Latest News and Videos",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUTVHUk5LZGVzNDh0c29veEI5dTNRQk5qQkx3OGRuNkNqbVc2dnBDY3Z3aTd6eW9DOGtnZ2xVNkd5SEZESFhmT1VmVVdYWmdEUzRnYWcycVJfSFA3a0tsVWdXYTdZT1NDUGxXbWdtZVhWM2pjQmlEUS1vMGlQc2cwTmlGY3l6MWFKY0dHaEYzZ0E5UmhVUGNrWl9aRms3Q1F4UFp4azdqdHTSAa4BQVVfeXFMUEFUQlhLendlMzBoejdlT3p1ZjVrcVZCeUVDUWNMVnpkbkJ6MXpDSUtzd2JseXJ3UHdJT0Rod19zbWNXNVA3NUhLMUs4aXdacS1Sb1ljX2xjcVVMYktiRVJHR3Z0OXFFbWZDQVg5aWU2Y3VyUUN6RWpTUTZad2FuYWZfbHBIY0xPN1A0a291UGlfTjljaU1wZjRFY0J6QVBxbGtPNDVuSkMwQkQzU29R?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "reden": "Historische primeur: humanoïde robots voeren zelfstandig chirurgie uit op levende wezens."
+      },
+      {
+        "title": "Longest-distance robotic cardiac telesurgery ever performed over 12,500 miles - Cardiovascular Business",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdFR6UV9NRHZib1NVWkRqaEJaRDlPbnY0bWpZNnFmazBFakVrNWpRS3lwZ1BJZXVnOXpRSFF6SVF1bXVXNUdqUG4teUcteFd3Wk1BTE1jc3F5cUpuVEo1cXk1MVEzZWZaTmZYX3JXbnNWcERPYzhBcm5JMnNBM2c4RDdTakdCLVZJY2R5V3RfV3dSTGQzVXp4WWdJckVaZlFlOUlBSzhNYUQ5TGhZb0RJRVA4S1ZJc0xOSjdISTktYjRTSmxuWU9tZnNkYm5GSC1HbHI5ZXhBT0VrXzA?oc=5",
+        "source": "Cardiovascular Business",
+        "reden": "Wereldrecord telechirurgie over 12.500 mijl vergroot toegang tot gespecialiseerde zorg wereldwijd."
+      },
+      {
+        "title": "Hellstern medical Enters the US With noac, First Robotic Surgeon Assist for Open Surgery - EIN Presswire",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONHJ1T3gzM1dabnY2OEF6dVlzYnB0a0xIYldtT2NHcC1nNnFGTGpaWFFPQkFQTWwtbGVpdGRLQWtRRk02eVFFS3lxcVFiTFREWHZZc0xfMl9pVWdUODcyUFV0akpWUEI5MW5qQlVzb2RCUTFHS0VuOVdHRF85UFNVTjVYZmlvMWF5Y05GQTdybEFMb0xSUkpFVUNwUzVoM3UteHdoRlBMSEswOGxxZHRYUkNfSmZCeVhLWHhpVXdsczVYQ3pGQUExVklrR3lkdjg?oc=5",
+        "source": "EIN Presswire",
+        "reden": "Eerste robotassistent specifiek voor open chirurgie; vult groot onbenut segment in markt."
+      },
+      {
+        "title": "Norbert Health Raises $14M to Put Autonomous Robotic Nurses on the Floor of Care Facilities - alleywatch.com",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdEtFNldncmhjTVYzR21scFpiaFVSdFZMZTJTRjhJNzRMbjVXeXlEcGpLdjFhT0FWMzNOaFhNZjJIN1B4QU02ZEk2ZjV4OXc4eUJHVmxCNmM5VmZsMkxUb052Z0xTanBUU2VVSVFFd0FwZ1BWVkJBWWdmX3ZSbDd4aVExakg0WmY1YTJ5bXN0cGl6cXZyOGxTamF1clN5NGQ1cldGczRUTHYyN3Rmd1k4YU1qVEQwOEtfVE1uNVplUUhRakVBdWZpS093?oc=5",
+        "source": "alleywatch.com",
+        "reden": "14 miljoen dollar investering in autonome robotverpleegkundigen signaleert grote marktbeweging."
+      },
+      {
+        "title": "Mongolia: Hospital's robotic surgical system to be incorporated into health insurance system - Asia Insurance Review",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxORDZDcEI1Qkl0WTBqRFJCSmVjdlQzUld6MXdrcmdDTDhHMncxYnFlQ0FaRUVTUWRoQ2Fjb0doNVFqMXJOVVVqcnN4R1JNZS1JU1VQWFpTaXdoUkRlNy1ZMDZleFlaOEo5QXh4RHIxSHV0cWUzWC05d0hTUWJiREtXR2VoMmlGaEx2blBDUTBOSDRSaTZVMHptVE9JZXFsbXo5cU42dWVadjJlbWxteGZHTHp5RkdKR3hFUlRubXZjRk92VlJuWExBRHhqUlozR3g5TThwVWVzck9rdXA0SUp5ZUIxZDZRbE1hSWNZTGdLNUMxQ2IwX3JxNDhiZThTVDZob1BodF9n?oc=5",
+        "source": "Asia Insurance Review",
+        "reden": "Mongolië vergoedt robotchirurgie via zorgverzekering: belangrijk precedent voor toegankelijkheid."
+      }
+    ],
+    "article_count": 171
   }
 ]
