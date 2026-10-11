@@ -9478,5 +9478,25 @@
     "summary": "ABB has demonstrated a concept for a mobile laboratory robot designed for the hospital of the future. The robot is intended to autonomously perform laboratory tasks and contribute to more efficient hospital logistics. This concept highlights the growing role of robotics in automating hospital processes.",
     "categorie": "logistiek-ziekenhuis",
     "date_added": "2026-10-10"
+  },
+  {
+    "id": "fa80a886193d12e6",
+    "title": "Can Artificial Intelligence Learn the Art of Surgery? - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0VmNlQ5UmFXQVB2b0pOYTZNV0RuaFZLVWZHR2dsTDV0OGZjUWVwV3ozTEhpWVE3M3d3ZDJTNmh5QUgtM2JTdldya0ZnUXZxekFPVzRYaVItMDM5dldDN0ZfQXlpYzQwbkFEeEZubHJ3WmhZeGVUQld1VVg2a0tBWUIzWHRzemJOSnM4WER5M1hwNlNSQVE?oc=5",
+    "source": "The New York Times",
+    "samenvatting": "Dit artikel van de New York Times onderzoekt of kunstmatige intelligentie de complexe vaardigheden van chirurgie kan leren. Het gaat in op de vraag of AI-systemen in staat zijn om chirurgische handelingen te begrijpen en uit te voeren, een gebied dat raakvlakken heeft met robotchirurgie en geautomatiseerde operatietechnieken. Dit is relevant voor de bredere ontwikkeling van chirurgische robots in de gezondheidszorg.",
+    "summary": "This New York Times article explores whether artificial intelligence can learn the complex skills involved in surgery. It examines the potential of AI systems to understand and perform surgical tasks, which intersects with the development of surgical robots and automated operating techniques. This is relevant to the broader advancement of robotic surgery in healthcare.",
+    "categorie": "chirurgie",
+    "date_added": "2026-10-11"
+  },
+  {
+    "id": "90215aefc7a36c59",
+    "title": "Apollo Speciality Hospitals completes 100 robotic-assisted surgery - The Hindu",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNm1zMG9DbmZxZjFsNk5LU1lfdmlzeUtKNW5pVzVYaW1PTXI0WVB1allCNmhDTEVqMGcwV0Z4YUM1cW1ZdC15VWlOSjNWZGVzTFFkVXo3WmdPS1lyaWMxRmhKRVQ1V1NUcDhlcmlpb0w5TzJLc1lldjl0WmRJM1phRkZpTC1wVzFWY3RzSkJlMEU4MjBFdkNwYzlOV2lsc0dyeWdvLUZ5S05TbE5PUEcxR1FvdDV6a0dSdUlaVnpuQnAtMkRDLWNjWWg4b9IB0gFBVV95cUxPVnZ2djJGMDVfbzUxcm1rdlRJV21BbGdjQVRLd05OV25zYW9FcHF1SkJoMVc4a2NTVnpqUXhQQTQzMVNfTkR2ZGNjcDI4Ri1sanlRcWE4Zm1MUl9xTk8yU2d3TFk2ODJ6OTJmc2VvZ29NQ1VIRDBJNzdJVlNGaGFJb2ZjRXZOa21tTnBoYW9sTmRzRnJZbUZnOEtYc3lSd21oUk1LeXJXNVFUbFN4X0RDZ2ZsZWh0YzA0YjdhMlRLaFdUYnVFYy1iVk5wbERtdTJNbWc?oc=5",
+    "source": "The Hindu",
+    "samenvatting": "Apollo Speciality Hospitals heeft een mijlpaal bereikt door 100 robotgeassisteerde operaties te voltooien. Dit benadrukt de groeiende inzet van robotchirurgie in de Indiase gezondheidszorg. De ziekenhuisgroep zet hiermee een significante stap in de modernisering van haar chirurgische diensten.",
+    "summary": "Apollo Speciality Hospitals has reached a milestone by completing 100 robotic-assisted surgeries. This highlights the growing adoption of robotic surgery within the Indian healthcare sector. The hospital group marks a significant step forward in modernizing its surgical services.",
+    "categorie": "chirurgie",
+    "date_added": "2026-10-11"
   }
 ]
