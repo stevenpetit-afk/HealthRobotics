@@ -59,11 +59,11 @@ NL = {
     "empty_cat": "Nog geen artikelen in deze categorie.",
     "summary_key": "samenvatting",
     "category_labels": {
-        "chirurgie": "Chirurgie",
-        "revalidatie": "Revalidatie",
-        "diagnostiek": "Diagnostiek",
         "verpleging-ouderenzorg": "Verpleging & Ouderenzorg",
         "logistiek-ziekenhuis": "Ziekenhuislogistiek",
+        "diagnostiek": "Diagnostiek",
+        "chirurgie": "Chirurgie",
+        "revalidatie": "Revalidatie",
         "overig": "Overig",
     },
     "category_descriptions": {
@@ -95,19 +95,19 @@ EN = {
     "empty_cat": "No articles in this category yet.",
     "summary_key": "summary",
     "category_labels": {
-        "chirurgie": "Surgery",
-        "revalidatie": "Rehabilitation",
-        "diagnostiek": "Diagnostics",
         "verpleging-ouderenzorg": "Nursing & Elderly Care",
         "logistiek-ziekenhuis": "Hospital Logistics",
+        "diagnostiek": "Diagnostics",
+        "chirurgie": "Surgery",
+        "revalidatie": "Rehabilitation",
         "overig": "Other",
     },
     "category_descriptions": {
-        "chirurgie": "Robot-assisted operations, minimally invasive surgery and surgical precision systems.",
-        "revalidatie": "Exoskeletons, therapy robots and technology helping patients recover and move independently.",
-        "diagnostiek": "AI and robotic systems helping doctors with imaging, analysis and early detection of conditions.",
         "verpleging-ouderenzorg": "Care robots, social robots and assistive technology for nursing and elderly care.",
         "logistiek-ziekenhuis": "Autonomous robots for medication delivery, hospital logistics and internal transport.",
+        "diagnostiek": "AI and robotic systems helping doctors with imaging, analysis and early detection of conditions.",
+        "chirurgie": "Robot-assisted operations, minimally invasive surgery and surgical precision systems.",
+        "revalidatie": "Exoskeletons, therapy robots and technology helping patients recover and move independently.",
         "overig": "Other developments at the intersection of robotics and healthcare.",
     },
 }
@@ -141,6 +141,18 @@ def fetch_rss(query: str) -> list[dict]:
         description = re.sub(r"<[^>]+>", "", (item.findtext("description") or "").strip())
         if not title or not link:
             continue
+
+        # Datumfilter: sla artikelen ouder dan 7 dagen over
+        pub_date_str = (item.findtext("pubDate") or "").strip()
+        if pub_date_str:
+            try:
+                import email.utils
+                pub_date = datetime.date(*email.utils.parsedate(pub_date_str)[:3])
+                if (datetime.date.today() - pub_date).days > 7:
+                    continue
+            except Exception:
+                pass  # bij parse-fout: artikel toch meenemen
+                
         items.append({"title": title, "link": link, "source": source, "description": description})
     return items
 
