@@ -142,6 +142,16 @@ def fetch_rss(query: str) -> list[dict]:
         if not title or not link:
             continue
 
+        # Blacklist: sla persberichten en PR-sites over
+        BLOCKED_DOMAINS = [
+            "newswire.com", "prnewswire.com", "businesswire.com",
+            "globenewswire.com", "accesswire.com", "einpresswire.com",
+            "prlog.org", "send2press.com", "pr.com", "przoom.com",
+            "marketwired.com", "markets.businessinsider.com",
+        ]
+        if any(domain in link for domain in BLOCKED_DOMAINS):
+            continue
+
         # Datumfilter: sla artikelen ouder dan 7 dagen over
         pub_date_str = (item.findtext("pubDate") or "").strip()
         if pub_date_str:
