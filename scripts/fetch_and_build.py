@@ -1,10 +1,11 @@
+
 #!/usr/bin/env python3
 """
 Haalt dagelijks nieuws op over robotica in de zorg (via Google News RSS),
 laat Claude elk artikel samenvatten in NL én EN, en bouwt een tweetalige
 statische HTML-site: docs/ (NL) en docs/en/ (EN).
 """
-
+ 
 import os
 import re
 import json
@@ -14,32 +15,40 @@ import datetime
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-
+ 
 import anthropic
-
+ 
 # ---------------------------------------------------------------------------
 # Configuratie
 # ---------------------------------------------------------------------------
-
+ 
 CATEGORIES = {
-    "chirurgie": "surgical robot OR robotic surgery hospital",
-    "revalidatie": "rehabilitation robot OR exoskeleton therapy patient",
-    "diagnostiek": "diagnostic robot OR AI robot imaging healthcare",
     "verpleging-ouderenzorg": "nursing robot OR elderly care robot OR care assistant robot",
     "logistiek-ziekenhuis": "hospital logistics robot OR pharmacy robot OR delivery robot hospital",
+    "diagnostiek": "diagnostic robot OR AI robot imaging healthcare",
+    "chirurgie": "surgical robot OR robotic surgery hospital",
+    "revalidatie": "rehabilitation robot OR exoskeleton therapy patient",
+    "bedrijfsnieuws": "healthcare robotics company acquisition partnership funding OR medical robot market",
 }
-
+ 
 MAX_ARTICLES_PER_CATEGORY = 6
 DATA_DIR = "data"
 SITE_DIR = "docs"
 SEEN_FILE = os.path.join(DATA_DIR, "seen.json")
 DAYS_TO_KEEP_ON_HOMEPAGE = 30
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
-
+ 
+BLOCKED_DOMAINS = [
+    "newswire.com", "prnewswire.com", "businesswire.com",
+    "globenewswire.com", "accesswire.com", "einpresswire.com",
+    "prlog.org", "send2press.com", "pr.com", "przoom.com",
+    "marketwired.com", "markets.businessinsider.com",
+]
+ 
 # ---------------------------------------------------------------------------
 # Taalconfiguratie
 # ---------------------------------------------------------------------------
-
+ 
 NL = {
     "lang": "nl",
     "dir": "",           # docs/
@@ -64,18 +73,20 @@ NL = {
         "diagnostiek": "Diagnostiek",
         "chirurgie": "Chirurgie",
         "revalidatie": "Revalidatie",
+        "bedrijfsnieuws": "Bedrijfsnieuws",
         "overig": "Overig",
     },
     "category_descriptions": {
-        "chirurgie": "Robotisch-geassisteerde operaties, minimaal invasieve chirurgie en chirurgische precisie-systemen.",
-        "revalidatie": "Exoskeletten, therapierobots en technologie die patiënten helpt te herstellen en zelfstandig te bewegen.",
-        "diagnostiek": "AI- en robotsystemen die artsen helpen bij beeldvorming, analyse en vroege opsporing van aandoeningen.",
         "verpleging-ouderenzorg": "Zorgrobots, sociale robots en assistentietechnologie voor verpleging en ouderenzorg.",
         "logistiek-ziekenhuis": "Autonome robots voor medicijnbezorging, ziekenhuislogistiek en interne transportprocessen.",
+        "diagnostiek": "AI- en robotsystemen die artsen helpen bij beeldvorming, analyse en vroege opsporing van aandoeningen.",
+        "chirurgie": "Robotisch-geassisteerde operaties, minimaal invasieve chirurgie en chirurgische precisie-systemen.",
+        "revalidatie": "Exoskeletten, therapierobots en technologie die patiënten helpt te herstellen en zelfstandig te bewegen.",
+        "bedrijfsnieuws": "Bedrijfsontwikkelingen, overnames, partnerships en marktinformatie over zorgrobotica-bedrijven.",
         "overig": "Overige ontwikkelingen op het snijvlak van robotica en gezondheidszorg.",
     },
 }
-
+ 
 EN = {
     "lang": "en",
     "dir": "en/",        # docs/en/
@@ -100,6 +111,7 @@ EN = {
         "diagnostiek": "Diagnostics",
         "chirurgie": "Surgery",
         "revalidatie": "Rehabilitation",
+        "bedrijfsnieuws": "Business News",
         "overig": "Other",
     },
     "category_descriptions": {
@@ -108,23 +120,25 @@ EN = {
         "diagnostiek": "AI and robotic systems helping doctors with imaging, analysis and early detection of conditions.",
         "chirurgie": "Robot-assisted operations, minimally invasive surgery and surgical precision systems.",
         "revalidatie": "Exoskeletons, therapy robots and technology helping patients recover and move independently.",
+        "bedrijfsnieuws": "Company developments, acquisitions, partnerships and market information about healthcare robotics companies.",
         "overig": "Other developments at the intersection of robotics and healthcare.",
     },
 }
-
+ 
 CATEGORY_ICONS = {
-    "chirurgie": "🔬",
-    "revalidatie": "🦾",
-    "diagnostiek": "🩻",
     "verpleging-ouderenzorg": "🤝",
     "logistiek-ziekenhuis": "🏥",
+    "diagnostiek": "🩻",
+    "chirurgie": "🔬",
+    "revalidatie": "🦾",
+    "bedrijfsnieuws": "💼",
     "overig": "📰",
 }
-
+ 
 # ---------------------------------------------------------------------------
 # Nieuws ophalen
 # ---------------------------------------------------------------------------
-
+ 
 def fetch_rss(query: str) -> list[dict]:
     encoded = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={encoded}&hl=en-US&gl=US&ceid=US:en"
@@ -141,17 +155,11 @@ def fetch_rss(query: str) -> list[dict]:
         description = re.sub(r"<[^>]+>", "", (item.findtext("description") or "").strip())
         if not title or not link:
             continue
-
-        # Blacklist: sla persberichten en PR-sites over
-        BLOCKED_DOMAINS = [
-            "newswire.com", "prnewswire.com", "businesswire.com",
-            "globenewswire.com", "accesswire.com", "einpresswire.com",
-            "prlog.org", "send2press.com", "pr.com", "przoom.com",
-            "marketwired.com", "markets.businessinsider.com",
-        ]
+ 
+        # Domeinblokkade: sla persberichten en spam-domeinen over
         if any(domain in link for domain in BLOCKED_DOMAINS):
             continue
-
+ 
         # Datumfilter: sla artikelen ouder dan 7 dagen over
         pub_date_str = (item.findtext("pubDate") or "").strip()
         if pub_date_str:
@@ -162,42 +170,65 @@ def fetch_rss(query: str) -> list[dict]:
                     continue
             except Exception:
                 pass  # bij parse-fout: artikel toch meenemen
-                
+ 
         items.append({"title": title, "link": link, "source": source, "description": description})
     return items
-
-
+ 
+ 
 def article_id(article: dict) -> str:
     key = f"{article['title']}|{article['source']}"
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # Samenvatten met Claude (NL + EN in één call)
 # ---------------------------------------------------------------------------
-
+ 
 def summarize_article(client: anthropic.Anthropic, article: dict, category: str) -> dict | None:
     prompt = f"""You receive a news article title and description about robotics in healthcare.
-
+ 
 Title: {article['title']}
 Source: {article['source']}
 Description: {article['description'][:600]}
-
+ 
 Category searched under: {category}
-
-Task:
-1. Assess whether this article is genuinely relevant to "robotics in healthcare" (surgical robots, rehabilitation robots, care robots, hospital logistics, diagnostic AI-robots, etc.). Pure AI news without a robotics component, or non-healthcare robot news, is NOT relevant.
-2. If relevant: write a neutral, factual summary in DUTCH (Nederlands) of 2-3 sentences.
-3. Also write the same summary in ENGLISH of 2-3 sentences.
-4. Return the most fitting category from: chirurgie, revalidatie, diagnostiek, verpleging-ouderenzorg, logistiek-ziekenhuis, overig.
-
-Reply ONLY with JSON, nothing else, in this exact format:
-{{"relevant": true or false, "samenvatting": "Dutch summary here", "summary": "English summary here", "categorie": "category"}}"""
-
+ 
+CONTEXT: This content is curated for the Erasmus MC Robotic Center in Rotterdam — a major academic medical center with active programs in surgical robotics, care robots, hospital logistics, and diagnostics. The audience is clinical and research professionals in a European academic hospital.
+ 
+RELEVANCE CRITERIA — mark as relevant=true only if the article covers:
+- Clinical outcomes or pilot/study results of robots in healthcare settings
+- New or newly approved robotic products/systems for clinical use
+- Policy, regulation, or reimbursement developments for healthcare robots
+- Company news (partnerships, acquisitions, funding) related to healthcare robotics — assign these to "bedrijfsnieuws"
+- Implementation or deployment of robots in hospitals or care settings
+ 
+Mark as relevant=false if the article is about:
+- Consumer/domestic robots (home assistants, toy robots, vacuum robots) — NOT healthcare
+- Stock prices, earnings reports, or analyst price targets
+- Milestone celebrations ("hospital performs 1000th robotic surgery") with no new clinical insight
+- Pure AI/software without a robotics hardware component
+- Non-healthcare industrial or military robots
+ 
+GEOGRAPHIC PRIORITY: Prefer European content (EU hospitals, European companies, EU regulation). Include global content if clinically or scientifically significant.
+ 
+CATEGORY ASSIGNMENT (pick the best fit):
+- chirurgie: surgical robots, robot-assisted operations
+- revalidatie: rehabilitation robots, exoskeletons, therapy robots
+- diagnostiek: diagnostic robots, AI imaging systems with robotic component
+- verpleging-ouderenzorg: care robots, nursing robots, social/assistive robots
+- logistiek-ziekenhuis: hospital logistics, pharmacy robots, transport robots
+- bedrijfsnieuws: company news, acquisitions, partnerships, funding, market reports
+- overig: anything relevant that doesn't fit the above
+ 
+If relevant, write summaries that are neutral and factual (2-3 sentences). Focus on: what the robot does, what results/outcomes were found, where it is used or being introduced.
+ 
+Reply ONLY with JSON, nothing else:
+{{"relevant": true or false, "samenvatting": "Dutch summary here (leave empty string if not relevant)", "summary": "English summary here (leave empty string if not relevant)", "categorie": "category"}}"""
+ 
     try:
         response = client.messages.create(
             model=ANTHROPIC_MODEL,
-            max_tokens=500,
+            max_tokens=600,
             messages=[{"role": "user", "content": prompt}],
         )
         text = re.sub(r"^```json\s*|\s*```$", "", response.content[0].text.strip())
@@ -212,33 +243,33 @@ Reply ONLY with JSON, nothing else, in this exact format:
     except Exception as e:
         print(f"  [warning] summarize failed for '{article['title'][:60]}': {e}")
         return None
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # Data persistentie
 # ---------------------------------------------------------------------------
-
+ 
 def load_seen() -> dict:
     if os.path.exists(SEEN_FILE):
         with open(SEEN_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
-
-
+ 
+ 
 def save_seen(seen: dict) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(SEEN_FILE, "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
-
-
+ 
+ 
 def load_archive() -> list[dict]:
     archive_file = os.path.join(DATA_DIR, "archive.json")
     if os.path.exists(archive_file):
         with open(archive_file, "r", encoding="utf-8") as f:
             return json.load(f)
     return []
-
-
+ 
+ 
 def save_archive(archive: list[dict]) -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
     archive_file = os.path.join(DATA_DIR, "archive.json")
@@ -246,12 +277,12 @@ def save_archive(archive: list[dict]) -> None:
     archive = [a for a in archive if a["date_added"] >= cutoff]
     with open(archive_file, "w", encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # HTML genereren
 # ---------------------------------------------------------------------------
-
+ 
 SHARED_CSS = """
   :root {
     --bg: #0f1419; --card: #1a2128; --accent: #4fd1c5;
@@ -278,8 +309,8 @@ SHARED_CSS = """
   .empty { color: var(--muted); text-align: center; padding: 3rem 1rem; }
   .intro { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem 1.4rem; margin-bottom: 2rem; font-size: 0.95rem; color: var(--muted); line-height: 1.6; }
 """
-
-
+ 
+ 
 def nav_html(t: dict, active_cat: str | None, by_category: dict) -> str:
     prefix = "" if t["dir"] == "" else ""
     links = [f'<a href="{prefix}index.html"{"class=\"active\"" if active_cat is None else ""}>{t["home"]}</a>']
@@ -291,8 +322,8 @@ def nav_html(t: dict, active_cat: str | None, by_category: dict) -> str:
         links.append(f'<a href="{prefix}{cat}.html"{active}>{icon} {label}</a>')
     links.append(f'<a href="{t["weekly_file"]}">{t["weekly"]}</a>')
     return "\n".join(links)
-
-
+ 
+ 
 def render_article(item: dict, summary_key: str) -> str:
     summary = item.get(summary_key) or item.get("samenvatting", "")
     return f"""<article class="item">
@@ -300,12 +331,12 @@ def render_article(item: dict, summary_key: str) -> str:
   <p>{summary}</p>
   <div class="meta">{item['source']} · {item['date_added']}</div>
 </article>"""
-
-
+ 
+ 
 def lang_switch_html(t: dict, other_file: str) -> str:
     return f'<a class="lang-switch" href="{t["other_lang_dir"]}{other_file}" title="{t["switch_label"]}">{t["flag"]}</a>'
-
-
+ 
+ 
 def render_homepage(t: dict, by_category: dict, updated: str, nav: str, other_file: str = "index.html") -> str:
     sections = []
     for cat, label in t["category_labels"].items():
@@ -327,10 +358,10 @@ def render_homepage(t: dict, by_category: dict, updated: str, nav: str, other_fi
   {items_html}
   {meer}
 </section>""")
-
+ 
     content = "\n".join(sections) if sections else f'<p class="empty">{t["empty"]}</p>'
     switch = lang_switch_html(t, other_file)
-
+ 
     return f"""<!DOCTYPE html>
 <html lang="{t['lang']}">
 <head>
@@ -353,15 +384,15 @@ def render_homepage(t: dict, by_category: dict, updated: str, nav: str, other_fi
 <footer>{t['footer'].format(updated=updated)}</footer>
 </body>
 </html>"""
-
-
+ 
+ 
 def render_category_page(t: dict, cat: str, items: list[dict], updated: str, nav: str, other_file: str) -> str:
     label = t["category_labels"].get(cat, cat)
     icon = CATEGORY_ICONS.get(cat, "")
     desc = t["category_descriptions"].get(cat, "")
     items_html = "".join(render_article(a, t["summary_key"]) for a in items)
     switch = lang_switch_html(t, other_file)
-
+ 
     return f"""<!DOCTYPE html>
 <html lang="{t['lang']}">
 <head>
@@ -384,30 +415,30 @@ def render_category_page(t: dict, cat: str, items: list[dict], updated: str, nav
 <footer>{t['footer'].format(updated=updated)}</footer>
 </body>
 </html>"""
-
-
+ 
+ 
 def render_site(archive: list[dict]) -> None:
     os.makedirs(SITE_DIR, exist_ok=True)
     os.makedirs(os.path.join(SITE_DIR, "en"), exist_ok=True)
-
+ 
     today = datetime.date.today()
     updated = today.strftime("%d-%m-%Y")
     cutoff = (today - datetime.timedelta(days=DAYS_TO_KEEP_ON_HOMEPAGE)).isoformat()
-
+ 
     recent = [a for a in archive if a["date_added"] >= cutoff]
     by_category: dict[str, list[dict]] = {}
     for a in recent:
         by_category.setdefault(a["categorie"], []).append(a)
     for items in by_category.values():
         items.sort(key=lambda x: x["date_added"], reverse=True)
-
+ 
     for t, base_dir in [(NL, SITE_DIR), (EN, os.path.join(SITE_DIR, "en"))]:
         # Hoofdpagina
         nav = nav_html(t, None, by_category)
         html = render_homepage(t, by_category, updated, nav)
         with open(os.path.join(base_dir, "index.html"), "w", encoding="utf-8") as f:
             f.write(html)
-
+ 
         # Subpagina's per categorie
         for cat in t["category_labels"]:
             items = by_category.get(cat, [])
@@ -416,23 +447,23 @@ def render_site(archive: list[dict]) -> None:
             cat_html = render_category_page(t, cat, items, updated, nav_cat, other_file)
             with open(os.path.join(base_dir, f"{cat}.html"), "w", encoding="utf-8") as f:
                 f.write(cat_html)
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # Hoofdproces
 # ---------------------------------------------------------------------------
-
+ 
 def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         raise SystemExit("ANTHROPIC_API_KEY missing.")
-
+ 
     client = anthropic.Anthropic(api_key=api_key)
     seen = load_seen()
     archive = load_archive()
     today_str = datetime.date.today().isoformat()
     new_count = 0
-
+ 
     for category, query in CATEGORIES.items():
         print(f"Fetching: {category} ...")
         try:
@@ -440,7 +471,7 @@ def main():
         except Exception as e:
             print(f"  [error] could not fetch RSS for {category}: {e}")
             continue
-
+ 
         added = 0
         for article in articles:
             if added >= MAX_ARTICLES_PER_CATEGORY:
@@ -448,14 +479,14 @@ def main():
             aid = article_id(article)
             if aid in seen:
                 continue
-
+ 
             result = summarize_article(client, article, category)
             seen[aid] = today_str
             time.sleep(0.3)
-
+ 
             if result is None:
                 continue
-
+ 
             archive.append({
                 "id": aid,
                 "title": article["title"],
@@ -468,14 +499,14 @@ def main():
             })
             added += 1
             new_count += 1
-
+ 
         print(f"  {added} new relevant articles added.")
-
+ 
     save_seen(seen)
     save_archive(archive)
     render_site(archive)
     print(f"\nDone. {new_count} new articles added. Site generated in {SITE_DIR}/")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
