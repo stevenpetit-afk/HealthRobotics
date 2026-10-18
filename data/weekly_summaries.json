@@ -542,5 +542,43 @@
       }
     ],
     "article_count": 82
+  },
+  {
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "summary": "Een drukke week in de wereld van robotica in de gezondheidszorg, met opvallende investeringen, nieuwe klinieken en wetenschappelijke inzichten die samen het tempo van de sector onderstrepen. Het grootste nieuws kwam van Stryker, dat een investering van 400 miljoen dollar aankondigde in het Britse CMR Surgical, maker van het Versius chirurgisch robotsysteem. Als onderdeel van de deal verwerft Stryker de Amerikaanse verkooprechten en een optie tot volledige overname. Dit is een strategisch belangrijke stap: Stryker is tot nu toe vooral bekend van het orthopedische Mako-platform, en betreedt met deze investering de markt voor zachte weefselrobotica. De deal kan de concurrentieverhouding met marktleider Intuitive Surgical — maker van de da Vinci-robot — significant verschuiven en versnelt de internationale uitrol van het Versius-systeem.\n\nOp het gebied van chirurgische innovatie viel vooral de oprichting van het Center for Autonomous Robotic Surgery bij Cedars-Sinai op. Dit nieuwe centrum richt zich expliciet op autonome chirurgische robotica, een technologische grens die de sector nog maar voorzichtig aftast. In combinatie met het New York Times-artikel over de vraag of AI de kunst van het opereren kan leren, tekent zich een bredere discussie af over de mate waarin machines zelfstandig chirurgische beslissingen kunnen en mogen nemen. Dat is niet alleen een technische, maar ook een ethische en regulatoire kwestie van groot belang voor de zorgsector.\n\nElders in de wereld zetten ziekenhuizen concrete stappen in de adoptie van bewezen technologie. Het Ajou University Hospital in Zuid-Korea nam de vijfde generatie da Vinci-robot in gebruik, Baptist Hospital introduceerde een robotsysteem voor urologie en algemene chirurgie, en het Oekraïense Dobrobut schafte een Da Vinci-systeem aan als eerste stap naar een robotchirurgisch centrum in Oost-Europa. Ook klinisch onderzoek leverde relevant nieuws op: een studie van het Hospital for Special Surgery toonde aan dat robotgeassisteerde lumbale fusie geassocieerd is met minder opioidgebruik na de operatie, wat een concreet argument biedt voor bredere inzet bij wervelkolomchirurgie.\n\nBuiten de operatiekamer lieten twee berichten zien dat robotisering ook elders in de zorg zowel kansen als uitdagingen kent. Serve Robotics breidt de inzet van autonome bezorgroboots in ziekenhuizen uit, wat de interne logistiek kan ontlasten. Tegelijkertijd stopte een Chinese verpleeghuisketen met een zorgrobot omdat oudere bewoners moeite hadden met de communicatie — een nuchter signaal dat technologie pas werkt als ze aansluit bij de gebruiker.",
+    "top5": [
+      {
+        "title": "Stryker to Invest $400M in CMR Surgical, Gains U.S. Sales Rights and Acquisition Option - AI Insider",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMVpFc2g5UmVZUTRGM0VoLXhfbVdjdmtESVJ4eGJEVFFqNXNPclJpTVVYRDdDWG51cHRMR3pzbzAtRHEwcUVNT29GdzJnMEg1X25uOEFyMk1PbHJmb0ZISG51YlIyOXdxTVBUeEZYcTItZmdhWmd3SHktQmxXQU5pUnJWMnFhZ2NUVENpVUxfaFdjLWtRR0kzRnhjZjk0dkhtaWFBTFBpN2k3WHRCd0VvMjYzOTF4Y0M1TWY4ZDdDUQ?oc=5",
+        "source": "AI Insider",
+        "reden": "Stryker verwerft VS-rechten en overnameoptie: grote marktverschuiving in robotchirurgie"
+      },
+      {
+        "title": "Cedars-Sinai Establishes Center for Autonomous Robotic Surgery - Cedars-Sinai",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN05BU3ZEdjB0cnNpcFBWNDFZcTZOTF9rT1R5YVdKMmRRNEUxTGhDcmYwTENlY0pXVkpuQ1JtNEU1QkRZeHMxMmVGU2JUZDM4d2xld21NaGppbGI1NXQyaVVPVFAzV1dSSjN4WU5zejB2bzhTR3RPUXZOMHBFOFBqLWRwdHlNUjNZbzlTYTl5Z0ZrMkNxQmh6TG8zRVpXbkVGR2Q4?oc=5",
+        "source": "Cedars-Sinai",
+        "reden": "Cedars-Sinai lanceert centrum voor autonome robotchirurgie: toekomstrichtingbepalend"
+      },
+      {
+        "title": "HSS Study Finds Robotic-Assisted Lumbar Fusion Linked to Lower Opioid - HSS | Hospital for Special Surgery",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaWhDSDdRZWZSaFlfVDdJRFQyX0NtaEsyNjhnMnJoeVN0bFB2Q3l6SmN3RVY4enJfZ0pfMnJPbFdPN0lEZENtLUt6S2JjRUNQT2pWTHJHSXN0Qi1PbWJESFRWYjFBUVdERk5aZ1R0YlljQ1l2TVowdWtTTHQzZ2RqZ2Roejhmek50ODhoQ0RNcWxXSDlqd2VUbHBodGlabGNaem9ZcUtRdzZkaC1TVmhZenM4dUtuQQ?oc=5",
+        "source": "HSS | Hospital for Special Surgery",
+        "reden": "HSS-studie toont lager opioidgebruik bij robotgeassisteerde wervelkolomoperaties"
+      },
+      {
+        "title": "Can Artificial Intelligence Learn the Art of Surgery? - The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ0VmNlQ5UmFXQVB2b0pOYTZNV0RuaFZLVWZHR2dsTDV0OGZjUWVwV3ozTEhpWVE3M3d3ZDJTNmh5QUgtM2JTdldya0ZnUXZxekFPVzRYaVItMDM5dldDN0ZfQXlpYzQwbkFEeEZubHJ3WmhZeGVUQld1VVg2a0tBWUIzWHRzemJOSnM4WER5M1hwNlNSQVE?oc=5",
+        "source": "The New York Times",
+        "reden": "NYT onderzoekt of AI chirurgische vaardigheden kan leren: fundamentele vraag voor de sector"
+      },
+      {
+        "title": "\"Hey, Could You Speak a Little More Slowly?\"... Why a Chinese Nursing Home Unplugged Its Robot - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DbDZQeUJjSkEyekFhUjFwbnhJelZ3emg4OEg4WWNPSmFzeTMxd2J5SUxQMlNWSmRVcFV0UmtBT3lKQjRRLUNqc3lZUUV5MWhCNDdGWFBscldSM09pQlVSSDdrTGE?oc=5",
+        "source": "아시아경제",
+        "reden": "Chinese verpleeghuis stopt zorgrobot: belangrijk signaal over implementatieproblemen in ouderenzorg"
+      }
+    ],
+    "article_count": 30
   }
 ]
