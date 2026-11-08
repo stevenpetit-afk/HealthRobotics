@@ -656,5 +656,43 @@
       }
     ],
     "article_count": 34
+  },
+  {
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "summary": "Het was een drukke week voor robotica in de gezondheidszorg, met baanbrekende ingrepen, grote investeringen en wereldprimeurs die de opmars van chirurgische robots opnieuw onderstrepen.\n\nDe meest opvallende nieuws kwam uit Israël, waar het Beilinson Medical Center 's lands eerste robot-geassisteerde longtransplantatie uitvoerde zonder de borstkas volledig te openen. Deze minimaal invasieve benadering, breed opgepikt door internationale media, vertegenwoordigt een significante stap in complexe transplantatiechirurgie: minder trauma voor de patiënt betekent een sneller herstel en minder kans op complicaties. De procedure laat zien dat robotchirurgie ook bij de meest ingrijpende orgaantransplantaties toepasbaar wordt.\n\nEen andere wereldprimeur speelde zich af in Glasgow, waar het Royal Hospital for Children als eerste kinderziekenhuis ter wereld een chirurgische robot speciaal ontworpen voor pediatrische patiënten in gebruik nam. Mogelijk gemaakt door een donatie van £1,5 miljoen, markeert dit een belangrijke doorbraak: kinderen zijn anatomisch fundamenteel anders dan volwassenen, en een op hen afgestemd robotsysteem biedt nieuwe mogelijkheden voor minimaal invasieve chirurgie bij jonge patiënten.\n\nOp het gebied van telechirurgie viel te melden dat de Indiaas-Amerikaanse chirurg Dr. Vipul Patel een kankieroperatie op afstand uitvoerde over een afstand van 35 mijl, terwijl Pakistan zijn eerste robotische telegeleide operatie voltooide. Beide ontwikkelingen illustreren de groeiende klinische relevantie van remote chirurgie, met name voor regio's met beperkte toegang tot gespecialiseerde zorg.\n\nIn het bedrijfsnieuws zorgde Stryker voor opschudding met een investering van 400 miljoen dollar in CMR Surgical, fabrikant van het Versius-systeem, inclusief een optie tot volledige overname. Dit kan de Europese markt voor chirurgische robots ingrijpend veranderen. Daarnaast haalde een startup die AI-gestuurde robotica voor de katheterisatiekamer ontwikkelt 160 miljoen dollar op, mede van GE HealthCare, wat de groeiende interesse in robotische ondersteuning bij hartprocedures bevestigt.\n\nTen slotte toonde onderzoek naar een revalidatierobot dat technische perfectie niet volstaat: fysiotherapeuten hadden moeite met de integratie in hun werkwijze. Die bevinding herinnert eraan dat succesvolle implementatie van zorgrobotica staat of valt met gebruikersacceptatie en goede training.",
+    "top5": [
+      {
+        "title": "Beilinson Performs Ground Breaking Robotic Lung Transplant In Bid To Ease Recovery - i24NEWS",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT3RuUVRleGs4R1FvZDJaQ3h2ckdsdDhwaEdhMWpleXkwemxCRjc5a25OTjRTTUdEYnlJZHVvTjhhdjJUX3VMMGUtYWYzbUFWUlRDYkNud2p5MG0zeUQxUWhWSkJ2Z0hlZ1M0NnQ5RWMwLWM5WUctQ1RSVlZTVkItd1BmalpHSVItNUtHbjRpek1PMWxNNkxTcjVaR0RqZ2k5OXZMODJWeDdVbnRaS0k0RS1ZMWFvR1VyT2hYNjFkdmRyS2lUU0xfLVQwUU9Bdw?oc=5",
+        "source": "i24NEWS",
+        "reden": "Wereldprimeur: eerste robot-geassisteerde longtransplantatie zonder volledige borstopening."
+      },
+      {
+        "title": "Glasgow children's hospital becomes first in world to own paediatric robot - The Herald",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd3RmWDZYYlFNUVdwa3FHVjhTUFptSlcyakVsV1l3aWM0MWpIYzdhX0ZOU2dVbUpmNFhON1pVb2Z6a2ZwWmllOXNLSFVabTZMdHd2RDJTYTBHZjhSLVpraFJLNTEyVlowa0xiYUpGR2RPcWRJaHVLV0dZXzVSVGFHT1ptVHhrV1BPSExQbkZndDZUSGkwYVlUUFozUFFweTJhVGVGMlRYQQ?oc=5",
+        "source": "The Herald",
+        "reden": "Eerste kinderziekenhuis ter wereld met eigen pediatrische chirurgische robot."
+      },
+      {
+        "title": "Stryker invests US$400m in CMR Surgical and secures option to acquire business - Pharmafile",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSk9wUkZNZEJQM0ItaHdvZ0dqdnRzNl84dUVsZHV0eTUtcUtQTU5SbzdNcGxYRUU3SGRDdVpUYmU5YVRxSFFwWUUwamdJM0R2NU90TVJ6RXcyT1RtMXowcW0yd20xdW1fM3AzUnBNakdJdUNSZ2g0cVdhdjZmcmVJS0xLeUtHbFZlUG1TeFZUYTd4NzFiOS1SMWt6TE4zSjNHbWlpQmN6OWJrdw?oc=5",
+        "source": "Pharmafile",
+        "reden": "Stryker investeert $400 miljoen in CMR Surgical; grote marktimpact verwacht."
+      },
+      {
+        "title": "Indian-American Dr. Vipul Patel Makes History With First Remote Cancer Surgery From 35 Miles Away - IndianEagle",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHZkNXhBVHNMSTV5Rk91QlZWT0tqbHREWEVIRTlxZ3JUSUp3a3p4dWItQS00ak5uQlluZnUwZ2JZU3pLOWttbmdzeEcwbWFRem5MbHBabTZOeVpNVkIwdUZRcUdHN0tnSmRkMjBIc0c2YnZ2LW5xdnFzYkZCVWRoMVc4ZGN1cVhuNkVLSE1XZ0J4TjNTcW9CZ01aWXVVQThqOEFfaDdLaExWbWttUjl0WnNYY3UybzIwM0Npa2hiM19xLVVTWHhTbHAzdmVPUWpTa3A4?oc=5",
+        "source": "IndianEagle",
+        "reden": "Mijlpaal in telechirurgie: kankieroperatie op afstand over 35 mijl uitgevoerd."
+      },
+      {
+        "title": "Robot rehabilitation platform works flawlessly but flusters physiotherapists in first hospital test - Bioengineer.org",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeFFaQ3ZPRGwxNWNudkVTOHlraEctSXR3QklOTFZIRmRvbWY0eUZNTGhCVi1jbWtJb3B2ZzBLZG5zTm5Md1NwTEZrNUdKRHRSTnpNTkpWaVZSbjRKdVFadjdCWWJiQVdaZERoRjNSTnZaT2YycXZiX3ljN3ZHM3pEMkpqZkF1UW5jaVo0YnZDT2xCNEFWVUpGVlo4dEpmS0ZGT0tzV213TVVhbS15bE0xTG9TVHlQQ0pIZ1hNZTI4ZGRjQQ?oc=5",
+        "source": "Bioengineer.org",
+        "reden": "Revalidatierobot werkt perfect, maar fysiotherapeuten worstelen met adoptie."
+      }
+    ],
+    "article_count": 34
   }
 ]
