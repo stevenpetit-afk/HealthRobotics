@@ -694,5 +694,43 @@
       }
     ],
     "article_count": 34
+  },
+  {
+    "week_start": "2026-11-09",
+    "week_end": "2026-11-15",
+    "summary": "Het was een drukke week in de wereld van robotica in de gezondheidszorg, met opvallende ontwikkelingen op het gebied van telechirurgie, ziekenhuislogistiek en investeringen wereldwijd. Meest in het oog springend zijn de vorderingen op het gebied van chirurgische robotica op afstand. In Zuid-Korea demonstreerde Roen Surgical de eerste binnenlandse teleoperatie, waarbij een niersteenverwijdering werd uitgevoerd met een chirurg in Seoul en een robot op Jeju-eiland. Dit markeert een technologische mijlpaal voor het land en is relevant voor de bredere internationale discussie over de toekomst van telechirurgie. In de Verenigde Staten onderzoekt AdventHealth ondertussen de haalbaarheid van telechirurgie tussen twee Florida-ziekenhuizen op 35 mijl afstand, wat aantoont dat ook westerse zorginstellingen serieus werk maken van operaties op afstand.\n\nOp het gebied van chirurgische robotica waren er meer ontwikkelingen. Het Royal Hospital for Children in Glasgow ontving een donatie van £1,5 miljoen voor een chirurgische robot speciaal ontworpen voor kinderen, waarmee het ziekenhuis een van de weinige pediatrische robotchirurgiecentra in het Verenigd Koninkrijk wordt. Newcastle ontvangt bovendien £7,4 miljoen om een regionaal NHS-centrum voor robotchirurgie op te zetten. Uit klinisch onderzoek blijkt dat intracorporeale urineafleiding bij robotgeassisteerde cystectomie leidt tot minder laaggraadse complicaties, en een nieuw AGES-raamwerk helpt clinici bij patiëntselectie voor robotische schildklierchirurgie. Verder rapporteert een Afrikaans academisch centrum eerste resultaten met het Versius-systeem bij urologische ingrepen, wat de groeiende mondiale verspreiding van chirurgische robotica onderstreept.\n\nDie mondiale verspreiding wordt ook zichtbaar in de investeringswereld. EASE haalde $9,5 miljoen op voor AI-ondersteunde beeldvorming en chirurgische robotica in Zuid-Afrika en Ghana, terwijl Koreaanse industriegiganten als Samsung en Hyundai zich strategisch op de medische roboticamarkt richten.\n\nOp het vlak van ziekenhuislogistiek zien we een duidelijke trend van uitbreiding: Hancock Health breidde zijn robotische monstertransport uit naar een nieuw gebouw, en het Sheba Medical Center plaatste een vervolgorder bij GIX Internet waarmee de robotvloot wordt verdubbeld. Dit weerspiegelt een groeiend vertrouwen in logistieke robots als structureel onderdeel van ziekenhuisoperaties. Tot slot won de Dynamic X-Hand, een VR-gebaseerde handrevalidatierobot, drie CES 2027 Innovation Awards, een erkenning die de groeiende innovatiekracht in revalidatietechnologie illustreert.",
+    "top5": [
+      {
+        "title": "\"Remote Control of Seoul Surgical Robot from Jeju\"... Roen Surgical Demonstrates Kidney Stone Removal - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40ZTZGTlJaMFl0U18zakpLZlVnU3RueDlYcm1vTTlEQ29KekJzamRxZkNyT2JuVHBYS2RmQ1NyTGgtdHZPQ09qRGktR3VRc1lCY0FZaUtxYURHcm5vcHU1SGpkS3M?oc=5",
+        "source": "아시아경제",
+        "reden": "Eerste live telerobotische chirurgie over lange afstand gedemonstreerd in Zuid-Korea."
+      },
+      {
+        "title": "AdventHealth Studies Robotic Telesurgery Between Florida Hospitals 35 Miles Apart - Tech Briefs",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOWRzSjZGcUNQMUtQaHdOZG1NalQ3X1pGODJpSVhEbXhhSU03WTRWTnlGTW1NSDVRUXctcHhVMnhoQmFYZUd0ZGh3cnZuZUMyOWR0dF9RSWlmbDkwT2FrVUNTby1MTG5sY0xQUDQ2Nkk3bXhwM1pDR0Q0c0dFSTMyVmFiOEhNVTF0OXB1bGZjN3JIVXh5REdIcWkzQ2dPZHRNTS15MC1mdTF1MmdySDdSaGRjVkpPWE84MUJDemQ2c1pYWjV0a3pHZGZUUGxBYW9vc1p3TGxLQQ?oc=5",
+        "source": "Tech Briefs",
+        "reden": "AdventHealth onderzoekt klinische haalbaarheid telechirurgie tussen ziekenhuizen in de VS."
+      },
+      {
+        "title": "Intracorporeal Conduit Lowers Low-Grade Complications After Robotic Cystectomy in Prospective Study - Bioengineer.org",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVXNvTC1wVEhiaW41QmNXSy1kbVlheFBFMjZCSFFKSWN5djlzYTJ2anVZNjRfRXlkSTRnTTZPc0VsRDFZYUFHcWloQTA1Y1pMQXE3N2xMcjNVblowbzRobVVTMmZtcjBwNWVTNlNORlNadnNrenpuUzhXZXE3TG5aekZHR0txQW1mOFBPT2otNHNpUzlPa1RINms4RWhuSm9saTg1d2Y5WlQ2MnFzSzUzU1ZPSUxTV0Rqa1dZbjUwLWxBUQ?oc=5",
+        "source": "Bioengineer.org",
+        "reden": "Prospectieve studie toont klinisch voordeel van intracorporeale techniek bij robotcystectomie."
+      },
+      {
+        "title": "A £1.5M Gift Buys Glasgow a Surgical Robot Only for Children - FourWeekMBA",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcTlvQkhTeFNEelp6LXA3ZWpFVXBRb0w4VE4zaHVwQnJFLXVnVXI2R2FVRlgxUWNTT0gwdXFJUmE3dG1ZVjlSRlVyaHhZSU5WYWFMQllKemNhb29yS3lZV0gybDBBcllpU04wc0tWYlNJM2JnQXQ1cGt6WWVOamlkYXdrSnNMN3M0UDZXZV9XdkM?oc=5",
+        "source": "FourWeekMBA",
+        "reden": "Eerste pediatrische chirurgische robot in Glasgow vergroot toegang voor kinderen."
+      },
+      {
+        "title": "EASE Raises $9.5 Million To Expand AI-Enabled Medical Imaging And Surgical Robotics In South Africa And Ghana - Pulse 2.0",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd3Jhd29tLWF4ejhmX3pwUXBXWF9ZQmJDWUhDVXhDYjhaYWd2Z3k1UzNtRDdGaEROY3lHTWJweFI4SDdDVnVTR1JiLWhWNDdqbDRPOGpDZkhzWV9vT2gwejhJc2tGRE9RZEg2UmwtWjFuR1IxdjdDTXFVTmxIX0VxQkJXU1VLWHM4b0o3SHhlTXFUdmhNU0JleWQ3MDlIMXBqYml0QWVqNFZDMlZUdVlMWGJDblBKaXZmRUdTd1I4ZFZmOWpsMWQ4?oc=5",
+        "source": "Pulse 2.0",
+        "reden": "Grote investering versnelt robotchirurgie en AI-beeldvorming in Afrika."
+      }
+    ],
+    "article_count": 18
   }
 ]
