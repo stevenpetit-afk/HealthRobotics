@@ -2,12 +2,6 @@
   {
     "week_start": "2026-06-14",
     "week_end": "2026-06-20",
-    "summary": "Het was een drukke week voor robotica in de gezondheidszorg, met nieuws op vrijwel elk denkbaar terrein: van de operatiekamer tot het verpleeghuis, en van de revalidatiekliniek tot het diagnostisch laboratorium.\n\nOp het gebied van chirurgie domineerde de verdere uitrol van robotsystemen het nieuws. Meerdere ziekenhuizen, waaronder MercyOne Clinton Medical Center en HSHS St. Elizabeth's Hospital, namen nieuwe da Vinci-systemen in gebruik, terwijl het Southlake-ziekenhuis in York Region als eerste in zijn regio robotgeassisteerde chirurgie introduceerde. NYC Health + Hospitals vierde een bijzondere mijlpaal: tien jaar robotchirurgie en meer dan 20.000 voltooide ingrepen. Opvallend was ook de groeiende aandacht voor poliklinische robotchirurgie, die volgens experts nieuwe markten opent buiten traditionele ziekenhuizen en de toegankelijkheid van specialistische zorg vergroot. Tegelijkertijd plaatste het American College of Surgeons een kritische noot: de kosten van robotchirurgie blijven een complexe afweging voor zorginstellingen.\n\nIn de revalidatiezorg stond de doorbraak van Northwestern University centraal. Onderzoekers presenteerden een nieuw type exoskelettherapie dat robotprecisie combineert met de expertise van therapeuten om beroertepatiënten opnieuw te leren lopen. Meerdere publicaties, waaronder in EurekAlert en Medical Xpress, belichtten deze aanpak als potentieel richtinggevend voor de neurologische revalidatie. Wetenschappelijke reviews in Frontiers en de American Heart Association Journals onderstreepten bovendien de groeiende evidentie voor robotgeassisteerde therapie bij herstel na een beroerte.\n\nOp het vlak van diagnostiek werken technologiereuzen aan grootschalige toepassingen: NVIDIA en GE HealthCare kondigden een samenwerking aan voor autonome diagnostische beeldvorming, terwijl Microsoft met zijn AI-systeem artsen naar verluidt overtreft bij het stellen van diagnoses. Het World Economic Forum schetste hoe AI en robotica het diagnostisch laboratorium van de toekomst fundamenteel zullen veranderen.\n\nTen slotte was er volop beweging in ziekenhuislogistiek en verpleging. Serve Robotics nam Diligent Robotics over, een bekende leverancier van logistieke ziekenhuisrobots, en nieuwe spelers zoals Zeus Robotics en GMEX Robotics introduceerden eigen systemen voor interne ziekenhuistransport. In de ouderenzorg groeit de discussie over de inzet van zorgrobots als antwoord op personeelstekorten en vergrijzing, zowel in westerse landen als in China, waar grootschalige uitbreiding van eldercare-robots wordt overwogen.",
-    "article_count": 60
-  },
-  {
-    "week_start": "2026-06-14",
-    "week_end": "2026-06-20",
     "summary": "Het was een drukke week in de wereld van robotica in de gezondheidszorg, met opvallende ontwikkelingen op het gebied van chirurgie, revalidatie, verpleging en ziekenhuislogistiek.\n\nOp chirurgisch vlak domineerde het da Vinci-systeem het nieuws. Zo nam MercyOne Clinton Medical Center een nieuw da Vinci Xi-systeem in gebruik, en breidde HSHS St. Elizabeth's Hospital in Metro East zijn robotcapaciteit uit met een derde da Vinci-robot. NYC Health + Hospitals vierde intussen een indrukwekkende mijlpaal: tien jaar robotchirurgie met meer dan 20.000 voltooide ingrepen. Tegelijkertijd wees het American College of Surgeons op de blijvende complexiteit van de kostenafweging rondom robotchirurgie — een belangrijk aandachtspunt nu steeds meer ziekenhuizen deze technologie overwegen. Opvallend is ook de groei van robotgeassisteerde poliklinische chirurgie: ingrepen buiten het traditionele ziekenhuis bieden robotfabrikanten nieuwe marktkansen en maken gespecialiseerde zorg toegankelijker voor patiënten.\n\nIn de revalidatiezorg stond het exoskelet centraal. Onderzoekers van Northwestern University presenteerden een baanbrekende therapievorm die robotprecisie combineert met de expertise van therapeuten om beroertepatiënten opnieuw te leren lopen. Dit is de eerste aanpak van zijn soort en kan de standaard voor neurologische revalidatie fundamenteel veranderen. Aanvullend bieden wetenschappelijke publicaties in Nature, Frontiers en de American Heart Association Journals verder bewijs voor de effectiviteit van robotgeassisteerde therapie bij herstel van zowel boven- als onderste ledematen na een beroerte.\n\nOp het gebied van verpleging en ouderenzorg groeit de vraag naar zorgrobotica gestaag. CNN en de BBC belichtten de mogelijke rol van AI-verpleegrobots bij het aanpakken van personeelstekorten, terwijl meerdere berichten uit China wijzen op ambitieuze plannen om zorgrobots voor ouderen op grotere schaal in te zetten. Een NIH-subsidie aan de University of New Hampshire onderstreept ook de academische interesse in robots als hulpmiddel bij dementiezorg.\n\nTot slot was er veel beweging in ziekenhuislogistiek. Serve Robotics kondigde de overname aan van Diligent Robotics, gespecialiseerd in logistieke ziekenhuisrobots. Nieuwe spelers zoals Zeus Robotics introduceerden hun eerste ziekenhuisrobot, en BayCare test momenteel robots voor patiënttransport. Deze ontwikkelingen illustreren hoe logistieke automatisering zorgpersoneel steeds meer kan ontlasten van routinetaken, zodat zij zich kunnen richten op directe patiëntenzorg.",
     "article_count": 60
   },
@@ -732,5 +726,43 @@
       }
     ],
     "article_count": 18
+  },
+  {
+    "week_start": "2026-11-16",
+    "week_end": "2026-11-22",
+    "summary": "Het was een drukke week in de wereld van robotica in de gezondheidszorg, met opvallende mijlpalen op het gebied van chirurgie, ziekenhuislogistiek en internationale marktexpansie.\n\nDe meest spraakmakende ontwikkeling kwam uit India, waar SS Innovations de wereldeerste dual-console, vijfarmige robotische bypassoperatie op een kloppend hart uitvoerde met het eigen SSi Mantra-systeem. De ingreep — een Totally Endoscopic Coronary Artery Bypass (TECAB) zonder hart-longmachine, bestuurd door twee chirurgen tegelijk — markeert een technologische primeur in de hartchirurgie én een doorbraak voor de Indiase robotica-industrie. India liet ook op een ander front van zich horen: in Karnataka nam Manipal Hospitals het Toumai robotchirurgiesysteem in gebruik, het eerste systeem van dit type in die deelstaat.\n\nOp de Amerikaanse markt is de concurrentie in robotchirurgie verder aangescherpt. Medtronic ontving eindelijk FDA-goedkeuring voor het Hugo-systeem voor algemene chirurgie, waarmee het platform een bredere groep patiënten kan bedienen en serieus concurreert met de da Vinci van Intuitive Surgical. Die laatste was juist in het nieuws vanwege een schikking van 450 miljoen dollar in een antitrustclassaction aangespannen door ziekenhuizen — een juridische ontwikkeling met potentieel grote gevolgen voor de marktdynamiek. Tegelijkertijd benoemde Johnson & Johnson de eerste commerciële locatie voor het Ottava-systeem in de VS, wat de introductie van een derde groot platform op de Amerikaanse markt inluidt.\n\nTelerobotica trok eveneens de aandacht: de Filipijnen voerden hun eerste robotische operatie op afstand uit over meer dan 1.400 kilometer, en IEEE Spectrum besprak het potentieel van telerobotica voor beroertezorg in afgelegen ziekenhuizen — een toepassing waarbij tijdwinst letterlijk levensreddend kan zijn. Verder werd in New York City de eerste robotische nipple-sparing mastectomie uitgevoerd, en in een Koreaanse studie werd force feedback tijdens slokdarmchirurgie gelinkt aan minder stembandproblemen na de ingreep.\n\nOp het gebied van ziekenhuislogistiek zette Gix Internet meerdere stappen: het bedrijf ontving een vervolgorder om een robotvloot in een top-ziekenhuis te verdubbelen en implementeerde een AI-aangedreven autonome robot op Level 4 in het Sheba Medical Center in Israël. In Canada begon de THEO-robot met het transporteren van laboratoriummonsters in een ziekenhuis in Sherbrooke. Ook in Afrika groeit de adoptie: in Nigeria voerde RoboMed de eerste robotische darm- en galblaasoperaties uit, en Abuja opende een tweede privaat robotchirurgieplatform om medisch toerisme te verminderen.",
+    "top5": [
+      {
+        "title": "SS Innovations International (SSII) Announces First Dual-Console, Five-Arm Robotic Beating-Heart Bypass Surgery - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUy1yQ19TUVBuQWJWd200b1h1cVg2OTJzODc4Ynh1bjFETFA0aG1zRkFmczMxeU1SQlQtdDBRX09TMkdabHhhWkNxRHdJdkJZbXhrMnBvM2IxTExvTGxMRnBjQ280SzRnTEhpMUtNckZzUk9Na2Q5bWRRdHE0S2dhemYzOGl1Y3ZNVW5CWkZMM3JRVERaZEZUTm1tNDNQNmJFb1NiRDBfMA?oc=5",
+        "source": "Yahoo Finance",
+        "reden": "Wereldprimeur in robotische hartchirurgie met Indiaas systeem en twee chirurgen."
+      },
+      {
+        "title": "Medtronic’s Hugo robot claims long-awaited FDA general surgery clearance - MassDevice",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmtZQTRROTRWOEdRQ0pnQ3kyUm9sMEpVMXpBVURSOTNYRTI3UXlFLUNlYUx1aUlnMkMtVlB1QnhGckNCT2JFSXJUSmVSWTc2VEdETlRvRHp2YkdLbkUxQ3M3WFNETkQ5RUhvMjBMS0NuRUVONkpfelVhUVF6Z3pTRnBzUjc?oc=5",
+        "source": "MassDevice",
+        "reden": "Langverwachte FDA-goedkeuring opent grote Amerikaanse markt voor Hugo-systeem."
+      },
+      {
+        "title": "Intuitive Surgical Agrees to $450M Settlement of Hospitals’ da Vinci Robot Antitrust Class Action - openclassactions.com",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQREVURWluR2pIdFd1WDBVSEplQ19ScjJ3SGMxNzhFSFRxeHBWQmZTbktsNk5FcEthSndjNF9qdUZoUkllT1R3UnV4eGRfWTNJZ0pOaHROTXJRdFQ5amFVOUhwSExFSDBhMThiY1BrZGFHaGttNGRiVkJRbE5YWFUzb0dDdzlRd2dvOUo0cUJRT2lfRzBRNmpkRlRB?oc=5",
+        "source": "openclassactions.com",
+        "reden": "Schikking van $450 miljoen heeft grote impact op mededinging in robotchirurgiemarkt."
+      },
+      {
+        "title": "J&J to install first Ottava robot in US hospital - MedTech Dive",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMnUxMmV3aklTblotZnR1cVBUSkQ5bkU2eVBzelVDWTVTMTQ5clBaSHZoUHRTZjZIal9ROGQtMjlJVmxWQV80dGRNZG1Rck12aWlzZWdCbjBGME5ma1cxSnotSlN2ZndKRHR0RXZTbGdTY3lCUmkzYi1rQmI3U1laZkhYVVhOMXV0Sjlkam5lWUhxZw?oc=5",
+        "source": "MedTech Dive",
+        "reden": "Eerste Ottava-installatie in VS markeert serieuze nieuwe concurrent voor da Vinci."
+      },
+      {
+        "title": "PH achieves first long-distance robotic surgery over 1,400km with Globe - GIZGUIDE",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTjdQUTh3QWpDU3o0ckFvbWprWUtiUnhtaTZHT1BuMVN1a2N1ak4wRU42T0NELWE3aXJaSFZSSjVHMkthVEFvWlpDNFIwZTlMdTJkZzFUQmpTNHVkc19JQUtiSFY1XzZUMnd1U21UOWtEZnZ6ZTRmNEpHaHpiM012S2Q0WQ?oc=5",
+        "source": "GIZGUIDE",
+        "reden": "Eerste robotoperatie op 1.400 km afstand toont potentieel van telerobotica aan."
+      }
+    ],
+    "article_count": 41
   }
 ]
